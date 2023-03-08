@@ -5,12 +5,17 @@ build:
     pre-build:
       - npm install -g @angular/cli
     build:    
+      - pwd && ls -lrth
       - cd frontend
+      - pwd && ls -lrth
       - npm i
       - ng build
       - rm -rf node_modules
+      - pwd && ls -lrth
       - cd ../backend
+      - pwd && ls -lrth
       - npm run build
+      - pwd && ls -lrth
 run:
   command: npm run prod --prefix backend
   network: 
