@@ -4,6 +4,7 @@ build:
   commands:
     pre-build:
       - npm install -g @angular/cli
+      - ng update
     build:        
       - npm run build --prefix frontend
       - npm run build --prefix backend
