@@ -13,6 +13,7 @@ build:
       - npm run build
       - echo frontend cleanup skip
       - echo backend build
+      - cd .. && ls -lrth
       - npm run build --prefix backend
       - echo All done!
 run:
