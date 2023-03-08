@@ -6,17 +6,10 @@ build:
       - npm install -g @angular/cli
     build:    
       - echo cd frontend
-      - cd ./frontend/
-      - ls -lrth
-      - npm i
-      - ng build
-      - rm -rf node_modules
-      - ls -lrth
-      - echo cd backend
-      - cd ../backend/
-      - ls -lrth
-      - npm run build
-      - ls -lrth
+      - cd frontend && npm i
+      - cd frontend && ng build
+      - cd frontend && rm -rf node_modules
+      - cd backend  && npm run build
 run:
   command: npm run prod --prefix backend
   network: 
