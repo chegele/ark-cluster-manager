@@ -4,7 +4,6 @@ build:
   commands:
     build: 
       - npm install -g @angular/cli
-      - ng update
       - cd frontend && npm i
       - npm run build
       - echo SKIP Frontend cleanup
