@@ -1,14 +1,14 @@
-version: 2.0
+version: 2.1
 runtime: nodejs16
 build:
   commands:
     build: 
-      - npm install -g @angular/cli
-      - npm run clean-install --prefix frontend
-      - npm run build --prefix frontend
-      - echo SKIP Frontend cleanup
-      - npm run clean-install --prefix backend
-      - echo All done!
+      - echo Install Angular && npm install -g @angular/cli
+      - echo Install Frontend && npm run clean-install --prefix frontend
+      - echo Build Frontend && npm run build --prefix frontend
+      - echo Clean Frontend && rm -rf ./frontend/node_modules/
+      - echo Install Backend && npm run clean-install --prefix backend
+      - echo Build Complete!
 run:
   command: npm run prod --prefix backend
   network: 
