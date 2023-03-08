@@ -5,10 +5,12 @@ build:
     pre-build:
       - npm install -g @angular/cli
     build:    
-      - echo cd frontend
+      - echo frontend install
       - cd frontend && npm i
+      - echo frontend build
       - cd frontend && ng build
-      - cd frontend && rm -rf node_modules
+      - echo frontend cleanup skip
+      - echo backend build
       - cd backend  && npm run build
 run:
   command: npm run prod --prefix backend
