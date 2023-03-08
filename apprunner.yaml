@@ -10,9 +10,10 @@ build:
       - echo angular update
       - ng update
       - echo frontend build
-      - npm run build --prefix frontend
+      - npm run build
       - echo frontend cleanup skip
       - echo backend build
+      - cd .. && ls -lrth
       - npm run prod --prefix backend
 run:
   command: npm run prod --prefix backend
