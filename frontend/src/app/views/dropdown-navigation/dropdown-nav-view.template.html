@@ -1,0 +1,86 @@
+<div class="header" *ngIf="!showNavigation">
+    <img 
+        src="{{iconUrl}}" 
+        class="icon"
+        width="60px" 
+        height="60px"
+    >
+    <div class="text">
+        <h3>{{cluster.homepage.title}}</h3>
+        <p>{{currentSelection}}</p>
+    </div>
+    <bootstrap-icon
+        width="50px"
+        height="50px"
+        color="var(--text-color-1)"
+        preset="list"
+        (click)="showNavigation = true"
+        style="cursor: pointer"
+    ></bootstrap-icon>
+</div>
+
+<div class="backdrop" *ngIf="showNavigation">
+    <div class="content" *ngIf="!showEditor">
+        <!--
+        <button 
+            *ngIf="isOwner"
+            id="edit-button" 
+            (click)="showEditor = true" 
+            title="Edit Name & Icon">
+            <i class="editbi bi-pencil"></i>
+        </button>
+        -->
+        <img 
+            src="/assets/img/logo-styled.png" 
+            class="logo"
+            width="225">
+        <img 
+            src="{{iconUrl}}" 
+            class="icon"
+            width="125px" 
+            height="125px">
+        <h2>{{cluster.homepage.title}}</h2>
+        <div class="navigation">
+            <ul>
+                <li *ngFor="let option of navItems" 
+                (click)="navClick(option.navigation)"
+                [ngClass]="{active: option.display == currentSelection}">
+                {{option.display}}
+            </li>
+            </ul>
+        </div>
+    </div>
+    <!--
+    <div class="edit" *ngIf="showEditor">
+        <bootstrap-icon 
+            id="closeIcon"
+            preset="closeSquared" 
+            color="var(--text-color-2)" 
+            width="26px" 
+            height="26px"
+            (click)="showEditor = false;">
+        </bootstrap-icon>
+        <h1>Update Cluster Title</h1>
+        <hr />
+        <div class="errors">
+            <p *ngFor="let error of updateErrors"> {{ "-" + error + "\n" }}</p>
+        </div>
+        <input-text-field
+            icon="title"
+            placeholder="Cluster Name" 
+            [(value)]="clusterNameUpdate">
+        </input-text-field>
+        <input-text-field
+            icon="information"
+            placeholder="Cluster Description" 
+            [(value)]="clusterDescriptionUpdate">
+        </input-text-field>
+        <input-text-field
+            icon="image"
+            placeholder="Logo URL"
+            [(value)]="clusterIconUpdate">
+        </input-text-field>
+        <button (click)="updateClusterClicked()">Update Cluster</button>
+    </div>
+-->
+</div>

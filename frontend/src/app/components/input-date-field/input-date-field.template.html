@@ -1,0 +1,53 @@
+
+<div class="input-group input-wrapper mb-3" 
+    [ngClass]="{'input-success': status == 1, 'input-failure': status == -1}">
+    <span id="{{placeholder}}-label" class="input-group-text input-icon">
+        <bootstrap-icon [preset]="icon" width="25px" height="25px"></bootstrap-icon>
+    </span>
+    <div class="date-wrapper">
+        <input 
+            type="text" 
+            class="form-control input-field" 
+            style="padding-right: 5px;"
+            [ngStyle]="showPlaceholder ? {width: '100%', 'text-align': 'left'} : {width: '35px', 'text-align': 'center'}"
+            [placeholder]="showPlaceholder ? placeholder : 'mm'" 
+            aria-label="month" 
+            min="1"
+            max="12"
+            maxlength="2"
+            [(ngModel)]="value.month"
+            (blur)="onFocusEnd()"
+            (focus)="onFocusBegin()"
+        />
+        <span *ngIf="!showPlaceholder">/</span>
+        <input
+            *ngIf="!showPlaceholder"
+            type="text" 
+            class="form-control input-field" 
+            style="width: 35px"
+            placeholder="dd" 
+            aria-label="day" 
+            min="1"
+            max="31"
+            maxlength="2"
+            [(ngModel)]="value.day"
+            (blur)="onFocusEnd()"
+            (focus)="onFocusBegin()"
+        />
+        <span *ngIf="!showPlaceholder">/</span>
+        <input 
+            *ngIf="!showPlaceholder"
+            type="text" 
+            class="form-control input-field" 
+            style="width: 60px"
+            placeholder="yyyy" 
+            aria-label="year" 
+            min="2015"
+            max="2035"
+            maxlength="4"
+            [(ngModel)]="value.year"
+            (blur)="onFocusEnd()"
+            (focus)="onFocusBegin()"
+        />
+    </div>
+</div>

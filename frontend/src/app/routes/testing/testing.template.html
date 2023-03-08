@@ -1,0 +1,9 @@
+<header-nav-view></header-nav-view>
+<div class="page-content wrapper">
+    <config-loot-summary 
+        *ngFor="let table of tables"
+        [filter]="filter"
+        [lootTable]="table">
+    </config-loot-summary>
+</div>
+<footer-nav-view></footer-nav-view>

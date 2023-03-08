@@ -1,0 +1,3778 @@
+[
+  {
+    "name": "Achatina",
+    "link": "https://ark.wiki.gg/wiki/Achatina",
+    "image": "https://ark.wiki.gg/images/thumb/1/18/Achatina.png/120px-Achatina.png",
+    "category": "Invertebrates",
+    "tag": "Achatina",
+    "entityId": "Achatina_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP'"
+  },
+  {
+    "name": "Allosaurus",
+    "link": "https://ark.wiki.gg/wiki/Allosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/7/77/Allosaurus.png/120px-Allosaurus.png",
+    "category": "Dinosaurs",
+    "tag": "Allo",
+    "entityId": "Allo_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Allosaurus/Allo_Character_BP.Allo_Character_BP'"
+  },
+  {
+    "name": "Alpha Carno",
+    "link": "https://ark.wiki.gg/wiki/Alpha_Carno",
+    "image": "https://ark.wiki.gg/images/thumb/3/32/Alpha_Carnotaurus.png/120px-Alpha_Carnotaurus.png",
+    "category": "Alpha Creatures",
+    "tag": "Carno",
+    "entityId": "MegaCarno_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Carno/MegaCarno_Character_BP.MegaCarno_Character_BP'"
+  },
+  {
+    "name": "Alpha Leedsichthys",
+    "link": "https://ark.wiki.gg/wiki/Alpha_Leedsichthys",
+    "image": "https://ark.wiki.gg/images/thumb/f/fa/Alpha_Leedsichthys.png/120px-Alpha_Leedsichthys.png",
+    "category": "Alpha Creatures",
+    "tag": "Leedsichthys",
+    "entityId": "Alpha_Leedsichthys_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Leedsichthys/Alpha_Leedsichthys_Character_BP.Alpha_Leedsichthys_Character_BP'"
+  },
+  {
+    "name": "Alpha Megalodon",
+    "link": "https://ark.wiki.gg/wiki/Alpha_Megalodon",
+    "image": "https://ark.wiki.gg/images/thumb/3/3d/Alpha_Megalodon.png/120px-Alpha_Megalodon.png",
+    "category": "Alpha Creatures",
+    "tag": "Mega",
+    "entityId": "MegaMegalodon_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalodon/MEgaMegalodon_Character_BP.MegaMegalodon_Character_BP'"
+  },
+  {
+    "name": "Alpha Mosasaur",
+    "link": "https://ark.wiki.gg/wiki/Alpha_Mosasaur",
+    "image": "https://ark.wiki.gg/images/thumb/d/dc/Alpha_Mosasaur.png/120px-Alpha_Mosasaur.png",
+    "category": "Alpha Creatures",
+    "tag": "Mosasaur",
+    "entityId": "Mosa_Character_BP_Mega_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Mosasaurus/Mosa_Character_BP_Mega.Mosa_Character_BP_Mega'"
+  },
+  {
+    "name": "Alpha Raptor",
+    "link": "https://ark.wiki.gg/wiki/Alpha_Raptor",
+    "image": "https://ark.wiki.gg/images/thumb/4/4e/Alpha_Raptor.png/120px-Alpha_Raptor.png",
+    "category": "Alpha Creatures",
+    "tag": "Raptor",
+    "entityId": "MegaRaptor_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/MegaRaptor_Character_BP.MegaRaptor_Character_BP'"
+  },
+  {
+    "name": "Alpha T-Rex",
+    "link": "https://ark.wiki.gg/wiki/Alpha_T-Rex",
+    "image": "https://ark.wiki.gg/images/thumb/8/8d/Alpha_T-Rex.png/120px-Alpha_T-Rex.png",
+    "category": "Alpha Creatures",
+    "tag": "Rex",
+    "entityId": "MegaRex_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/MegaRex_Character_BP.MegaRex_Character_BP'"
+  },
+  {
+    "name": "Alpha Tusoteuthis",
+    "link": "https://ark.wiki.gg/wiki/Alpha_Tusoteuthis",
+    "image": "https://ark.wiki.gg/images/thumb/5/54/Alpha_Tusoteuthis.png/120px-Alpha_Tusoteuthis.png",
+    "category": "Alpha Creatures",
+    "tag": "Tusoteuthis",
+    "entityId": "Mega_Tusoteuthis_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/Mega_Tusoteuthis_Character_BP.Mega_Tusoteuthis_Character_BP'"
+  },
+  {
+    "name": "Ammonite",
+    "link": "https://ark.wiki.gg/wiki/Ammonite",
+    "image": "https://ark.wiki.gg/images/thumb/8/8b/Ammonite.png/120px-Ammonite.png",
+    "category": "Invertebrates",
+    "tag": "Ammonite",
+    "entityId": "Ammonite_Character_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ammonite/Ammonite_Character.Ammonite_Character'"
+  },
+  {
+    "name": "Anglerfish",
+    "link": "https://ark.wiki.gg/wiki/Anglerfish",
+    "image": "https://ark.wiki.gg/images/thumb/6/64/Anglerfish.png/120px-Anglerfish.png",
+    "category": "Fish",
+    "tag": "Angler",
+    "entityId": "Angler_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Anglerfish/Angler_Character_BP.Angler_Character_BP'"
+  },
+  {
+    "name": "Ankylosaurus",
+    "link": "https://ark.wiki.gg/wiki/Ankylosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/a/a7/Ankylosaurus.png/120px-Ankylosaurus.png",
+    "category": "Dinosaurs",
+    "tag": "Anky",
+    "entityId": "Ankylo_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP.Ankylo_Character_BP'"
+  },
+  {
+    "name": "Araneo",
+    "link": "https://ark.wiki.gg/wiki/Araneo",
+    "image": "https://ark.wiki.gg/images/thumb/8/84/Spider.png/120px-Spider.png",
+    "category": "Invertebrates",
+    "tag": "Spider",
+    "entityId": "SpiderS_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spider-Small/SpiderS_Character_BP.SpiderS_Character_BP'"
+  },
+  {
+    "name": "Archaeopteryx",
+    "link": "https://ark.wiki.gg/wiki/Archaeopteryx",
+    "image": "https://ark.wiki.gg/images/thumb/8/8a/Archaeopteryx.png/120px-Archaeopteryx.png",
+    "category": "Birds",
+    "tag": "Archa",
+    "entityId": "Archa_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Archaeopteryx/Archa_Character_BP.Archa_Character_BP'"
+  },
+  {
+    "name": "Argentavis",
+    "link": "https://ark.wiki.gg/wiki/Argentavis",
+    "image": "https://ark.wiki.gg/images/thumb/7/77/Argentavis.png/120px-Argentavis.png",
+    "category": "Birds",
+    "tag": "Argent",
+    "entityId": "Argent_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Argentavis/Argent_Character_BP.Argent_Character_BP'"
+  },
+  {
+    "name": "Arthropluera",
+    "link": "https://ark.wiki.gg/wiki/Arthropluera",
+    "image": "https://ark.wiki.gg/images/thumb/3/31/Arthropluera.png/120px-Arthropluera.png",
+    "category": "Invertebrates",
+    "tag": "Arthro",
+    "entityId": "Arthro_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Arthropluera/Arthro_Character_BP.Arthro_Character_BP'"
+  },
+  {
+    "name": "Baryonyx",
+    "link": "https://ark.wiki.gg/wiki/Baryonyx",
+    "image": "https://ark.wiki.gg/images/thumb/c/c0/Baryonyx.png/120px-Baryonyx.png",
+    "category": "Dinosaurs",
+    "tag": "Baryonyx",
+    "entityId": "Baryonyx_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Baryonyx/Baryonyx_Character_BP.Baryonyx_Character_BP'"
+  },
+  {
+    "name": "Basilosaurus",
+    "link": "https://ark.wiki.gg/wiki/Basilosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/7/73/Basilosaurus.png/120px-Basilosaurus.png",
+    "category": "Mammals",
+    "tag": "Basilosaurus",
+    "entityId": "Basilosaurus_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Basilosaurus/Basilosaurus_Character_BP.Basilosaurus_Character_BP'"
+  },
+  {
+    "name": "Beelzebufo",
+    "link": "https://ark.wiki.gg/wiki/Beelzebufo",
+    "image": "https://ark.wiki.gg/images/thumb/f/f6/Beelzebufo.png/120px-Beelzebufo.png",
+    "category": "Reptiles",
+    "tag": "Toad",
+    "entityId": "Toad_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Toad/Toad_Character_BP.Toad_Character_BP'"
+  },
+  {
+    "name": "Bunny Dodo",
+    "link": "https://ark.wiki.gg/wiki/Bunny_Dodo",
+    "image": "https://ark.wiki.gg/images/thumb/0/01/BunnyDodo.png/120px-BunnyDodo.png",
+    "category": "Event Creatures",
+    "tag": "Dodo",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP_Bunny.Dodo_Character_BP_Bunny'"
+  },
+  {
+    "name": "Bunny Oviraptor",
+    "link": "https://ark.wiki.gg/wiki/Bunny_Oviraptor",
+    "image": "https://ark.wiki.gg/images/thumb/7/76/BunnyOviraptor.png/120px-BunnyOviraptor.png",
+    "category": "Event Creatures",
+    "tag": "Ovi",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Oviraptor/BunnyOviraptor_Character_BP.BunnyOviraptor_Character_BP'"
+  },
+  {
+    "name": "Brontosaurus",
+    "link": "https://ark.wiki.gg/wiki/Brontosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/4/47/Brontosaurus.png/120px-Brontosaurus.png",
+    "category": "Dinosaurs",
+    "tag": "Bronto",
+    "entityId": "Sauropod_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sauropod/Sauropod_Character_BP.Sauropod_Character_BP'"
+  },
+  {
+    "name": "Broodmother Lysrix",
+    "link": "https://ark.wiki.gg/wiki/Broodmother_Lysrix",
+    "image": "https://ark.wiki.gg/images/thumb/1/19/Broodmother.png/120px-Broodmother.png",
+    "category": "Bosses",
+    "tag": null,
+    "entityId": "SpiderL_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spider-Large/SpiderL_Character_BP.SpiderL_Character_BP'"
+  },
+  {
+    "name": "Chalicotherium",
+    "link": "https://ark.wiki.gg/wiki/Chalicotherium",
+    "image": "https://ark.wiki.gg/images/thumb/3/3a/Chalicotherium.png/120px-Chalicotherium.png",
+    "category": "Mammals",
+    "tag": "Chalicotherium",
+    "entityId": "Chalico_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Chalicotherium/Chalico_Character_BP.Chalico_Character_BP'"
+  },
+  {
+    "name": "Carbonemys",
+    "link": "https://ark.wiki.gg/wiki/Carbonemys",
+    "image": "https://ark.wiki.gg/images/thumb/4/4c/Carbonemys.png/120px-Carbonemys.png",
+    "category": "Reptiles",
+    "tag": "Turtle",
+    "entityId": "Turtle_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Turtle/Turtle_Character_BP.Turtle_Character_BP'"
+  },
+  {
+    "name": "Carnotaurus",
+    "link": "https://ark.wiki.gg/wiki/Carnotaurus",
+    "image": "https://ark.wiki.gg/images/thumb/8/84/Carnotaurus.png/120px-Carnotaurus.png",
+    "category": "Dinosaurs",
+    "tag": "Carno",
+    "entityId": "Carno_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Carno/Carno_Character_BP.Carno_Character_BP'"
+  },
+  {
+    "name": "Castoroides",
+    "link": "https://ark.wiki.gg/wiki/Castoroides",
+    "image": "https://ark.wiki.gg/images/thumb/a/af/Giant_Beaver.png/120px-Giant_Beaver.png",
+    "category": "Mammals",
+    "tag": "Beaver",
+    "entityId": "Beaver_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Beaver/Beaver_Character_BP.Beaver_Character_BP'"
+  },
+  {
+    "name": "Cnidaria",
+    "link": "https://ark.wiki.gg/wiki/Cnidaria",
+    "image": "https://ark.wiki.gg/images/thumb/0/00/Cnidaria.png/120px-Cnidaria.png",
+    "category": "Invertebrates",
+    "tag": "Cnidaria",
+    "entityId": "Cnidaria_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Cnidaria/Cnidaria_Character_BP.Cnidaria_Character_BP'"
+  },
+  {
+    "name": "Coelacanth",
+    "link": "https://ark.wiki.gg/wiki/Coelacanth",
+    "image": "https://ark.wiki.gg/images/thumb/4/4b/Coelacanth.png/120px-Coelacanth.png",
+    "category": "Fish",
+    "tag": "Coel",
+    "entityId": "Coel_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Coelacanth/Coel_Character_BP.Coel_Character_BP'"
+  },
+  {
+    "name": "Compy",
+    "link": "https://ark.wiki.gg/wiki/Compy",
+    "image": "https://ark.wiki.gg/images/thumb/9/92/Compy.png/120px-Compy.png",
+    "category": "Dinosaurs",
+    "tag": "Compy",
+    "entityId": "Compy_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Compy/Compy_Character_BP.Compy_Character_BP'"
+  },
+  {
+    "name": "Daeodon",
+    "link": "https://ark.wiki.gg/wiki/Daeodon",
+    "image": "https://ark.wiki.gg/images/thumb/5/5f/Daeodon.png/120px-Daeodon.png",
+    "category": "Mammals",
+    "tag": "Daeodon",
+    "entityId": "Daeodon_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Daeodon/Daeodon_Character_BP.Daeodon_Character_BP'"
+  },
+  {
+    "name": "Dilophosaur",
+    "link": "https://ark.wiki.gg/wiki/Dilophosaur",
+    "image": "https://ark.wiki.gg/images/thumb/c/c9/Dilophosaur.png/120px-Dilophosaur.png",
+    "category": "Dinosaurs",
+    "tag": "Dilo",
+    "entityId": "Dilo_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dilo/Dilo_Character_BP.Dilo_Character_BP'"
+  },
+  {
+    "name": "Dimetrodon",
+    "link": "https://ark.wiki.gg/wiki/Dimetrodon",
+    "image": "https://ark.wiki.gg/images/thumb/7/7c/Dimetrodon.png/120px-Dimetrodon.png",
+    "category": "Dinosaurs",
+    "tag": "Dimetro",
+    "entityId": "Dimetro_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dimetrodon/Dimetro_Character_BP.Dimetro_Character_BP'"
+  },
+  {
+    "name": "Dimorphodon",
+    "link": "https://ark.wiki.gg/wiki/Dimorphodon",
+    "image": "https://ark.wiki.gg/images/thumb/4/41/Dimorphodon.png/120px-Dimorphodon.png",
+    "category": "Dinosaurs",
+    "tag": "Dimorph",
+    "entityId": "Dimorph_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dimorphodon/Dimorph_Character_BP.Dimorph_Character_BP'"
+  },
+  {
+    "name": "Diplocaulus",
+    "link": "https://ark.wiki.gg/wiki/Diplocaulus",
+    "image": "https://ark.wiki.gg/images/thumb/5/5c/Diplocaulus.png/120px-Diplocaulus.png",
+    "category": "Amphibians",
+    "tag": "Diplocaulus",
+    "entityId": "Diplocaulus_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Diplocaulus/Diplocaulus_Character_BP.Diplocaulus_Character_BP'"
+  },
+  {
+    "name": "Diplodocus",
+    "link": "https://ark.wiki.gg/wiki/Diplodocus",
+    "image": "https://ark.wiki.gg/images/thumb/e/e6/Diplodocus.png/120px-Diplodocus.png",
+    "category": "Dinosaurs",
+    "tag": "Diplo",
+    "entityId": "Diplodocus_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Diplodocus/Diplodocus_Character_BP.Diplodocus_Character_BP'"
+  },
+  {
+    "name": "Dire Bear",
+    "link": "https://ark.wiki.gg/wiki/Dire_Bear",
+    "image": "https://ark.wiki.gg/images/thumb/6/6f/Dire_Bear.png/120px-Dire_Bear.png",
+    "category": "Mammals",
+    "tag": "Direbear",
+    "entityId": "Direbear_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Direbear/Direbear_Character_BP.Direbear_Character_BP'"
+  },
+  {
+    "name": "Direwolf",
+    "link": "https://ark.wiki.gg/wiki/Direwolf",
+    "image": "https://ark.wiki.gg/images/thumb/1/10/Direwolf.png/120px-Direwolf.png",
+    "category": "Mammals",
+    "tag": "Direwolf",
+    "entityId": "Direwolf_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Direwolf/Direwolf_Character_BP.Direwolf_Character_BP'"
+  },
+  {
+    "name": "Direwolf Ghost",
+    "link": "https://ark.wiki.gg/wiki/Direwolf_Ghost",
+    "image": "https://ark.wiki.gg/images/thumb/7/74/Direwolf_Ghost.png/120px-Direwolf_Ghost.png",
+    "category": "Event Creatures",
+    "tag": "Direwolf",
+    "entityId": "Ghost_Direwolf_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Direwolf/Ghost_Direwolf_Character_BP.Ghost_Direwolf_Character_BP'"
+  },
+  {
+    "name": "Dodo",
+    "link": "https://ark.wiki.gg/wiki/Dodo",
+    "image": "https://ark.wiki.gg/images/thumb/f/fc/Dodo.png/120px-Dodo.png",
+    "category": "Birds",
+    "tag": "Dodo",
+    "entityId": "Dodo_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP'"
+  },
+  {
+    "name": "DodoRex",
+    "link": "https://ark.wiki.gg/wiki/DodoRex",
+    "image": "https://ark.wiki.gg/images/thumb/2/2f/Dodorex.png/120px-Dodorex.png",
+    "category": "Event Creatures",
+    "tag": "DodoRex",
+    "entityId": "DodoRex_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/DodoRex/DodoRex_Character_BP.DodoRex_Character_BP'"
+  },
+  {
+    "name": "Doedicurus",
+    "link": "https://ark.wiki.gg/wiki/Doedicurus",
+    "image": "https://ark.wiki.gg/images/thumb/8/8b/Doedicurus.png/120px-Doedicurus.png",
+    "category": "Mammals",
+    "tag": "Doed",
+    "entityId": "Doed_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Doedicurus/Doed_Character_BP.Doed_Character_BP'"
+  },
+  {
+    "name": "Dragon (Gamma)",
+    "link": "https://ark.wiki.gg/wiki/Dragon_(Gamma)",
+    "image": "https://ark.wiki.gg/images/thumb/6/6d/Dragon_%28Gamma%29.png/120px-Dragon_%28Gamma%29.png",
+    "category": "Bosses",
+    "tag": null,
+    "entityId": "Dragon_Character_BP_Boss_Easy_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dragon/Dragon_Character_BP_Boss_Easy.Dragon_Character_BP_Boss_Easy'"
+  },
+  {
+    "name": "Dragon (Beta)",
+    "link": "https://ark.wiki.gg/wiki/Dragon_(Beta)",
+    "image": "https://ark.wiki.gg/images/thumb/4/4b/Dragon_%28Beta%29.png/120px-Dragon_%28Beta%29.png",
+    "category": "Bosses",
+    "tag": null,
+    "entityId": "Dragon_Character_BP_Boss_Medium_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dragon/Dragon_Character_BP_Boss_Medium.Dragon_Character_BP_Boss_Medium'"
+  },
+  {
+    "name": "Dragon (Alpha)",
+    "link": "https://ark.wiki.gg/wiki/Dragon_(Alpha)",
+    "image": "https://ark.wiki.gg/images/thumb/9/9a/Dragon_%28Alpha%29.png/120px-Dragon_%28Alpha%29.png",
+    "category": "Bosses",
+    "tag": null,
+    "entityId": "Dragon_Character_BP_Boss_Hard_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dragon/Dragon_Character_BP_Boss_Hard.Dragon_Character_BP_Boss_Hard'"
+  },
+  {
+    "name": "Dung Beetle",
+    "link": "https://ark.wiki.gg/wiki/Dung_Beetle",
+    "image": "https://ark.wiki.gg/images/thumb/b/b4/Dung_Beetle.png/120px-Dung_Beetle.png",
+    "category": "Invertebrates",
+    "tag": "Bettle",
+    "entityId": "DungBeetle_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/DungBeetle/DungBeetle_Character_BP.DungBeetle_Character_BP'"
+  },
+  {
+    "name": "Dunkleosteus",
+    "link": "https://ark.wiki.gg/wiki/Dunkleosteus",
+    "image": "https://ark.wiki.gg/images/thumb/e/e5/Dunkleosteus.png/120px-Dunkleosteus.png",
+    "category": "Fish",
+    "tag": "Dunkle",
+    "entityId": "Dunkle_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dunkleosteus/Dunkle_Character_BP.Dunkle_Character_BP'"
+  },
+  {
+    "name": "Electrophorus",
+    "link": "https://ark.wiki.gg/wiki/Electrophorus",
+    "image": "https://ark.wiki.gg/images/thumb/a/a0/Electrophorus.png/120px-Electrophorus.png",
+    "category": "Fish",
+    "tag": "Eel",
+    "entityId": "Eel_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Eel/Eel_Character_BP.Eel_Character_BP'"
+  },
+  {
+    "name": "Equus",
+    "link": "https://ark.wiki.gg/wiki/Equus",
+    "image": "https://ark.wiki.gg/images/thumb/7/7b/Equus.png/120px-Equus.png",
+    "category": "Mammals",
+    "tag": "Equus",
+    "entityId": "Equus_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Equus/Equus_Character_BP.Equus_Character_BP'"
+  },
+  {
+    "name": "Unicorn",
+    "link": "https://ark.wiki.gg/wiki/Unicorn",
+    "image": "https://ark.wiki.gg/images/thumb/7/7e/Unicorn.png/120px-Unicorn.png",
+    "category": "Mammals",
+    "tag": "Equus",
+    "entityId": "Equus_Character_BP_Unicorn_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Equus/Equus_Character_BP_Unicorn.Equus_Character_BP_Unicorn'"
+  },
+  {
+    "name": "Eurypterid",
+    "link": "https://ark.wiki.gg/wiki/Eurypterid",
+    "image": "https://ark.wiki.gg/images/thumb/8/82/Eurypterid.png/120px-Eurypterid.png",
+    "category": "Invertebrates",
+    "tag": "Euryp",
+    "entityId": "Euryp_Character_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Eurypterid/Euryp_Character.Euryp_Character'"
+  },
+  {
+    "name": "Gallimimus",
+    "link": "https://ark.wiki.gg/wiki/Gallimimus",
+    "image": "https://ark.wiki.gg/images/thumb/c/ce/Gallimimus.png/120px-Gallimimus.png",
+    "category": "Dinosaurs",
+    "tag": "Galli",
+    "entityId": "Galli_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Gallimimus/Galli_Character_BP.Galli_Character_BP'"
+  },
+  {
+    "name": "Giant Bee",
+    "link": "https://ark.wiki.gg/wiki/Giant_Bee",
+    "image": "https://ark.wiki.gg/images/thumb/4/45/Giant_Bee.png/120px-Giant_Bee.png",
+    "category": "Invertebrates",
+    "tag": "Bee",
+    "entityId": "Bee_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bee/Bee_Character_BP.Bee_Character_BP'"
+  },
+  {
+    "name": "Giganotosaurus",
+    "link": "https://ark.wiki.gg/wiki/Giganotosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/d/d3/Giganotosaurus.png/120px-Giganotosaurus.png",
+    "category": "Dinosaurs",
+    "tag": "Gigant",
+    "entityId": "Gigant_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP'"
+  },
+  {
+    "name": "Gigantopithecus",
+    "link": "https://ark.wiki.gg/wiki/Gigantopithecus",
+    "image": "https://ark.wiki.gg/images/thumb/6/66/Gigantopithecus.png/120px-Gigantopithecus.png",
+    "category": "Mammals",
+    "tag": "Bigfoot",
+    "entityId": "Bigfoot_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bigfoot/Bigfoot_Character_BP.Bigfoot_Character_BP'"
+  },
+  {
+    "name": "Hesperornis",
+    "link": "https://ark.wiki.gg/wiki/Hesperornis",
+    "image": "https://ark.wiki.gg/images/thumb/c/cf/Hesperornis.png/120px-Hesperornis.png",
+    "category": "Birds",
+    "tag": "Hesperornis",
+    "entityId": "Hesperornis_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Hesperornis/Hesperornis_Character_BP.Hesperornis_Character_BP'"
+  },
+  {
+    "name": "Human (Male)",
+    "link": "https://ark.wiki.gg/wiki/Human_(Male)",
+    "image": "https://ark.wiki.gg/images/thumb/6/6e/Human.png/120px-Human.png",
+    "category": "Mammals",
+    "tag": null,
+    "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/PlayerPawnTest_Male.PlayerPawnTest_Male'"
+  },
+  {
+    "name": "Human (Female)",
+    "link": "https://ark.wiki.gg/wiki/Human_(Female)",
+    "image": "https://ark.wiki.gg/images/thumb/6/6e/Human.png/120px-Human.png",
+    "category": "Mammals",
+    "tag": null,
+    "blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/PlayerPawnTest_Female.PlayerPawnTest_Female'"
+  },
+  {
+    "name": "Hyaenodon",
+    "link": "https://ark.wiki.gg/wiki/Hyaenodon",
+    "image": "https://ark.wiki.gg/images/thumb/9/9e/Hyaenodon.png/120px-Hyaenodon.png",
+    "category": "Mammals",
+    "tag": "Hyaenodon",
+    "entityId": "Hyaenodon_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Hyaenodon/Hyaenodon_Character_BP.Hyaenodon_Character_BP'"
+  },
+  {
+    "name": "Ichthyornis",
+    "link": "https://ark.wiki.gg/wiki/Ichthyornis",
+    "image": "https://ark.wiki.gg/images/thumb/5/51/Ichthyornis.png/120px-Ichthyornis.png",
+    "category": "Birds",
+    "tag": "Ichthyornis",
+    "entityId": "Ichthyornis_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ichthyornis/Ichthyornis_Character_BP.Ichthyornis_Character_BP'"
+  },
+  {
+    "name": "Ichthyosaurus",
+    "link": "https://ark.wiki.gg/wiki/Ichthyosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/8/89/Ichthyosaurus.png/120px-Ichthyosaurus.png",
+    "category": "Reptiles",
+    "tag": "Dolphin",
+    "entityId": "Dolphin_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dolphin/Dolphin_Character_BP.Dolphin_Character_BP'"
+  },
+  {
+    "name": "Iguanodon",
+    "link": "https://ark.wiki.gg/wiki/Iguanodon",
+    "image": "https://ark.wiki.gg/images/thumb/9/94/Iguanodon.png/120px-Iguanodon.png",
+    "category": "Dinosaurs",
+    "tag": "Iguanodon",
+    "entityId": "Iguanodon_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Iguanodon/Iguanodon_Character_BP.Iguanodon_Character_BP'"
+  },
+  {
+    "name": "Kairuku",
+    "link": "https://ark.wiki.gg/wiki/Kairuku",
+    "image": "https://ark.wiki.gg/images/thumb/a/a3/Kairuku.png/120px-Kairuku.png",
+    "category": "Birds",
+    "tag": "Kairu",
+    "entityId": "Kairuku_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Kairuku/Kairuku_Character_BP.Kairuku_Character_BP'"
+  },
+  {
+    "name": "Kaprosuchus",
+    "link": "https://ark.wiki.gg/wiki/Kaprosuchus",
+    "image": "https://ark.wiki.gg/images/thumb/8/89/Kaprosuchus.png/120px-Kaprosuchus.png",
+    "category": "Reptiles",
+    "tag": "Kaprosuchus",
+    "entityId": "Kaprosuchus_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Kaprosuchus/Kaprosuchus_Character_BP.Kaprosuchus_Character_BP'"
+  },
+  {
+    "name": "Kentrosaurus",
+    "link": "https://ark.wiki.gg/wiki/Kentrosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/2/20/Kentrosaurus.png/120px-Kentrosaurus.png",
+    "category": "Dinosaurs",
+    "tag": "Kentro",
+    "entityId": "Kentro_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Kentrosaurus/Kentro_Character_BP.Kentro_Character_BP'"
+  },
+  {
+    "name": "Leech",
+    "link": "https://ark.wiki.gg/wiki/Leech",
+    "image": "https://ark.wiki.gg/images/thumb/3/32/Leech.png/120px-Leech.png",
+    "category": "Invertebrates",
+    "tag": "Leech",
+    "entityId": "Leech_Character_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Leech/Leech_Character.Leech_Character'"
+  },
+  {
+    "name": "Diseased Leech",
+    "link": "https://ark.wiki.gg/wiki/Diseased_Leech",
+    "image": "https://ark.wiki.gg/images/thumb/1/15/Diseased_Leech.png/120px-Diseased_Leech.png",
+    "category": "Invertebrates",
+    "tag": "Leech",
+    "entityId": "Leech_Character_Diseased_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Leech/Leech_Character_Diseased.Leech_Character_Diseased'"
+  },
+  {
+    "name": "Leedsichthys",
+    "link": "https://ark.wiki.gg/wiki/Leedsichthys",
+    "image": "https://ark.wiki.gg/images/thumb/0/00/Leedsichthys.png/120px-Leedsichthys.png",
+    "category": "Fish",
+    "tag": "Leedsichthys",
+    "entityId": "Leedsichthys_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Leedsichthys/Leedsichthys_Character_BP.Leedsichthys_Character_BP'"
+  },
+  {
+    "name": "Liopleurodon",
+    "link": "https://ark.wiki.gg/wiki/Liopleurodon",
+    "image": "https://ark.wiki.gg/images/thumb/f/f8/Liopleurodon.png/120px-Liopleurodon.png",
+    "category": "Reptiles",
+    "tag": "Liopleurodon",
+    "entityId": "Liopleurodon_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Liopleurodon/Liopleurodon_Character_BP.Liopleurodon_Character_BP'"
+  },
+  {
+    "name": "Lystrosaurus",
+    "link": "https://ark.wiki.gg/wiki/Lystrosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/9/93/Lystrosaurus.png/120px-Lystrosaurus.png",
+    "category": "Dinosaurs",
+    "tag": "Lystro",
+    "entityId": "Lystro_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Lystrosaurus/Lystro_Character_BP.Lystro_Character_BP'"
+  },
+  {
+    "name": "Mammoth",
+    "link": "https://ark.wiki.gg/wiki/Mammoth",
+    "image": "https://ark.wiki.gg/images/thumb/a/a5/Mammoth.png/120px-Mammoth.png",
+    "category": "Mammals",
+    "tag": "Mammoth",
+    "entityId": "Mammoth_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Mammoth/Mammoth_Character_BP.Mammoth_Character_BP'"
+  },
+  {
+    "name": "Manta",
+    "link": "https://ark.wiki.gg/wiki/Manta",
+    "image": "https://ark.wiki.gg/images/thumb/2/2d/Manta.png/120px-Manta.png",
+    "category": "Fish",
+    "tag": "Manta",
+    "entityId": "Manta_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Manta/Manta_Character_BP.Manta_Character_BP'"
+  },
+  {
+    "name": "Megalania",
+    "link": "https://ark.wiki.gg/wiki/Megalania",
+    "image": "https://ark.wiki.gg/images/thumb/5/58/Megalania.png/120px-Megalania.png",
+    "category": "Reptiles",
+    "tag": "Megalania",
+    "entityId": "Megalania_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalania/Megalania_Character_BP.Megalania_Character_BP'"
+  },
+  {
+    "name": "Megaloceros",
+    "link": "https://ark.wiki.gg/wiki/Megaloceros",
+    "image": "https://ark.wiki.gg/images/thumb/6/69/Megaloceros.png/120px-Megaloceros.png",
+    "category": "Mammals",
+    "tag": "Stag",
+    "entityId": "Stag_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stag/Stag_Character_BP.Stag_Character_BP'"
+  },
+  {
+    "name": "Megalodon",
+    "link": "https://ark.wiki.gg/wiki/Megalodon",
+    "image": "https://ark.wiki.gg/images/thumb/3/36/Megalodon.png/120px-Megalodon.png",
+    "category": "Fish",
+    "tag": "Mega",
+    "entityId": "Megalodon_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalodon/Megalodon_Character_BP.Megalodon_Character_BP'"
+  },
+  {
+    "name": "Megalosaurus",
+    "link": "https://ark.wiki.gg/wiki/Megalosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/7/7e/Megalosaurus.png/120px-Megalosaurus.png",
+    "category": "Dinosaurs",
+    "tag": "Megalosaurus",
+    "entityId": "Megalosaurus_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalosaurus/Megalosaurus_Character_BP.Megalosaurus_Character_BP'"
+  },
+  {
+    "name": "Meganeura",
+    "link": "https://ark.wiki.gg/wiki/Meganeura",
+    "image": "https://ark.wiki.gg/images/thumb/8/81/Meganeura.png/120px-Meganeura.png",
+    "category": "Invertebrates",
+    "tag": "Dragonfly",
+    "entityId": "Dragonfly_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dragonfly/Dragonfly_Character_BP.Dragonfly_Character_BP'"
+  },
+  {
+    "name": "Megapithecus",
+    "link": "https://ark.wiki.gg/wiki/Megapithecus",
+    "image": "https://ark.wiki.gg/images/thumb/7/7d/Megapithecus.png/120px-Megapithecus.png",
+    "category": "Bosses",
+    "tag": null,
+    "entityId": "Gorilla_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Gorilla/Gorilla_Character_BP.Gorilla_Character_BP'"
+  },
+  {
+    "name": "Megatherium",
+    "link": "https://ark.wiki.gg/wiki/Megatherium",
+    "image": "https://ark.wiki.gg/images/thumb/3/37/Megatherium.png/120px-Megatherium.png",
+    "category": "Mammals",
+    "tag": "Megatherium",
+    "entityId": "Megatherium_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megatherium/Megatherium_Character_BP.Megatherium_Character_BP'"
+  },
+  {
+    "name": "Mesopithecus",
+    "link": "https://ark.wiki.gg/wiki/Mesopithecus",
+    "image": "https://ark.wiki.gg/images/thumb/c/c6/Mesopithecus.png/120px-Mesopithecus.png",
+    "category": "Mammals",
+    "tag": "Monkey",
+    "entityId": "Monkey_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Monkey/Monkey_Character_BP.Monkey_Character_BP'"
+  },
+  {
+    "name": "Microraptor",
+    "link": "https://ark.wiki.gg/wiki/Microraptor",
+    "image": "https://ark.wiki.gg/images/thumb/6/69/Microraptor.png/120px-Microraptor.png",
+    "category": "Dinosaurs",
+    "tag": "Microraptor",
+    "entityId": "Microraptor_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Microraptor/Microraptor_Character_BP.Microraptor_Character_BP'"
+  },
+  {
+    "name": "Mosasaurus",
+    "link": "https://ark.wiki.gg/wiki/Mosasaurus",
+    "image": "https://ark.wiki.gg/images/thumb/b/b0/Mosasaurus.png/120px-Mosasaurus.png",
+    "category": "Reptiles",
+    "tag": "Mosasaur",
+    "entityId": "Mosa_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Mosasaurus/Mosa_Character_BP.Mosa_Character_BP'"
+  },
+  {
+    "name": "Moschops",
+    "link": "https://ark.wiki.gg/wiki/Moschops",
+    "image": "https://ark.wiki.gg/images/thumb/e/e6/Moschops.png/120px-Moschops.png",
+    "category": "Dinosaurs",
+    "tag": "Moschops",
+    "entityId": "Moschops_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Moschops/Moschops_Character_BP.Moschops_Character_BP'"
+  },
+  {
+    "name": "Onychonycteris",
+    "link": "https://ark.wiki.gg/wiki/Onychonycteris",
+    "image": "https://ark.wiki.gg/images/thumb/5/55/Onyc.png/120px-Onyc.png",
+    "category": "Mammals",
+    "tag": "Bat",
+    "entityId": "Bat_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bat/Bat_Character_BP.Bat_Character_BP'"
+  },
+  {
+    "name": "Otter",
+    "link": "https://ark.wiki.gg/wiki/Otter",
+    "image": "https://ark.wiki.gg/images/thumb/9/9f/Otter.png/120px-Otter.png",
+    "category": "Mammals",
+    "tag": "Otter",
+    "entityId": "Otter_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Otter/Otter_Character_BP.Otter_Character_BP'"
+  },
+  {
+    "name": "Oviraptor",
+    "link": "https://ark.wiki.gg/wiki/Oviraptor",
+    "image": "https://ark.wiki.gg/images/thumb/7/74/Oviraptor.png/120px-Oviraptor.png",
+    "category": "Dinosaurs",
+    "tag": "Ovi",
+    "entityId": "Oviraptor_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Oviraptor/Oviraptor_Character_BP.Oviraptor_Character_BP'"
+  },
+  {
+    "name": "Ovis",
+    "link": "https://ark.wiki.gg/wiki/Ovis",
+    "image": "https://ark.wiki.gg/images/thumb/7/79/Ovis.png/120px-Ovis.png",
+    "category": "Mammals",
+    "tag": "Sheep",
+    "entityId": "Sheep_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sheep/Sheep_Character_BP.Sheep_Character_BP'"
+  },
+  {
+    "name": "Pachy",
+    "link": "https://ark.wiki.gg/wiki/Pachy",
+    "image": "https://ark.wiki.gg/images/thumb/f/f8/Pachy.png/120px-Pachy.png",
+    "category": "Dinosaurs",
+    "tag": "Pachy",
+    "entityId": "Pachy_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Pachy/Pachy_Character_BP.Pachy_Character_BP'"
+  },
+  {
+    "name": "Pachyrhinosaurus",
+    "link": "https://ark.wiki.gg/wiki/Pachyrhinosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/d/d8/Pachyrhinosaurus.png/120px-Pachyrhinosaurus.png",
+    "category": "Dinosaurs",
+    "tag": "Pachyrhinosaurus",
+    "entityId": "Pachyrhino_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Pachyrhinosaurus/Pachyrhino_Character_BP.Pachyrhino_Character_BP'"
+  },
+  {
+    "name": "Paraceratherium",
+    "link": "https://ark.wiki.gg/wiki/Paraceratherium",
+    "image": "https://ark.wiki.gg/images/thumb/e/e1/Paraceratherium.png/120px-Paraceratherium.png",
+    "category": "Mammals",
+    "tag": "Paracer",
+    "entityId": "Paracer_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Paraceratherium/Paracer_Character_BP.Paracer_Character_BP'"
+  },
+  {
+    "name": "Parasaurolophus",
+    "link": "https://ark.wiki.gg/wiki/Parasaurolophus",
+    "image": "https://ark.wiki.gg/images/thumb/6/65/Parasaur.png/120px-Parasaur.png",
+    "category": "Dinosaurs",
+    "tag": "Para",
+    "entityId": "Para_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Para/Para_Character_BP.Para_Character_BP'"
+  },
+  {
+    "name": "Pegomastax",
+    "link": "https://ark.wiki.gg/wiki/Pegomastax",
+    "image": "https://ark.wiki.gg/images/thumb/9/92/Pegomastax.png/120px-Pegomastax.png",
+    "category": "Dinosaurs",
+    "tag": "Pegomastax",
+    "entityId": "Pegomastax_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Pegomastax/Pegomastax_Character_BP.Pegomastax_Character_BP'"
+  },
+  {
+    "name": "Pelagornis",
+    "link": "https://ark.wiki.gg/wiki/Pelagornis",
+    "image": "https://ark.wiki.gg/images/thumb/7/7f/Pelagornis.png/120px-Pelagornis.png",
+    "category": "Birds",
+    "tag": "Pela",
+    "entityId": "Pela_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Pelagornis/Pela_Character_BP.Pela_Character_BP'"
+  },
+  {
+    "name": "Phiomia",
+    "link": "https://ark.wiki.gg/wiki/Phiomia",
+    "image": "https://ark.wiki.gg/images/thumb/b/b0/Phiomia.png/120px-Phiomia.png",
+    "category": "Mammals",
+    "tag": "Phiomia",
+    "entityId": "Phiomia_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Phiomia/Phiomia_Character_BP.Phiomia_Character_BP'"
+  },
+  {
+    "name": "Piranha",
+    "link": "https://ark.wiki.gg/wiki/Piranha",
+    "image": "https://ark.wiki.gg/images/thumb/4/43/Piranha.png/120px-Piranha.png",
+    "category": "Fish",
+    "tag": "Piranha",
+    "entityId": "Piranha_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Piranha/Piranha_Character_BP.Piranha_Character_BP'"
+  },
+  {
+    "name": "Plesiosaur",
+    "link": "https://ark.wiki.gg/wiki/Plesiosaur",
+    "image": "https://ark.wiki.gg/images/thumb/4/43/Plesiosaur.png/120px-Plesiosaur.png",
+    "category": "Reptiles",
+    "tag": "Plesiosaur",
+    "entityId": "Plesiosaur_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Plesiosaur/Plesiosaur_Character_BP.Plesiosaur_Character_BP'"
+  },
+  {
+    "name": "Procoptodon",
+    "link": "https://ark.wiki.gg/wiki/Procoptodon",
+    "image": "https://ark.wiki.gg/images/thumb/d/da/Procoptodon.png/120px-Procoptodon.png",
+    "category": "Mammals",
+    "tag": "Kangaroo",
+    "entityId": "Procoptodon_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Procoptodon/Procoptodon_Character_BP.Procoptodon_Character_BP'"
+  },
+  {
+    "name": "Pteranodon",
+    "link": "https://ark.wiki.gg/wiki/Pteranodon",
+    "image": "https://ark.wiki.gg/images/thumb/2/22/Pteranodon.png/120px-Pteranodon.png",
+    "category": "Dinosaurs",
+    "tag": "Ptera",
+    "entityId": "Ptero_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ptero/Ptero_Character_BP.Ptero_Character_BP'"
+  },
+  {
+    "name": "Pulmonoscorpius",
+    "link": "https://ark.wiki.gg/wiki/Pulmonoscorpius",
+    "image": "https://ark.wiki.gg/images/thumb/a/ab/Scorpion.png/120px-Scorpion.png",
+    "category": "Invertebrates",
+    "tag": "Scorpion",
+    "entityId": "Scorpion_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Scorpion/Scorpion_Character_BP.Scorpion_Character_BP'"
+  },
+  {
+    "name": "Purlovia",
+    "link": "https://ark.wiki.gg/wiki/Purlovia",
+    "image": "https://ark.wiki.gg/images/thumb/c/c2/Purlovia.png/120px-Purlovia.png",
+    "category": "Synapsids",
+    "tag": "Purlovia",
+    "entityId": "Purlovia_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Purlovia/Purlovia_Character_BP.Purlovia_Character_BP'"
+  },
+  {
+    "name": "Quetzalcoatlus",
+    "link": "https://ark.wiki.gg/wiki/Quetzalcoatlus",
+    "image": "https://ark.wiki.gg/images/thumb/9/9d/Quetzal.png/120px-Quetzal.png",
+    "category": "Reptiles",
+    "tag": "Quetz",
+    "entityId": "Quetz_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Quetzalcoatlus/Quetz_Character_BP.Quetz_Character_BP'"
+  },
+  {
+    "name": "Raptor",
+    "link": "https://ark.wiki.gg/wiki/Raptor",
+    "image": "https://ark.wiki.gg/images/thumb/0/08/Raptor.png/120px-Raptor.png",
+    "category": "Dinosaurs",
+    "tag": "Raptor",
+    "entityId": "Raptor_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/Raptor_Character_BP.Raptor_Character_BP'"
+  },
+  {
+    "name": "Rex",
+    "link": "https://ark.wiki.gg/wiki/Rex",
+    "image": "https://ark.wiki.gg/images/thumb/5/5f/Rex.png/120px-Rex.png",
+    "category": "Dinosaurs",
+    "tag": "Rex",
+    "entityId": "Rex_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP'"
+  },
+  {
+    "name": "Rex Ghost",
+    "link": "https://ark.wiki.gg/wiki/Rex_Ghost",
+    "image": "https://ark.wiki.gg/images/thumb/9/97/Rex_Ghost.png/120px-Rex_Ghost.png",
+    "category": "Event Creatures",
+    "tag": "Rex",
+    "entityId": "Ghost_Rex_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/Ghost_Rex_Character_BP.Ghost_Rex_Character_BP'"
+  },
+  {
+    "name": "Sabertooth",
+    "link": "https://ark.wiki.gg/wiki/Sabertooth",
+    "image": "https://ark.wiki.gg/images/thumb/a/a4/Sabertooth.png/120px-Sabertooth.png",
+    "category": "Mammals",
+    "tag": "Sabertooth",
+    "entityId": "Saber_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Saber/Saber_Character_BP.Saber_Character_BP'"
+  },
+  {
+    "name": "Sabertooth Salmon",
+    "link": "https://ark.wiki.gg/wiki/Sabertooth_Salmon",
+    "image": "https://ark.wiki.gg/images/thumb/e/e0/Salmon.png/120px-Salmon.png",
+    "category": "Fish",
+    "tag": "Salmon",
+    "entityId": "Salmon_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Salmon/Salmon_Character_BP.Salmon_Character_BP'"
+  },
+  {
+    "name": "Sarco",
+    "link": "https://ark.wiki.gg/wiki/Sarco",
+    "image": "https://ark.wiki.gg/images/thumb/4/41/Sarco.png/120px-Sarco.png",
+    "category": "Reptiles",
+    "tag": "Sarco",
+    "entityId": "Sarco_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sarco/Sarco_Character_BP.Sarco_Character_BP'"
+  },
+  {
+    "name": "Skeletal Bronto",
+    "link": "https://ark.wiki.gg/wiki/Skeletal_Bronto",
+    "image": "https://ark.wiki.gg/images/thumb/6/62/Skeletal_Brontosaurus.png/120px-Skeletal_Brontosaurus.png",
+    "category": "Event Creatures",
+    "tag": "Bronto",
+    "entityId": "Bone_Sauropod_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sauropod/Bone_Sauropod_Character_BP.Bone_Sauropod_Character_BP'"
+  },
+  {
+    "name": "Skeletal Carnotaurus",
+    "link": "https://ark.wiki.gg/wiki/Skeletal_Carnotaurus",
+    "image": "https://ark.wiki.gg/images/thumb/b/b0/Skeletal_Carnotaurus.png/120px-Skeletal_Carnotaurus.png",
+    "category": "Event Creatures",
+    "tag": "Carno",
+    "entityId": "Bone_MegaCarno_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Carno/Bone_MegaCarno_Character_BP.Bone_MegaCarno_Character_B'"
+  },
+  {
+    "name": "Skeletal Giganotosaurus",
+    "link": "https://ark.wiki.gg/wiki/Skeletal_Giganotosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/1/15/Skeletal_Giganotosaurus.png/120px-Skeletal_Giganotosaurus.png",
+    "category": "Event Creatures",
+    "tag": "Gigant",
+    "entityId": "Bone_Gigant_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/Bone_Gigant_Character_BP.Bone_Gigant_Character_BP'"
+  },
+  {
+    "name": "Skeletal Quetzal",
+    "link": "https://ark.wiki.gg/wiki/Skeletal_Quetzal",
+    "image": "https://ark.wiki.gg/images/thumb/7/7a/Skeletal_Quetzal.png/120px-Skeletal_Quetzal.png",
+    "category": "Event Creatures",
+    "tag": "Quetz",
+    "entityId": "Bone_Quetz_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Quetzalcoatlus/Bone_Quetz_Character_BP.Bone_Quetz_Character_BP'"
+  },
+  {
+    "name": "Skeletal Raptor",
+    "link": "https://ark.wiki.gg/wiki/Skeletal_Raptor",
+    "image": "https://ark.wiki.gg/images/thumb/d/d5/Skeletal_Raptor.png/120px-Skeletal_Raptor.png",
+    "category": "Event Creatures",
+    "tag": "Raptor",
+    "entityId": "Bone_MegaRaptor_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/Bone_MegaRaptor_Character_BP.Bone_MegaRaptor_Character_BP'"
+  },
+  {
+    "name": "Skeletal Rex",
+    "link": "https://ark.wiki.gg/wiki/Skeletal_Rex",
+    "image": "https://ark.wiki.gg/images/thumb/d/db/Skeletal_Rex.png/120px-Skeletal_Rex.png",
+    "category": "Event Creatures",
+    "tag": "Rex",
+    "entityId": "Bone_MegaRex_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/Bone_MegaRex_Character_BP.Bone_MegaRex_Character_BP'"
+  },
+  {
+    "name": "Skeletal Stego",
+    "link": "https://ark.wiki.gg/wiki/Skeletal_Stego",
+    "image": "https://ark.wiki.gg/images/thumb/1/1e/Skeletal_Stegosaurus.png/120px-Skeletal_Stegosaurus.png",
+    "category": "Event Creatures",
+    "tag": "Stego",
+    "entityId": "Bone_Stego_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stego/Bone_Stego_Character_BP'"
+  },
+  {
+    "name": "Skeletal Trike",
+    "link": "https://ark.wiki.gg/wiki/Skeletal_Trike",
+    "image": "https://ark.wiki.gg/images/thumb/a/ac/Skeletal_Triceratops.png/120px-Skeletal_Triceratops.png",
+    "category": "Event Creatures",
+    "tag": "Trike",
+    "entityId": "Bone_Trike_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trike/Bone_Trike_Character_BP'"
+  },
+  {
+    "name": "Spino",
+    "link": "https://ark.wiki.gg/wiki/Spino",
+    "image": "https://ark.wiki.gg/images/thumb/0/03/Spino.png/120px-Spino.png",
+    "category": "Dinosaurs",
+    "tag": "Spino",
+    "entityId": "Spino_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spino/Spino_Character_BP.Spino_Character_BP'"
+  },
+  {
+    "name": "Stegosaurus",
+    "link": "https://ark.wiki.gg/wiki/Stegosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/c/cd/Stegosaurus.png/120px-Stegosaurus.png",
+    "category": "Dinosaurs",
+    "tag": "Stego",
+    "entityId": "Stego_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stego/Stego_Character_BP.Stego_Character_BP'"
+  },
+  {
+    "name": "Tapejara",
+    "link": "https://ark.wiki.gg/wiki/Tapejara",
+    "image": "https://ark.wiki.gg/images/thumb/e/ec/Tapejara.png/120px-Tapejara.png",
+    "category": "Reptiles",
+    "tag": "Tapejara",
+    "entityId": "Tapejara_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Tapejara/Tapejara_Character_BP.Tapejara_Character_BP'"
+  },
+  {
+    "name": "Tek Parasaur",
+    "link": "https://ark.wiki.gg/wiki/Tek_Parasaur",
+    "image": "https://ark.wiki.gg/images/thumb/d/da/Tek_Parasaur.png/120px-Tek_Parasaur.png",
+    "category": "Tek Creatures",
+    "tag": "Para",
+    "entityId": "BionicPara_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Para/BionicPara_Character_BP.BionicPara_Character_BP'"
+  },
+  {
+    "name": "Tek Quetzal",
+    "link": "https://ark.wiki.gg/wiki/Tek_Quetzal",
+    "image": "https://ark.wiki.gg/images/thumb/d/d6/Tek_Quetzal.png/120px-Tek_Quetzal.png",
+    "category": "Tek Creatures",
+    "tag": "Quetz",
+    "entityId": "BionicQuetz_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Quetzalcoatlus/BionicQuetz_Character_BP.BionicQuetz_Character_BP'"
+  },
+  {
+    "name": "Tek Raptor",
+    "link": "https://ark.wiki.gg/wiki/Tek_Raptor",
+    "image": "https://ark.wiki.gg/images/thumb/b/b3/Tek_Raptor.png/120px-Tek_Raptor.png",
+    "category": "Tek Creatures",
+    "tag": "Raptor",
+    "entityId": "BionicRaptor_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/BionicRaptor_Character_BP.BionicRaptor_Character_BP'"
+  },
+  {
+    "name": "Tek Rex",
+    "link": "https://ark.wiki.gg/wiki/Tek_Rex",
+    "image": "https://ark.wiki.gg/images/thumb/4/44/Tek_Rex.png/120px-Tek_Rex.png",
+    "category": "Tek Creatures",
+    "tag": "Rex",
+    "entityId": "BionicRex_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/BionicRex_Character_BP.BionicRex_Character_BP'"
+  },
+  {
+    "name": "Tek Stegosaurus",
+    "link": "https://ark.wiki.gg/wiki/Tek_Stegosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/1/1b/Tek_Stegosaurus.png/120px-Tek_Stegosaurus.png",
+    "category": "Tek Creatures",
+    "tag": "Stego",
+    "entityId": "BionicStego_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stego/BionicStego_Character_BP.BionicStego_Character_BP'"
+  },
+  {
+    "name": "Terror Bird",
+    "link": "https://ark.wiki.gg/wiki/Terror_Bird",
+    "image": "https://ark.wiki.gg/images/thumb/e/e3/Terror_Bird.png/120px-Terror_Bird.png",
+    "category": "Birds",
+    "tag": "TerrorBird",
+    "entityId": "TerrorBird_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/TerrorBird/TerrorBird_Character_BP.TerrorBird_Character_BP'"
+  },
+  {
+    "name": "Therizinosaur",
+    "link": "https://ark.wiki.gg/wiki/Therizinosaur",
+    "image": "https://ark.wiki.gg/images/thumb/6/66/Therizinosaur.png/120px-Therizinosaur.png",
+    "category": "Dinosaurs",
+    "tag": "Therizinosaurus",
+    "entityId": "Therizino_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Therizinosaurus/Therizino_Character_BP.Therizino_Character_BP'"
+  },
+  {
+    "name": "Thylacoleo",
+    "link": "https://ark.wiki.gg/wiki/Thylacoleo",
+    "image": "https://ark.wiki.gg/images/thumb/2/22/Thylacoleo.png/120px-Thylacoleo.png",
+    "category": "Mammals",
+    "tag": "Thylacoleo",
+    "entityId": "Thylacoleo_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Thylacoleo/Thylacoleo_Character_BP.Thylacoleo_Character_BP'"
+  },
+  {
+    "name": "Titanoboa",
+    "link": "https://ark.wiki.gg/wiki/Titanoboa",
+    "image": "https://ark.wiki.gg/images/thumb/b/b6/Titanoboa.png/120px-Titanoboa.png",
+    "category": "Reptiles",
+    "tag": "TitanBoa",
+    "entityId": "BoaFrill_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/BoaFrill/BoaFrill_Character_BP.BoaFrill_Character_BP'"
+  },
+  {
+    "name": "Titanomyrma",
+    "link": "https://ark.wiki.gg/wiki/Titanomyrma",
+    "image": "https://ark.wiki.gg/images/thumb/d/d8/Titanomyrma.png/120px-Titanomyrma.png",
+    "category": "Invertebrates",
+    "tag": "Ant",
+    "entityId": "Ant_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ant/Ant_Character_BP.Ant_Character_BP'"
+  },
+  {
+    "name": "Titanomyrma",
+    "link": "https://ark.wiki.gg/wiki/Titanomyrma",
+    "image": "https://ark.wiki.gg/images/thumb/d/d8/Titanomyrma.png/120px-Titanomyrma.png",
+    "category": "Invertebrates",
+    "tag": "Ant",
+    "entityId": "FlyingAnt_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ant/FlyingAnt_Character_BP.FlyingAnt_Character_BP'"
+  },
+  {
+    "name": "Titanosaur",
+    "link": "https://ark.wiki.gg/wiki/Titanosaur",
+    "image": "https://ark.wiki.gg/images/thumb/e/e7/Titanosaur.png/120px-Titanosaur.png",
+    "category": "Dinosaurs",
+    "tag": "Titan",
+    "entityId": "Titanosaur_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/titanosaur/Titanosaur_Character_BP.Titanosaur_Character_BP'"
+  },
+  {
+    "name": "Triceratops",
+    "link": "https://ark.wiki.gg/wiki/Triceratops",
+    "image": "https://ark.wiki.gg/images/thumb/2/2d/Trike.png/120px-Trike.png",
+    "category": "Dinosaurs",
+    "tag": "Trike",
+    "entityId": "Trike_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trike/Trike_Character_BP.Trike_Character_BP'"
+  },
+  {
+    "name": "Trilobite",
+    "link": "https://ark.wiki.gg/wiki/Trilobite",
+    "image": "https://ark.wiki.gg/images/thumb/2/2b/Trilobite.png/120px-Trilobite.png",
+    "category": "Invertebrates",
+    "tag": "Trilobite",
+    "entityId": "Trilobite_Character_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trilobite/Trilobite_Character.Trilobite_Character'"
+  },
+  {
+    "name": "Troodon",
+    "link": "https://ark.wiki.gg/wiki/Troodon",
+    "image": "https://ark.wiki.gg/images/thumb/e/e9/Troodon.png/120px-Troodon.png",
+    "category": "Dinosaurs",
+    "tag": "Troodon",
+    "entityId": "Troodon_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Troodon/Troodon_Character_BP.Troodon_Character_BP'"
+  },
+  {
+    "name": "Turkey",
+    "link": "https://ark.wiki.gg/wiki/Turkey",
+    "image": "https://ark.wiki.gg/images/thumb/b/b3/Turkey.png/120px-Turkey.png",
+    "category": "Event Creatures",
+    "tag": null,
+    "entityId": "TurkeyBase_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dodo/TurkeyBase_Character_BP.TurkeyBase_Character_BP'"
+  },
+  {
+    "name": "Super Turkey",
+    "link": "https://ark.wiki.gg/wiki/Super_Turkey",
+    "image": "https://ark.wiki.gg/images/thumb/b/b3/Turkey.png/120px-Turkey.png",
+    "category": "Event Creatures",
+    "tag": null,
+    "entityId": "Turkey_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dodo/Turkey_Character_BP.Turkey_Character_BP'"
+  },
+  {
+    "name": "Tusoteuthis",
+    "link": "https://ark.wiki.gg/wiki/Tusoteuthis",
+    "image": "https://ark.wiki.gg/images/thumb/3/37/Tusoteuthis.png/120px-Tusoteuthis.png",
+    "category": "Invertebrates",
+    "tag": "Tusoteuthis",
+    "entityId": "Tusoteuthis_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/Tusoteuthis_Character_BP.Tusoteuthis_Character_BP'"
+  },
+  {
+    "name": "Woolly Rhino",
+    "link": "https://ark.wiki.gg/wiki/Woolly_Rhino",
+    "image": "https://ark.wiki.gg/images/thumb/d/d4/Woolly_Rhinoceros.png/120px-Woolly_Rhinoceros.png",
+    "category": "Mammals",
+    "tag": "Rhino",
+    "entityId": "Rhino_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/WoollyRhino/Rhino_Character_BP.Rhino_Character_BP'"
+  },
+  {
+    "name": "Yeti",
+    "link": "https://ark.wiki.gg/wiki/Yeti",
+    "image": "https://ark.wiki.gg/images/thumb/7/7d/Yeti.png/120px-Yeti.png",
+    "category": "Mammals",
+    "tag": "Bigfoot",
+    "entityId": "Yeti_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bigfoot/Yeti_Character_BP.Yeti_Character_BP'"
+  },
+  {
+    "name": "Yutyrannus",
+    "link": "https://ark.wiki.gg/wiki/Yutyrannus",
+    "image": "https://ark.wiki.gg/images/thumb/b/b8/Yutyrannus.png/120px-Yutyrannus.png",
+    "category": "Dinosaurs",
+    "tag": "Yutyrannus",
+    "entityId": "Yutyrannus_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Yutyrannus/Yutyrannus_Character_BP.Yutyrannus_Character_BP'"
+  },
+  {
+    "name": "Zomdodo",
+    "link": "https://ark.wiki.gg/wiki/Zomdodo",
+    "image": "https://ark.wiki.gg/images/thumb/6/6a/Zomdodo.png/120px-Zomdodo.png",
+    "category": "Event Creatures",
+    "tag": "Dodo",
+    "entityId": "ZombieDodo_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dodo/ZombieDodo_Character_BP.ZombieDodo_Character_BP'"
+  },
+  {
+    "name": "Alpha Fire Wyvern",
+    "link": "https://ark.wiki.gg/wiki/Alpha_Fire_Wyvern",
+    "image": "https://ark.wiki.gg/images/thumb/5/5b/Alpha_Fire_Wyvern.png/120px-Alpha_Fire_Wyvern.png",
+    "category": "Fantasy Creatures",
+    "tag": "Wyvern",
+    "entityId": "MegaWyvern_Character_BP_Fire_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/MegaWyvern_Character_BP_Fire.MegaWyvern_Character_BP_Fire'"
+  },
+  {
+    "name": "Alpha Deathworm",
+    "link": "https://ark.wiki.gg/wiki/Alpha_Deathworm",
+    "image": "https://ark.wiki.gg/images/thumb/a/ae/Alpha_Deathworm.png/120px-Alpha_Deathworm.png",
+    "category": "Invertebrates",
+    "tag": "Deathworm",
+    "entityId": "MegaDeathworm_Character_BP_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Deathworm/MegaDeathworm_Character_BP.MegaDeathworm_Character_BP'"
+  },
+  {
+    "name": "Deathworm",
+    "link": "https://ark.wiki.gg/wiki/Deathworm",
+    "image": "https://ark.wiki.gg/images/thumb/8/86/Deathworm.png/120px-Deathworm.png",
+    "category": "Invertebrates",
+    "tag": "Deathworm",
+    "entityId": "Deathworm_Character_BP_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/DeathWorm/DeathWorm_Character_BP.DeathWorm_Character_BP'"
+  },
+  {
+    "name": "Dodo Wyvern",
+    "link": "https://ark.wiki.gg/wiki/Dodo_Wyvern",
+    "image": "https://ark.wiki.gg/images/thumb/7/75/Dodo_Wyvern.png/120px-Dodo_Wyvern.png",
+    "category": "Event Creatures",
+    "tag": "Wyvern",
+    "entityId": "DodoWyvern_Character_BP_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/DodoWyvern/DodoWyvern_Character_BP.DodoWyvern_Character_BP'"
+  },
+  {
+    "name": "Jerboa",
+    "link": "https://ark.wiki.gg/wiki/Jerboa",
+    "image": "https://ark.wiki.gg/images/thumb/7/7a/Jerboa.png/120px-Jerboa.png",
+    "category": "Mammals",
+    "tag": "Jerboa",
+    "entityId": "Jerboa_Character_BP_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Jerboa/Jerboa_Character_BP.Jerboa_Character_BP'"
+  },
+  {
+    "name": "Skeletal Jerboa",
+    "link": "https://ark.wiki.gg/wiki/Skeletal_Jerboa",
+    "image": "https://ark.wiki.gg/images/thumb/d/d8/Skeletal_Jerboa.png/120px-Skeletal_Jerboa.png",
+    "category": "Event Creatures",
+    "tag": "Jerboa",
+    "entityId": "Bone_Jerboa_Character_BP_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Jerboa/Bone_Jerboa_Character_BP.Bone_Jerboa_Character_BP'"
+  },
+  {
+    "name": "Jug Bug",
+    "link": "https://ark.wiki.gg/wiki/Jug_Bug",
+    "image": "https://ark.wiki.gg/images/thumb/3/32/Jug_Bug.png/120px-Jug_Bug.png",
+    "category": "Invertebrates",
+    "tag": "Jugbug",
+    "entityId": "Jugbug_Character_BaseBP_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Jugbug/JugBug_Character_BaseBP.JugBug_Character_BaseBP'"
+  },
+  {
+    "name": "Oil Jug Bug",
+    "link": "https://ark.wiki.gg/wiki/Oil_Jug_Bug",
+    "image": "https://ark.wiki.gg/images/thumb/f/ff/Oil_Jug_Bug.png/120px-Oil_Jug_Bug.png",
+    "category": "Invertebrates",
+    "tag": "Jugbug",
+    "entityId": "Jugbug_Oil_Character_BP_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Jugbug/Jugbug_Oil_Character_BP.Jugbug_Oil_Character_BP'"
+  },
+  {
+    "name": "Water Jug Bug",
+    "link": "https://ark.wiki.gg/wiki/Water_Jug_Bug",
+    "image": "https://ark.wiki.gg/images/thumb/c/ca/Water_Jug_Bug.png/120px-Water_Jug_Bug.png",
+    "category": "Invertebrates",
+    "tag": "Jugbug",
+    "entityId": "Jugbug_Water_Character_BP_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Jugbug/Jugbug_Water_Character_BP.Jugbug_Water_Character_BP'"
+  },
+  {
+    "name": "Lymantria",
+    "link": "https://ark.wiki.gg/wiki/Lymantria",
+    "image": "https://ark.wiki.gg/images/thumb/1/1d/Lymantria.png/120px-Lymantria.png",
+    "category": "Invertebrates",
+    "tag": "Moth",
+    "entityId": "Moth_Character_BP_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Moth/Moth_Character_BP.Moth_Character_BP'"
+  },
+  {
+    "name": "Manticore (Gamma)",
+    "link": "https://ark.wiki.gg/wiki/Manticore_(Gamma)",
+    "image": "https://ark.wiki.gg/images/thumb/e/e0/Manticore_%28Gamma%29.png/120px-Manticore_%28Gamma%29.png",
+    "category": "Bosses",
+    "tag": "Manticore",
+    "entityId": "Manticore_Character_BP_Easy_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Manticore/Manticore_Character_BP_Easy.Manticore_Character_BP_Easy'"
+  },
+  {
+    "name": "Manticore (Beta)",
+    "link": "https://ark.wiki.gg/wiki/Manticore_(Beta)",
+    "image": "https://ark.wiki.gg/images/thumb/5/5b/Manticore_%28Beta%29.png/120px-Manticore_%28Beta%29.png",
+    "category": "Bosses",
+    "tag": "Manticore",
+    "entityId": "Manticore_Character_BP_Medium_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Manticore/Manticore_Character_BP_Medium.Manticore_Character_BP_Medium'"
+  },
+  {
+    "name": "Manticore (Alpha)",
+    "link": "https://ark.wiki.gg/wiki/Manticore_(Alpha)",
+    "image": "https://ark.wiki.gg/images/thumb/9/9b/Manticore_%28Alpha%29.png/120px-Manticore_%28Alpha%29.png",
+    "category": "Bosses",
+    "tag": "Manticore",
+    "entityId": "Manticore_Character_BP_Hard_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Manticore/Manticore_Character_BP_Hard.Manticore_Character_BP_Hard'"
+  },
+  {
+    "name": "Mantis",
+    "link": "https://ark.wiki.gg/wiki/Mantis",
+    "image": "https://ark.wiki.gg/images/thumb/4/48/Mantis.png/120px-Mantis.png",
+    "category": "Invertebrates",
+    "tag": "Mantis",
+    "entityId": "Mantis_Character_BP_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Mantis/Mantis_Character_BP.Mantis_Character_BP'"
+  },
+  {
+    "name": "Mantis Ghost",
+    "link": "https://ark.wiki.gg/wiki/Mantis_Ghost",
+    "image": "https://ark.wiki.gg/images/thumb/1/11/Mantis_Ghost.png/120px-Mantis_Ghost.png",
+    "category": "Event Creatures",
+    "tag": "Mantis",
+    "entityId": "Ghost_Mantis_Character_BP_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Mantis/Ghost_Mantis_Character_BP.Ghost_Mantis_Character_BP'"
+  },
+  {
+    "name": "Morellatops",
+    "link": "https://ark.wiki.gg/wiki/Morellatops",
+    "image": "https://ark.wiki.gg/images/thumb/5/54/Morellatops.png/120px-Morellatops.png",
+    "category": "Dinosaurs",
+    "tag": "Camelsaurus",
+    "entityId": "camelsaurus_Character_BP_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Camelsaurus/camelsaurus_Character_BP.camelsaurus_Character_BP'"
+  },
+  {
+    "name": "Rock Elemental",
+    "link": "https://ark.wiki.gg/wiki/Rock_Elemental",
+    "image": "https://ark.wiki.gg/images/thumb/f/f0/Rock_Elemental.png/120px-Rock_Elemental.png",
+    "category": "Fantasy Creatures",
+    "tag": "RockElemental",
+    "entityId": "RockGolem_Character_BP_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/RockGolem_Character_BP.RockGolem_Character_BP'"
+  },
+  {
+    "name": "Rubble Golem",
+    "link": "https://ark.wiki.gg/wiki/Rubble_Golem",
+    "image": "https://ark.wiki.gg/images/thumb/f/ff/Rubble_Golem.png/120px-Rubble_Golem.png",
+    "category": "Fantasy Creatures",
+    "tag": "RockElemental",
+    "entityId": "RubbleGolem_Character_BP_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/RubbleGolem_Character_BP.RubbleGolem_Character_BP'"
+  },
+  {
+    "name": "Thorny Dragon",
+    "link": "https://ark.wiki.gg/wiki/Thorny_Dragon",
+    "image": "https://ark.wiki.gg/images/thumb/2/2f/Thorny_Dragon.png/120px-Thorny_Dragon.png",
+    "category": "Reptiles",
+    "tag": "SpineyLizard",
+    "entityId": "SpineyLizard_Character_BP_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/SpineyLizard/SpineyLizard_Character_BP.SpineyLizard_Character_BP'"
+  },
+  {
+    "name": "Vulture",
+    "link": "https://ark.wiki.gg/wiki/Vulture",
+    "image": "https://ark.wiki.gg/images/thumb/0/01/Vulture.png/120px-Vulture.png",
+    "category": "Birds",
+    "tag": "Vulture",
+    "entityId": "Vulture_Character_BP_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Vulture/Vulture_Character_BP.Vulture_Character_BP'"
+  },
+  {
+    "name": "Wyvern",
+    "link": "https://ark.wiki.gg/wiki/Wyvern",
+    "image": "https://ark.wiki.gg/images/thumb/c/c1/Wyvern.png/120px-Wyvern.png",
+    "category": "Fantasy Creatures",
+    "tag": "Wyvern",
+    "entityId": "Wyvern_Character_BP_Base_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Base.Wyvern_Character_BP_Base'"
+  },
+  {
+    "name": "Phoenix",
+    "link": "https://ark.wiki.gg/wiki/Phoenix",
+    "image": "https://ark.wiki.gg/images/thumb/c/c1/Phoenix.png/120px-Phoenix.png",
+    "category": "Fantasy Creatures",
+    "tag": "Phoenix",
+    "entityId": "Phoenix_Character_BP_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Phoenix/Phoenix_Character_BP.Phoenix_Character_BP'"
+  },
+  {
+    "name": "Fire Wyvern",
+    "link": "https://ark.wiki.gg/wiki/Fire_Wyvern",
+    "image": "https://ark.wiki.gg/images/thumb/8/86/Fire_Wyvern.png/120px-Fire_Wyvern.png",
+    "category": "Fantasy Creatures",
+    "tag": "Wyvern",
+    "entityId": "Wyvern_Character_BP_Fire_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Fire.Wyvern_Character_BP_Fire'"
+  },
+  {
+    "name": "Lightning Wyvern",
+    "link": "https://ark.wiki.gg/wiki/Lightning_Wyvern",
+    "image": "https://ark.wiki.gg/images/thumb/7/77/Lightning_Wyvern.png/120px-Lightning_Wyvern.png",
+    "category": "Fantasy Creatures",
+    "tag": "Wyvern",
+    "entityId": "Wyvern_Character_BP_Lightning_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Lightning.Wyvern_Character_BP_Lightning'"
+  },
+  {
+    "name": "Poison Wyvern",
+    "link": "https://ark.wiki.gg/wiki/Poison_Wyvern",
+    "image": "https://ark.wiki.gg/images/thumb/1/19/Poison_Wyvern.png/120px-Poison_Wyvern.png",
+    "category": "Fantasy Creatures",
+    "tag": "Wyvern",
+    "entityId": "Wyvern_Character_BP_Poison_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Poison.Wyvern_Character_BP_Poison'"
+  },
+  {
+    "name": "Bone Fire Wyvern",
+    "link": "https://ark.wiki.gg/wiki/Bone_Fire_Wyvern",
+    "image": "https://ark.wiki.gg/images/thumb/a/a7/Bone_Fire_Wyvern.png/120px-Bone_Fire_Wyvern.png",
+    "category": "Event Creatures",
+    "tag": "Wyvern",
+    "entityId": "Bone_MegaWyvern_Character_BP_Fire_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Bone_MegaWyvern_Character_BP_Fire.Bone_MegaWyvern_Character_BP_Fire'"
+  },
+  {
+    "name": "Zombie Fire Wyvern",
+    "link": "https://ark.wiki.gg/wiki/Zombie_Fire_Wyvern",
+    "image": "https://ark.wiki.gg/images/thumb/9/96/Zombie_Fire_Wyvern.png/120px-Zombie_Fire_Wyvern.png",
+    "category": "Event Creatures",
+    "tag": "Wyvern",
+    "entityId": "Wyvern_Character_BP_ZombieFire_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombieFire.Wyvern_Character_BP_ZombieFire'"
+  },
+  {
+    "name": "Zombie Lightning Wyvern",
+    "link": "https://ark.wiki.gg/wiki/Zombie_Lightning_Wyvern",
+    "image": "https://ark.wiki.gg/images/thumb/0/0b/Zombie_Lightning_Wyvern.png/120px-Zombie_Lightning_Wyvern.png",
+    "category": "Event Creatures",
+    "tag": "Wyvern",
+    "entityId": "Wyvern_Character_BP_ZombieLightning_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombieLightning.Wyvern_Character_BP_ZombieLightning'"
+  },
+  {
+    "name": "Zombie Poison Wyvern",
+    "link": "https://ark.wiki.gg/wiki/Zombie_Poison_Wyvern",
+    "image": "https://ark.wiki.gg/images/thumb/f/f7/Zombie_Poison_Wyvern.png/120px-Zombie_Poison_Wyvern.png",
+    "category": "Event Creatures",
+    "tag": "Wyvern",
+    "entityId": "Wyvern_Character_BP_ZombiePoison_C",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombiePoison.Wyvern_Character_BP_ZombiePoison'"
+  },
+  {
+    "name": "Griffin",
+    "link": "https://ark.wiki.gg/wiki/Griffin",
+    "image": "https://ark.wiki.gg/images/thumb/f/f8/Griffin.png/120px-Griffin.png",
+    "category": "Fantasy Creatures",
+    "tag": "Griffin",
+    "entityId": "Griffin_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Griffin/Griffin_Character_BP.Griffin_Character_BP'"
+  },
+  {
+    "name": "Ice Wyvern",
+    "link": "https://ark.wiki.gg/wiki/Ice_Wyvern",
+    "image": "https://ark.wiki.gg/images/thumb/4/41/Ice_Wyvern.png/120px-Ice_Wyvern.png",
+    "category": "Fantasy Creatures",
+    "tag": "Wyvern",
+    "entityId": "Ragnarok_Wyvern_Override_Ice_C",
+    "blueprint": "Blueprint'/Game/Mods/Ragnarok/Custom_Assets/Dinos/Wyvern/Ice_Wyvern/Ragnarok_Wyvern_Override_Ice.Ragnarok_Wyvern_Override_Ice'"
+  },
+  {
+    "name": "Aberrant Achatina",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Achatina",
+    "image": "https://ark.wiki.gg/images/thumb/f/f5/Aberrant_Achatina.png/120px-Aberrant_Achatina.png",
+    "category": "Invertebrates",
+    "tag": "Achatina",
+    "entityId": "Achatina_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP_Aberrant.Achatina_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Anglerfish",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Anglerfish",
+    "image": "https://ark.wiki.gg/images/thumb/1/1b/Aberrant_Anglerfish.png/120px-Aberrant_Anglerfish.png",
+    "category": "Fish",
+    "tag": "Angler",
+    "entityId": "Angler_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Anglerfish/Angler_Character_BP_Aberrant.Angler_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Ankylosaurus",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Ankylosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/2/28/Aberrant_Ankylosaurus.png/120px-Aberrant_Ankylosaurus.png",
+    "category": "Dinosaurs",
+    "tag": "Anky",
+    "entityId": "Ankylo_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP_Aberrant.Ankylo_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Araneo",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Araneo",
+    "image": "https://ark.wiki.gg/images/thumb/0/08/Aberrant_Araneo.png/120px-Aberrant_Araneo.png",
+    "category": "Invertebrates",
+    "tag": "Spider",
+    "entityId": "SpiderS_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spider-Small/SpiderS_Character_BP_Aberrant.SpiderS_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Arthropluera",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Arthropluera",
+    "image": "https://ark.wiki.gg/images/thumb/8/87/Aberrant_Arthropluera.png/120px-Aberrant_Arthropluera.png",
+    "category": "Invertebrates",
+    "tag": "Arthro",
+    "entityId": "Arthro_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Arthropluera/Arthro_Character_BP_Aberrant.Arthro_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Baryonyx",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Baryonyx",
+    "image": "https://ark.wiki.gg/images/thumb/9/9c/Aberrant_Baryonyx.png/120px-Aberrant_Baryonyx.png",
+    "category": "Dinosaurs",
+    "tag": "Baryonyx",
+    "entityId": "Baryonyx_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Baryonyx/Baryonyx_Character_BP_Aberrant.Baryonyx_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Beelzebufo",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Beelzebufo",
+    "image": "https://ark.wiki.gg/images/thumb/1/1d/Aberrant_Beelzebufo.png/120px-Aberrant_Beelzebufo.png",
+    "category": "Reptiles",
+    "tag": "Toad",
+    "entityId": "Toad_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Toad/Toad_Character_BP_Aberrant.Toad_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Carbonemys",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Carbonemys",
+    "image": "https://ark.wiki.gg/images/thumb/a/a9/Aberrant_Carbonemys.png/120px-Aberrant_Carbonemys.png",
+    "category": "Reptiles",
+    "tag": "Turtle",
+    "entityId": "Turtle_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Turtle/Turtle_Character_BP_Aberrant.Turtle_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Carnotaurus",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Carnotaurus",
+    "image": "https://ark.wiki.gg/images/thumb/7/78/Aberrant_Carnotaurus.png/120px-Aberrant_Carnotaurus.png",
+    "category": "Dinosaurs",
+    "tag": "Carno",
+    "entityId": "Carno_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Carno/Carno_Character_BP_Aberrant.Carno_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Cnidaria",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Cnidaria",
+    "image": "https://ark.wiki.gg/images/thumb/d/dd/Aberrant_Cnidaria.png/120px-Aberrant_Cnidaria.png",
+    "category": "Invertebrates",
+    "tag": "Cnidaria",
+    "entityId": "Cnidaria_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Cnidaria/Cnidaria_Character_BP_Aberrant.Cnidaria_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Coelacanth",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Coelacanth",
+    "image": "https://ark.wiki.gg/images/thumb/e/ef/Abberant_Coelacanth.png/120px-Abberant_Coelacanth.png",
+    "category": "Fish",
+    "tag": "Coel",
+    "entityId": "Coel_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Coelacanth/Coel_Character_BP_Aberrant.Coel_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Dimetrodon",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Dimetrodon",
+    "image": "https://ark.wiki.gg/images/thumb/6/68/Aberrant_Dimetrodon.png/120px-Aberrant_Dimetrodon.png",
+    "category": "Dinosaurs",
+    "tag": "Dimetro",
+    "entityId": "Dimetro_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dimetrodon/Dimetro_Character_BP_Aberrant.Dimetro_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Dimorphodon",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Dimorphodon",
+    "image": "https://ark.wiki.gg/images/thumb/7/74/Aberrant_Dimorphodon.png/120px-Aberrant_Dimorphodon.png",
+    "category": "Dinosaurs",
+    "tag": "Dimorph",
+    "entityId": "Dimorph_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dimorphodon/Dimorph_Character_BP_Aberrant.Dimorph_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Diplocaulus",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Diplocaulus",
+    "image": "https://ark.wiki.gg/images/thumb/6/64/Aberrant_Diplocaulus.png/120px-Aberrant_Diplocaulus.png",
+    "category": "Amphibians",
+    "tag": "Diplocaulus",
+    "entityId": "Diplocaulus_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Diplocaulus/Diplocaulus_Character_BP_Aberrant.Diplocaulus_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Diplodocus",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Diplodocus",
+    "image": "https://ark.wiki.gg/images/thumb/6/64/Aberrant_Diplodocus.png/120px-Aberrant_Diplodocus.png",
+    "category": "Dinosaurs",
+    "tag": "Diplo",
+    "entityId": "Diplodocus_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Diplodocus/Diplodocus_Character_BP_Aberrant.Diplodocus_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Dire Bear",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Dire_Bear",
+    "image": "https://ark.wiki.gg/images/thumb/4/49/Aberrant_Direbear.png/120px-Aberrant_Direbear.png",
+    "category": "Mammals",
+    "tag": "Direbear",
+    "entityId": "Direbear_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Direbear/Direbear_Character_BP_Aberrant.Direbear_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Dodo",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Dodo",
+    "image": "https://ark.wiki.gg/images/thumb/2/2e/Aberrant_Dodo.png/120px-Aberrant_Dodo.png",
+    "category": "Birds",
+    "tag": "Dodo",
+    "entityId": "Dodo_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP_Aberrant.Dodo_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Doedicurus",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Doedicurus",
+    "image": "https://ark.wiki.gg/images/thumb/2/2b/Aberrant_Doedicurus.png/120px-Aberrant_Doedicurus.png",
+    "category": "Dinosaurs",
+    "tag": "Doed",
+    "entityId": "Doed_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Doedicurus/Doed_Character_BP_Aberrant.Doed_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Dung Beetle",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Dung_Beetle",
+    "image": "https://ark.wiki.gg/images/thumb/a/a4/Aberrant_Dung_Beetle.png/120px-Aberrant_Dung_Beetle.png",
+    "category": "Invertebrates",
+    "tag": "Beetle",
+    "entityId": "DungBeetle_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/DungBeetle/DungBeetle_Character_BP_Aberrant.DungBeetle_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Electrophorus",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Electrophorus",
+    "image": "https://ark.wiki.gg/images/thumb/0/08/Aberrant_Electrophorus.png/120px-Aberrant_Electrophorus.png",
+    "category": "Fish",
+    "tag": "Eel",
+    "entityId": "Eel_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Eel/Eel_Character_BP_Aberrant.Eel_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Equus",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Equus",
+    "image": "https://ark.wiki.gg/images/thumb/5/55/Aberrant_Equus.png/120px-Aberrant_Equus.png",
+    "category": "Mammals",
+    "tag": "Equus",
+    "entityId": "Equus_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Equus/Equus_Character_BP_Aberrant.Equus_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Gigantopithecus",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Gigantopithecus",
+    "image": "https://ark.wiki.gg/images/thumb/0/0d/Aberrant_Gigantopithecus.png/120px-Aberrant_Gigantopithecus.png",
+    "category": "Mammals",
+    "tag": "Bigfoot",
+    "entityId": "Bigfoot_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bigfoot/Bigfoot_Character_BP_Aberrant.Bigfoot_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Iguanodon",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Iguanodon",
+    "image": "https://ark.wiki.gg/images/thumb/7/71/Aberrant_Iguanodon.png/120px-Aberrant_Iguanodon.png",
+    "category": "Dinosaurs",
+    "tag": "Iguanodon",
+    "entityId": "Iguanodon_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Iguanodon/Iguanodon_Character_BP_Aberrant.Iguanodon_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Lystrosaurus",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Lystrosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/6/6d/Aberrant_Lystrosaurus.png/120px-Aberrant_Lystrosaurus.png",
+    "category": "Dinosaurs",
+    "tag": "Lystro",
+    "entityId": "Lystro_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Lystrosaurus/Lystro_Character_BP_Aberrant.Lystro_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Manta",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Manta",
+    "image": "https://ark.wiki.gg/images/thumb/5/5a/Aberrant_Manta.png/120px-Aberrant_Manta.png",
+    "category": "Fish",
+    "tag": "Manta",
+    "entityId": "Manta_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Manta/Manta_Character_BP_Aberrant.Manta_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Megalania",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Megalania",
+    "image": "https://ark.wiki.gg/images/thumb/9/91/Aberrant_Megalania.png/120px-Aberrant_Megalania.png",
+    "category": "Reptiles",
+    "tag": "Megalania",
+    "entityId": "Megalania_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalania/Megalania_Character_BP_Aberrant.Megalania_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Megalosaurus",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Megalosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/1/1b/Aberrant_Megalosaurus.png/120px-Aberrant_Megalosaurus.png",
+    "category": "Dinosaurs",
+    "tag": "Megalosaurus",
+    "entityId": "Megalosaurus_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalosaurus/Megalosaurus_Character_BP_Aberrant.Megalosaurus_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Meganeura",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Meganeura",
+    "image": "https://ark.wiki.gg/images/thumb/7/7a/Aberrant_Meganeura.png/120px-Aberrant_Meganeura.png",
+    "category": "Invertebrates",
+    "tag": "Dragonfly",
+    "entityId": "Dragonfly_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dragonfly/Dragonfly_Character_BP_Aberrant.Dragonfly_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Moschops",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Moschops",
+    "image": "https://ark.wiki.gg/images/thumb/6/66/Aberrant_Moschops.png/120px-Aberrant_Moschops.png",
+    "category": "Synapsids",
+    "tag": "Moschops",
+    "entityId": "Moschops_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Moschops/Moschops_Character_BP_Aberrant.Moschops_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Otter",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Otter",
+    "image": "https://ark.wiki.gg/images/thumb/6/62/Aberrant_Otter.png/120px-Aberrant_Otter.png",
+    "category": "Mammals",
+    "tag": "Otter",
+    "entityId": "Otter_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Otter/Otter_Character_BP_Aberrant.Otter_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Ovis",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Ovis",
+    "image": "https://ark.wiki.gg/images/thumb/0/0b/Aberrant_Ovis.png/120px-Aberrant_Ovis.png",
+    "category": "Mammals",
+    "tag": "Sheep",
+    "entityId": "Sheep_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sheep/Sheep_Character_BP_Aberrant.Sheep_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Paraceratherium",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Paraceratherium",
+    "image": "https://ark.wiki.gg/images/thumb/4/41/Aberrant_Paraceratherium.png/120px-Aberrant_Paraceratherium.png",
+    "category": "Mammals",
+    "tag": "Paracer",
+    "entityId": "Paracer_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Paraceratherium/Paracer_Character_BP_Aberrant.Paracer_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Parasaur",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Parasaur",
+    "image": "https://ark.wiki.gg/images/thumb/5/56/Aberrant_Parasaur.png/120px-Aberrant_Parasaur.png",
+    "category": "Dinosaurs",
+    "tag": "Para",
+    "entityId": "Para_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Para/Para_Character_BP_Aberrant.Para_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Piranha",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Piranha",
+    "image": "https://ark.wiki.gg/images/thumb/c/cc/Aberrant_Piranha.png/120px-Aberrant_Piranha.png",
+    "category": "Fish",
+    "tag": "Piranha",
+    "entityId": "Piranha_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Piranha/Piranha_Character_BP_Aberrant.Piranha_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Pulmonoscorpius",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Pulmonoscorpius",
+    "image": "https://ark.wiki.gg/images/thumb/4/49/Aberrant_Pulmonoscorpius.png/120px-Aberrant_Pulmonoscorpius.png",
+    "category": "Invertebrates",
+    "tag": "Scorpion",
+    "entityId": "Scorpion_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Scorpion/Scorpion_Character_BP_Aberrant.Scorpion_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Purlovia",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Purlovia",
+    "image": "https://ark.wiki.gg/images/thumb/5/54/Aberrant_Purlovia.png/120px-Aberrant_Purlovia.png",
+    "category": "Synapsids",
+    "tag": "Purlovia",
+    "entityId": "Purlovia_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Purlovia/Purlovia_Character_BP_Aberrant.Purlovia_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Raptor",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Raptor",
+    "image": "https://ark.wiki.gg/images/thumb/c/cf/Aberrant_Raptor.png/120px-Aberrant_Raptor.png",
+    "category": "Dinosaurs",
+    "tag": "Raptor",
+    "entityId": "Raptor_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/Raptor_Character_BP_Aberrant.Raptor_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Sabertooth Salmon",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Sabertooth_Salmon",
+    "image": "https://ark.wiki.gg/images/thumb/8/80/Aberrant_Sabertooth_Salmon.png/120px-Aberrant_Sabertooth_Salmon.png",
+    "category": "Fish",
+    "tag": "Salmon",
+    "entityId": "Salmon_Character_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Salmon/Salmon_Character_Aberrant.Salmon_Character_Aberrant'"
+  },
+  {
+    "name": "Aberrant Sarco",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Sarco",
+    "image": "https://ark.wiki.gg/images/thumb/0/01/Aberrant_Sarco.png/120px-Aberrant_Sarco.png",
+    "category": "Reptiles",
+    "tag": "Sarco",
+    "entityId": "Sarco_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sarco/Sarco_Character_BP_Aberrant.Sarco_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Spino",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Spino",
+    "image": "https://ark.wiki.gg/images/thumb/0/05/Aberrant_Spinosaur.png/120px-Aberrant_Spinosaur.png",
+    "category": "Dinosaurs",
+    "tag": "Spino",
+    "entityId": "Spino_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spino/Spino_Character_BP_Aberrant.Spino_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Stegosaurus",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Stegosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/d/de/Aberrant_Stegosaurus.png/120px-Aberrant_Stegosaurus.png",
+    "category": "Dinosaurs",
+    "tag": "Stego",
+    "entityId": "Stego_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stego/Stego_Character_BP_Aberrant.Stego_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Titanoboa",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Titanoboa",
+    "image": "https://ark.wiki.gg/images/thumb/9/96/Aberrant_Titanoboa.png/120px-Aberrant_Titanoboa.png",
+    "category": "Reptiles",
+    "tag": "Titanboa",
+    "entityId": "BoaFrill_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/BoaFrill/BoaFrill_Character_BP_Aberrant.BoaFrill_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Triceratops",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Triceratops",
+    "image": "https://ark.wiki.gg/images/thumb/e/e1/Aberrant_Triceratops.png/120px-Aberrant_Triceratops.png",
+    "category": "Dinosaurs",
+    "tag": "Trike",
+    "entityId": "Trike_Character_BP_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trike/Trike_Character_BP_Aberrant.Trike_Character_BP_Aberrant'"
+  },
+  {
+    "name": "Aberrant Trilobite",
+    "link": "https://ark.wiki.gg/wiki/Aberrant_Trilobite",
+    "image": "https://ark.wiki.gg/images/thumb/e/e2/Aberrant_Trilobite.png/120px-Aberrant_Trilobite.png",
+    "category": "Invertebrates",
+    "tag": "Trilobite",
+    "entityId": "Trilobite_Character_Aberrant_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trilobite/Trilobite_Character_Aberrant.Trilobite_Character_Aberrant'"
+  },
+  {
+    "name": "Alpha Basilisk",
+    "link": "https://ark.wiki.gg/wiki/Alpha_Basilisk",
+    "image": "https://ark.wiki.gg/images/thumb/9/97/Alpha_Basilisk.png/120px-Alpha_Basilisk.png",
+    "category": "Alpha Creatures",
+    "tag": "Basilisk",
+    "entityId": "MegaBasilisk_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/Basilisk/MegaBasilisk_Character_BP.MegaBasilisk_Character_BP'"
+  },
+  {
+    "name": "Alpha Karkinos",
+    "link": "https://ark.wiki.gg/wiki/Alpha_Karkinos",
+    "image": "https://ark.wiki.gg/images/thumb/c/c6/Alpha_Karkinos.png/120px-Alpha_Karkinos.png",
+    "category": "Alpha Creatures",
+    "tag": "CaveCrab",
+    "entityId": "MegaCrab_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/Crab/MegaCrab_Character_BP.MegaCrab_Character_BP'"
+  },
+  {
+    "name": "Alpha Surface Reaper King",
+    "link": "https://ark.wiki.gg/wiki/Alpha_Surface_Reaper_King",
+    "image": "https://ark.wiki.gg/images/thumb/a/ad/Alpha_Reaper_King.png/120px-Alpha_Reaper_King.png",
+    "category": "Alpha Creatures",
+    "tag": "Xenomorph",
+    "entityId": "MegaXenomorph_Character_BP_Male_Surface_C",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/MegaXenomorph_Character_BP_Male_Surface.MegaXenomorph_Character_BP_Male_Surface'"
+  },
+  {
+    "name": "Basilisk",
+    "link": "https://ark.wiki.gg/wiki/Basilisk",
+    "image": "https://ark.wiki.gg/images/thumb/b/b1/Basilisk.png/120px-Basilisk.png",
+    "category": "Fantasy Creatures",
+    "tag": "Basilisk",
+    "entityId": "Basilisk_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/Basilisk/Basilisk_Character_BP.Basilisk_Character_BP'"
+  },
+  {
+    "name": "Basilisk Ghost",
+    "link": "https://ark.wiki.gg/wiki/Basilisk_Ghost",
+    "image": "https://ark.wiki.gg/images/thumb/1/1c/Basilisk_Ghost.png/120px-Basilisk_Ghost.png",
+    "category": "Event Creatures",
+    "tag": "Basilisk",
+    "entityId": "Ghost_Basilisk_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/Basilisk/Ghost_Basilisk_Character_BP.Ghost_Basilisk_Character_BP'"
+  },
+  {
+    "name": "Bulbdog",
+    "link": "https://ark.wiki.gg/wiki/Bulbdog",
+    "image": "https://ark.wiki.gg/images/thumb/1/1c/Bulbdog.png/120px-Bulbdog.png",
+    "category": "Fantasy Creatures",
+    "tag": "Pug",
+    "entityId": "LanternPug_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/LanternPug/LanternPug_Character_BP.LanternPug_Character_BP'"
+  },
+  {
+    "name": "Bulbdog Ghost",
+    "link": "https://ark.wiki.gg/wiki/Bulbdog_Ghost",
+    "image": "https://ark.wiki.gg/images/thumb/b/b1/Bulbdog_Ghost.png/120px-Bulbdog_Ghost.png",
+    "category": "Event Creatures",
+    "tag": "Pug",
+    "entityId": "Ghost_LanternPug_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/LanternPug/Ghost_LanternPug_Character_BP.Ghost_LanternPug_Character_BP'"
+  },
+  {
+    "name": "Featherlight",
+    "link": "https://ark.wiki.gg/wiki/Featherlight",
+    "image": "https://ark.wiki.gg/images/thumb/c/c9/Featherlight.png/120px-Featherlight.png",
+    "category": "Fantasy Creatures",
+    "tag": "Bird",
+    "entityId": "LanternBird_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/LanternBird/LanternBird_Character_BP.LanternBird_Character_BP'"
+  },
+  {
+    "name": "Glowbug",
+    "link": "https://ark.wiki.gg/wiki/Glowbug",
+    "image": "https://ark.wiki.gg/images/thumb/b/b3/Glowbug.png/120px-Glowbug.png",
+    "category": "Fantasy Creatures",
+    "tag": "Lightbug",
+    "entityId": "Lightbug_Character_BaseBP_C",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/Lightbug/Lightbug_Character_BaseBP.Lightbug_Character_BaseBP'"
+  },
+  {
+    "name": "Glowtail",
+    "link": "https://ark.wiki.gg/wiki/Glowtail",
+    "image": "https://ark.wiki.gg/images/thumb/c/c6/Glowtail.png/120px-Glowtail.png",
+    "category": "Fantasy Creatures",
+    "tag": "Lizard",
+    "entityId": "LanternLizard_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/LanternLizard/LanternLizard_Character_BP.LanternLizard_Character_BP'"
+  },
+  {
+    "name": "Karkinos",
+    "link": "https://ark.wiki.gg/wiki/Karkinos",
+    "image": "https://ark.wiki.gg/images/thumb/4/40/Karkinos.png/120px-Karkinos.png",
+    "category": "Fantasy Creatures",
+    "tag": "CaveCrab",
+    "entityId": "Crab_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/Crab/Crab_Character_BP.Crab_Character_BP'"
+  },
+  {
+    "name": "Lamprey",
+    "link": "https://ark.wiki.gg/wiki/Lamprey",
+    "image": "https://ark.wiki.gg/images/thumb/2/2c/Lamprey.png/120px-Lamprey.png",
+    "category": "Fish",
+    "tag": "Lamprey",
+    "entityId": "Lamprey_Character_C",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/Lamprey/Lamprey_Character.Lamprey_Character'"
+  },
+  {
+    "name": "Nameless",
+    "link": "https://ark.wiki.gg/wiki/Nameless",
+    "image": "https://ark.wiki.gg/images/thumb/6/66/Nameless.png/120px-Nameless.png",
+    "category": "Fantasy Creatures",
+    "tag": "Chupacabra",
+    "entityId": "ChupaCabra_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/ChupaCabra/ChupaCabra_Character_BP.ChupaCabra_Character_BP'"
+  },
+  {
+    "name": "Ravager",
+    "link": "https://ark.wiki.gg/wiki/Ravager",
+    "image": "https://ark.wiki.gg/images/thumb/c/ca/Ravager.png/120px-Ravager.png",
+    "category": "Fantasy Creatures",
+    "tag": "CaveWolf",
+    "entityId": "CaveWolf_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/CaveWolf/CaveWolf_Character_BP.CaveWolf_Character_BP'"
+  },
+  {
+    "name": "Reaper King",
+    "link": "https://ark.wiki.gg/wiki/Reaper_King",
+    "image": "https://ark.wiki.gg/images/thumb/5/5e/Reaper_King.png/120px-Reaper_King.png",
+    "category": "Fantasy Creatures",
+    "tag": "Xenomorph",
+    "entityId": "Xenomorph_Character_BP_Male_C",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/Xenomorph_Character_BP_Male.Xenomorph_Character_BP_Male'"
+  },
+  {
+    "name": "Reaper King (Tamed)",
+    "link": "https://ark.wiki.gg/wiki/Reaper_King_(Tamed)",
+    "image": "https://ark.wiki.gg/images/thumb/6/6a/Reaper.png/120px-Reaper.png",
+    "category": "Fantasy Creatures",
+    "tag": "Xenomorph",
+    "entityId": "Xenomorph_Character_BP_Male_Tamed_C",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/Xenomorph_Character_BP_Male_Tamed.Xenomorph_Character_BP_Male_Tamed'"
+  },
+  {
+    "name": "Reaper Queen",
+    "link": "https://ark.wiki.gg/wiki/Reaper_Queen",
+    "image": "https://ark.wiki.gg/images/thumb/3/37/Reaper_Queen.png/120px-Reaper_Queen.png",
+    "category": "Fantasy Creatures",
+    "tag": "Xenomorph",
+    "entityId": "Xenomorph_Character_BP_Female_C",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/Xenomorph_Character_BP_Female.Xenomorph_Character_BP_Female'"
+  },
+  {
+    "name": "Rock Drake",
+    "link": "https://ark.wiki.gg/wiki/Rock_Drake",
+    "image": "https://ark.wiki.gg/images/thumb/e/e5/Rock_Drake.png/120px-Rock_Drake.png",
+    "category": "Fantasy Creatures",
+    "tag": "RockDrake",
+    "entityId": "RockDrake_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/RockDrake/RockDrake_Character_BP.RockDrake_Character_BP'"
+  },
+  {
+    "name": "Rockwell",
+    "link": "https://ark.wiki.gg/wiki/Rockwell",
+    "image": "https://ark.wiki.gg/images/thumb/b/b0/Rockwell.png/120px-Rockwell.png",
+    "category": "Fantasy Creatures",
+    "tag": "Rockwell",
+    "entityId": "Rockwell_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Aberration/Boss/Rockwell/Rockwell_Character_BP.Rockwell_Character_BP'"
+  },
+  {
+    "name": "Rockwell (Alpha)",
+    "link": "https://ark.wiki.gg/wiki/Rockwell_(Alpha)",
+    "image": "https://ark.wiki.gg/images/thumb/6/6d/Rockwell_%28Alpha%29.png/120px-Rockwell_%28Alpha%29.png",
+    "category": "Fantasy Creatures",
+    "tag": "Rockwell",
+    "entityId": "Rockwell_Character_BP_Hard_C",
+    "blueprint": "Blueprint'/Game/Aberration/Boss/Rockwell/Rockwell_Character_BP_Hard.Rockwell_Character_BP_Hard'"
+  },
+  {
+    "name": "Rockwell (Beta)",
+    "link": "https://ark.wiki.gg/wiki/Rockwell_(Beta)",
+    "image": "https://ark.wiki.gg/images/thumb/7/76/Rockwell_%28Beta%29.png/120px-Rockwell_%28Beta%29.png",
+    "category": "Fantasy Creatures",
+    "tag": "Rockwell",
+    "entityId": "Rockwell_Character_BP_Medium_C",
+    "blueprint": "Blueprint'/Game/Aberration/Boss/Rockwell/Rockwell_Character_BP_Medium.Rockwell_Character_BP_Medium'"
+  },
+  {
+    "name": "Rockwell (Gamma)",
+    "link": "https://ark.wiki.gg/wiki/Rockwell_(Gamma)",
+    "image": "https://ark.wiki.gg/images/thumb/2/2c/Rockwell_%28Gamma%29.png/120px-Rockwell_%28Gamma%29.png",
+    "category": "Fantasy Creatures",
+    "tag": "Rockwell",
+    "entityId": "Rockwell_Character_BP_Easy_C",
+    "blueprint": "Blueprint'/Game/Aberration/Boss/Rockwell/Rockwell_Character_BP_Easy.Rockwell_Character_BP_Easy'"
+  },
+  {
+    "name": "Rockwell Tentacle",
+    "link": "https://ark.wiki.gg/wiki/Rockwell_Tentacle",
+    "image": "https://ark.wiki.gg/images/thumb/7/75/Missing.png/120px-Missing.png",
+    "category": "Fantasy Creatures",
+    "tag": "RockwellTentacle",
+    "entityId": "RockwellTentacle_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Aberration/Boss/RockwellTentacle/RockwellTentacle_Character_BP.RockwellTentacle_Character_BP'"
+  },
+  {
+    "name": "Rockwell Tentacle (Alpha)",
+    "link": "https://ark.wiki.gg/wiki/Rockwell_Tentacle_(Alpha)",
+    "image": "https://ark.wiki.gg/images/thumb/7/75/Missing.png/120px-Missing.png",
+    "category": "Fantasy Creatures",
+    "tag": "RockwellTentacle",
+    "entityId": "RockwellTentacle_Character_BP_Alpha_C",
+    "blueprint": "Blueprint'/Game/Aberration/Boss/RockwellTentacle/RockwellTentacle_Character_BP_Alpha.RockwellTentacle_Character_BP_Alpha'"
+  },
+  {
+    "name": "Rockwell Tentacle (Beta)",
+    "link": "https://ark.wiki.gg/wiki/Rockwell_Tentacle_(Beta)",
+    "image": "https://ark.wiki.gg/images/thumb/7/75/Missing.png/120px-Missing.png",
+    "category": "Fantasy Creatures",
+    "tag": "RockwellTentacle",
+    "entityId": "RockwellTentacle_Character_BP_Beta_C",
+    "blueprint": "Blueprint'/Game/Aberration/Boss/RockwellTentacle/RockwellTentacle_Character_BP_Beta.RockwellTentacle_Character_BP_Beta'"
+  },
+  {
+    "name": "Rockwell Tentacle (Gamma)",
+    "link": "https://ark.wiki.gg/wiki/Rockwell_Tentacle_(Gamma)",
+    "image": "https://ark.wiki.gg/images/thumb/7/75/Missing.png/120px-Missing.png",
+    "category": "Fantasy Creatures",
+    "tag": "RockwellTentacle",
+    "entityId": "RockwellTentacle_Character_BP_Gamma_C",
+    "blueprint": "Blueprint'/Game/Aberration/Boss/RockwellTentacle/RockwellTentacle_Character_BP_Gamma.RockwellTentacle_Character_BP_Gamma'"
+  },
+  {
+    "name": "Roll Rat",
+    "link": "https://ark.wiki.gg/wiki/Roll_Rat",
+    "image": "https://ark.wiki.gg/images/thumb/d/d9/Roll_Rat.png/120px-Roll_Rat.png",
+    "category": "Fantasy Creatures",
+    "tag": "MoleRat",
+    "entityId": "MoleRat_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/MoleRat/MoleRat_Character_BP.MoleRat_Character_BP'"
+  },
+  {
+    "name": "Seeker",
+    "link": "https://ark.wiki.gg/wiki/Seeker",
+    "image": "https://ark.wiki.gg/images/thumb/5/54/Seeker.png/120px-Seeker.png",
+    "category": "Fantasy Creatures",
+    "tag": "Seeker",
+    "entityId": "Pteroteuthis_Char_BP_C",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP'"
+  },
+  {
+    "name": "Shinehorn",
+    "link": "https://ark.wiki.gg/wiki/Shinehorn",
+    "image": "https://ark.wiki.gg/images/thumb/2/21/Shinehorn.png/120px-Shinehorn.png",
+    "category": "Fantasy Creatures",
+    "tag": "Goat",
+    "entityId": "LanternGoat_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/LanternGoat/LanternGoat_Character_BP.LanternGoat_Character_BP'"
+  },
+  {
+    "name": "Surface Reaper King Ghost",
+    "link": "https://ark.wiki.gg/wiki/Surface_Reaper_King_Ghost",
+    "image": "https://ark.wiki.gg/images/thumb/b/b5/Surface_Reaper_King_Ghost.png/120px-Surface_Reaper_King_Ghost.png",
+    "category": "Event Creatures",
+    "tag": "Xenomorph",
+    "entityId": "Ghost_Xenomorph_Character_BP_Male_Surface_C",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/Ghost_Xenomorph_Character_BP_Male_Surface.Ghost_Xenomorph_Character_BP_Male_Surface'"
+  },
+  {
+    "name": "Alpha King Titan",
+    "link": "https://ark.wiki.gg/wiki/Alpha_King_Titan",
+    "image": "https://ark.wiki.gg/images/thumb/4/47/Alpha_King_Titan.png/120px-Alpha_King_Titan.png",
+    "category": "Fantasy Creatures",
+    "tag": "KingTitanAlpha",
+    "entityId": "KingKaiju_Character_BP_Alpha_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/KingKaiju/KingKaiju_Character_BP_Alpha.KingKaiju_Character_BP_Alpha'"
+  },
+  {
+    "name": "Beta King Titan",
+    "link": "https://ark.wiki.gg/wiki/Beta_King_Titan",
+    "image": "https://ark.wiki.gg/images/thumb/c/c5/Beta_King_Titan.png/120px-Beta_King_Titan.png",
+    "category": "Fantasy Creatures",
+    "tag": "Titan",
+    "entityId": "KingKaiju_Character_BP_Beta_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/KingKaiju/KingKaiju_Character_BP_Beta.KingKaiju_Character_BP_Beta'"
+  },
+  {
+    "name": "Corrupted Arthropluera",
+    "link": "https://ark.wiki.gg/wiki/Corrupted_Arthropluera",
+    "image": "https://ark.wiki.gg/images/thumb/0/05/Corrupted_Arthropluera.png/120px-Corrupted_Arthropluera.png",
+    "category": "Invertebrates",
+    "tag": "Corrupt",
+    "entityId": "Arthro_Character_BP_Corrupt_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Corrupt/Arthropluera/Arthro_Character_BP_Corrupt.Arthro_Character_BP_Corrupt'"
+  },
+  {
+    "name": "Corrupted Carnotaurus",
+    "link": "https://ark.wiki.gg/wiki/Corrupted_Carnotaurus",
+    "image": "https://ark.wiki.gg/images/thumb/a/a2/Corrupted_Carnotaurus.png/120px-Corrupted_Carnotaurus.png",
+    "category": "Dinosaurs",
+    "tag": "Corrupt",
+    "entityId": "Carno_Character_BP_Corrupt_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Corrupt/Carno/Carno_Character_BP_Corrupt.Carno_Character_BP_Corrupt'"
+  },
+  {
+    "name": "Corrupted Chalicotherium",
+    "link": "https://ark.wiki.gg/wiki/Corrupted_Chalicotherium",
+    "image": "https://ark.wiki.gg/images/thumb/9/90/Corrupted_Chalicotherium.png/120px-Corrupted_Chalicotherium.png",
+    "category": "Mammals",
+    "tag": "Chalico",
+    "entityId": "Chalico_Character_BP_Corrupt_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Corrupt/Chalicotherium/Chalico_Character_BP_Corrupt.Chalico_Character_BP_Corrupt'"
+  },
+  {
+    "name": "Corrupted Dilophosaur",
+    "link": "https://ark.wiki.gg/wiki/Corrupted_Dilophosaur",
+    "image": "https://ark.wiki.gg/images/thumb/1/11/Corrupted_Dilophosaur.png/120px-Corrupted_Dilophosaur.png",
+    "category": "Dinosaurs",
+    "tag": "Corrupt",
+    "entityId": "Dilo_Character_BP_Corrupt_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Corrupt/Dilo/Dilo_Character_BP_Corrupt.Dilo_Character_BP_Corrupt'"
+  },
+  {
+    "name": "Corrupted Dimorphodon",
+    "link": "https://ark.wiki.gg/wiki/Corrupted_Dimorphodon",
+    "image": "https://ark.wiki.gg/images/thumb/2/22/Corrupted_Dimorphodon.png/120px-Corrupted_Dimorphodon.png",
+    "category": "Dinosaurs",
+    "tag": "Corrupt",
+    "entityId": "Dimorph_Character_BP_Corrupt_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Corrupt/Dimorphodon/Dimorph_Character_BP_Corrupt.Dimorph_Character_BP_Corrupt'"
+  },
+  {
+    "name": "Corrupted Giganotosaurus",
+    "link": "https://ark.wiki.gg/wiki/Corrupted_Giganotosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/f/f9/Corrupted_Giganotosaurus.png/120px-Corrupted_Giganotosaurus.png",
+    "category": "Dinosaurs",
+    "tag": "Corrupt",
+    "entityId": "Gigant_Character_BP_Corrupt_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Corrupt/Giganotosaurus/Gigant_Character_BP_Corrupt.Gigant_Character_BP_Corrupt'"
+  },
+  {
+    "name": "Corrupted Paraceratherium",
+    "link": "https://ark.wiki.gg/wiki/Corrupted_Paraceratherium",
+    "image": "https://ark.wiki.gg/images/thumb/3/3f/Corrupted_Paraceratherium.png/120px-Corrupted_Paraceratherium.png",
+    "category": "Mammals",
+    "tag": "Paracer",
+    "entityId": "Paracer_Character_BP_Corrupt_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Corrupt/Paraceratherium/Paracer_Character_BP_Corrupt.Paracer_Character_BP_Corrupt'"
+  },
+  {
+    "name": "Corrupted Pteranodon",
+    "link": "https://ark.wiki.gg/wiki/Corrupted_Pteranodon",
+    "image": "https://ark.wiki.gg/images/thumb/1/19/Corrupted_Pteranodon.png/120px-Corrupted_Pteranodon.png",
+    "category": "Dinosaurs",
+    "tag": "Corrupt",
+    "entityId": "Ptero_Character_BP_Corrupt_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Corrupt/Ptero/Ptero_Character_BP_Corrupt.Ptero_Character_BP_Corrupt'"
+  },
+  {
+    "name": "Corrupted Raptor",
+    "link": "https://ark.wiki.gg/wiki/Corrupted_Raptor",
+    "image": "https://ark.wiki.gg/images/thumb/0/0b/Corrupted_Raptor.png/120px-Corrupted_Raptor.png",
+    "category": "Dinosaurs",
+    "tag": "Corrupt",
+    "entityId": "Raptor_Character_BP_Corrupt_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Corrupt/Raptor/Raptor_Character_BP_Corrupt.Raptor_Character_BP_Corrupt'"
+  },
+  {
+    "name": "Corrupted Reaper King",
+    "link": "https://ark.wiki.gg/wiki/Corrupted_Reaper_King",
+    "image": "https://ark.wiki.gg/images/thumb/4/4e/Corrupted_Reaper_King.png/120px-Corrupted_Reaper_King.png",
+    "category": "Fantasy Creatures",
+    "tag": "Corrupt",
+    "entityId": "Xenomorph_Character_BP_Male_Tamed_Corrupt_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Corrupt/Nameless/Xenomorph_Character_BP_Male_Tamed_Corrupt.Xenomorph_Character_BP_Male_Tamed_Corrupt'"
+  },
+  {
+    "name": "Corrupted Rex",
+    "link": "https://ark.wiki.gg/wiki/Corrupted_Rex",
+    "image": "https://ark.wiki.gg/images/thumb/5/50/Corrupted_Rex.png/120px-Corrupted_Rex.png",
+    "category": "Dinosaurs",
+    "tag": "Corrupt",
+    "entityId": "Rex_Character_BP_Corrupt_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Corrupt/Rex/Rex_Character_BP_Corrupt.Rex_Character_BP_Corrupt'"
+  },
+  {
+    "name": "Corrupted Rock Drake",
+    "link": "https://ark.wiki.gg/wiki/Corrupted_Rock_Drake",
+    "image": "https://ark.wiki.gg/images/thumb/b/b5/Corrupted_Rock_Drake.png/120px-Corrupted_Rock_Drake.png",
+    "category": "Fantasy Creatures",
+    "tag": "Corrupt",
+    "entityId": "RockDrake_Character_BP_Corrupt_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Corrupt/RockDrake/RockDrake_Character_BP_Corrupt.RockDrake_Character_BP_Corrupt'"
+  },
+  {
+    "name": "Corrupted Spino",
+    "link": "https://ark.wiki.gg/wiki/Corrupted_Spino",
+    "image": "https://ark.wiki.gg/images/thumb/2/2e/Corrupted_Spino.png/120px-Corrupted_Spino.png",
+    "category": "Dinosaurs",
+    "tag": "Corrupt",
+    "entityId": "Spino_Character_BP_Corrupt_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Corrupt/Spino/Spino_Character_BP_Corrupt.Spino_Character_BP_Corrupt'"
+  },
+  {
+    "name": "Corrupted Stegosaurus",
+    "link": "https://ark.wiki.gg/wiki/Corrupted_Stegosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/a/a2/Corrupted_Stegosaurus.png/120px-Corrupted_Stegosaurus.png",
+    "category": "Dinosaurs",
+    "tag": "Corrupt",
+    "entityId": "Stego_Character_BP_Corrupt_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Corrupt/Stego/Stego_Character_BP_Corrupt.Stego_Character_BP_Corrupt'"
+  },
+  {
+    "name": "Corrupted Triceratops",
+    "link": "https://ark.wiki.gg/wiki/Corrupted_Triceratops",
+    "image": "https://ark.wiki.gg/images/thumb/5/56/Corrupted_Triceratops.png/120px-Corrupted_Triceratops.png",
+    "category": "Dinosaurs",
+    "tag": "Trike",
+    "entityId": "Trike_Character_BP_Corrupt_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Corrupt/Trike/Trike_Character_BP_Corrupt.Trike_Character_BP_Corrupt'"
+  },
+  {
+    "name": "Corrupted Wyvern",
+    "link": "https://ark.wiki.gg/wiki/Corrupted_Wyvern",
+    "image": "https://ark.wiki.gg/images/thumb/2/2c/Corrupted_Wyvern.png/120px-Corrupted_Wyvern.png",
+    "category": "Fantasy Creatures",
+    "tag": "Wyvern",
+    "entityId": "Wyvern_Character_BP_Fire_Corrupt_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Corrupt/Wyvern/Wyvern_Character_BP_Fire_Corrupt.Wyvern_Character_BP_Fire_Corrupt'"
+  },
+  {
+    "name": "Defense Unit",
+    "link": "https://ark.wiki.gg/wiki/Defense_Unit",
+    "image": "https://ark.wiki.gg/images/thumb/7/78/Defense_Unit.png/120px-Defense_Unit.png",
+    "category": "Fantasy Creatures",
+    "tag": "EndTank",
+    "entityId": "Defender_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Tank/Defender_Character_BP.Defender_Character_BP'"
+  },
+  {
+    "name": "Desert Titan",
+    "link": "https://ark.wiki.gg/wiki/Desert_Titan",
+    "image": "https://ark.wiki.gg/images/thumb/4/49/Desert_Titan.png/120px-Desert_Titan.png",
+    "category": "Fantasy Creatures",
+    "tag": "DesertTitan",
+    "entityId": "DesertKaiju_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/DesertKaiju/DesertKaiju_Character_BP.DesertKaiju_Character_BP'"
+  },
+  {
+    "name": "Desert Titan Flock",
+    "link": "https://ark.wiki.gg/wiki/Desert_Titan_Flock",
+    "image": "https://ark.wiki.gg/images/thumb/5/5d/Desert_Titan_Flock.png/120px-Desert_Titan_Flock.png",
+    "category": "Fantasy Creatures",
+    "tag": "Flock",
+    "entityId": "DesertKaiju_FirstFlockChar_BP_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/DesertKaiju/DesertKaiju_FirstFlockChar_BP.DesertKaiju_FirstFlockChar_BP'"
+  },
+  {
+    "name": "Enforcer",
+    "link": "https://ark.wiki.gg/wiki/Enforcer",
+    "image": "https://ark.wiki.gg/images/thumb/e/e4/Enforcer.png/120px-Enforcer.png",
+    "category": "Fantasy Creatures",
+    "tag": "Enforcer",
+    "entityId": "Enforcer_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Enforcer/Enforcer_Character_BP.Enforcer_Character_BP'"
+  },
+  {
+    "name": "Enraged Corrupted Rex",
+    "link": "https://ark.wiki.gg/wiki/Enraged_Corrupted_Rex",
+    "image": "https://ark.wiki.gg/images/thumb/e/e6/Enraged_Corrupted_Rex.png/120px-Enraged_Corrupted_Rex.png",
+    "category": "Dinosaurs",
+    "tag": "Corrupt",
+    "entityId": "MegaRex_Character_BP_Corrupt_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Corrupt/Rex/MegaRex_Character_BP_Corrupt.MegaRex_Character_BP_Corrupt'"
+  },
+  {
+    "name": "Enraged Triceratops",
+    "link": "https://ark.wiki.gg/wiki/Enraged_Triceratops",
+    "image": "https://ark.wiki.gg/images/thumb/5/51/Enraged_Triceratops.png/120px-Enraged_Triceratops.png",
+    "category": "Dinosaurs",
+    "tag": "Trike",
+    "entityId": "MegaTrike_Character_BP_Corrupt_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Corrupt/Trike/MegaTrike_Character_BP_Corrupt.MegaTrike_Character_BP_Corrupt'"
+  },
+  {
+    "name": "Forest Titan",
+    "link": "https://ark.wiki.gg/wiki/Forest_Titan",
+    "image": "https://ark.wiki.gg/images/thumb/2/28/Forest_Titan.png/120px-Forest_Titan.png",
+    "category": "Fantasy Creatures",
+    "tag": "ForestTitan",
+    "entityId": "ForestKaiju_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/ForestKaiju/ForestKaiju_Character_BP.ForestKaiju_Character_BP'"
+  },
+  {
+    "name": "Forest Wyvern",
+    "link": "https://ark.wiki.gg/wiki/Forest_Wyvern",
+    "image": "https://ark.wiki.gg/images/thumb/f/fd/Forest_Wyvern.png/120px-Forest_Wyvern.png",
+    "category": "Fantasy Creatures",
+    "tag": "Wyvern",
+    "entityId": "Wyvern_Character_BP_Fire_Minion_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/ForestKaiju/Minion/Wyvern_Character_BP_Fire_Minion.Wyvern_Character_BP_Fire_Minion'"
+  },
+  {
+    "name": "Gacha",
+    "link": "https://ark.wiki.gg/wiki/Gacha",
+    "image": "https://ark.wiki.gg/images/thumb/7/79/Gacha.png/120px-Gacha.png",
+    "category": "Fantasy Creatures",
+    "tag": "Gacha",
+    "entityId": "Gacha_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Gacha/Gacha_Character_BP.Gacha_Character_BP'"
+  },
+  {
+    "name": "GachaClaus",
+    "link": "https://ark.wiki.gg/wiki/GachaClaus",
+    "image": "https://ark.wiki.gg/images/thumb/8/86/GachaClaus.png/120px-GachaClaus.png",
+    "category": "Fantasy Creatures",
+    "tag": "Gacha",
+    "entityId": "Gacha_Claus_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Gacha/Gacha_Claus_Character_BP.Gacha_Claus_Character_BP'"
+  },
+  {
+    "name": "Gamma King Titan",
+    "link": "https://ark.wiki.gg/wiki/Gamma_King_Titan",
+    "image": "https://ark.wiki.gg/images/thumb/c/c1/Gamma_King_Titan.png/120px-Gamma_King_Titan.png",
+    "category": "Fantasy Creatures",
+    "tag": "Titan",
+    "entityId": "KingKaiju_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/KingKaiju/KingKaiju_Character_BP.KingKaiju_Character_BP'"
+  },
+  {
+    "name": "Gasbags",
+    "link": "https://ark.wiki.gg/wiki/Gasbags",
+    "image": "https://ark.wiki.gg/images/thumb/3/37/Gasbags.png/120px-Gasbags.png",
+    "category": "Fantasy Creatures",
+    "tag": "GasBags",
+    "entityId": "GasBags_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/GasBag/GasBags_Character_BP.GasBags_Character_BP'"
+  },
+  {
+    "name": "Ice Titan",
+    "link": "https://ark.wiki.gg/wiki/Ice_Titan",
+    "image": "https://ark.wiki.gg/images/thumb/d/dc/Ice_Titan.png/120px-Ice_Titan.png",
+    "category": "Fantasy Creatures",
+    "tag": "IceTitan",
+    "entityId": "IceKaiju_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/IceKaiju/IceKaiju_Character_BP.IceKaiju_Character_BP'"
+  },
+  {
+    "name": "Managarmr",
+    "link": "https://ark.wiki.gg/wiki/Managarmr",
+    "image": "https://ark.wiki.gg/images/thumb/e/e7/Managarmr.png/120px-Managarmr.png",
+    "category": "Fantasy Creatures",
+    "tag": "Managarmr",
+    "entityId": "IceJumper_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/IceJumper/IceJumper_Character_BP.IceJumper_Character_BP'"
+  },
+  {
+    "name": "Mega Mek",
+    "link": "https://ark.wiki.gg/wiki/Mega_Mek",
+    "image": "https://ark.wiki.gg/images/thumb/1/1e/Mega_Mek.png/120px-Mega_Mek.png",
+    "category": "Fantasy Creatures",
+    "tag": "MegaMek",
+    "entityId": "MegaMek_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Mek/MegaMek_Character_BP.MegaMek_Character_BP'"
+  },
+  {
+    "name": "Mek",
+    "link": "https://ark.wiki.gg/wiki/Mek",
+    "image": "https://ark.wiki.gg/images/thumb/7/74/Mek.png/120px-Mek.png",
+    "category": "Fantasy Creatures",
+    "tag": "Mek",
+    "entityId": "Mek_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Mek/Mek_Character_BP.Mek_Character_BP'"
+  },
+  {
+    "name": "Scout",
+    "link": "https://ark.wiki.gg/wiki/Scout",
+    "image": "https://ark.wiki.gg/images/thumb/6/69/Scout.png/120px-Scout.png",
+    "category": "Fantasy Creatures",
+    "tag": "Scout",
+    "entityId": "Scout_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Scout/Scout_Character_BP.Scout_Character_BP'"
+  },
+  {
+    "name": "Snow Owl",
+    "link": "https://ark.wiki.gg/wiki/Snow_Owl",
+    "image": "https://ark.wiki.gg/images/thumb/4/4b/Snow_Owl.png/120px-Snow_Owl.png",
+    "category": "Birds",
+    "tag": "Owl",
+    "entityId": "Owl_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Owl/Owl_Character_BP.Owl_Character_BP'"
+  },
+  {
+    "name": "Snow Owl Ghost",
+    "link": "https://ark.wiki.gg/wiki/Snow_Owl_Ghost",
+    "image": "https://ark.wiki.gg/images/thumb/3/32/Snow_Owl_Ghost.png/120px-Snow_Owl_Ghost.png",
+    "category": "Event Creatures",
+    "tag": "Owl",
+    "entityId": "Ghost_Owl_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Owl/Ghost_Owl_Character_BP.Ghost_Owl_Character_BP'"
+  },
+  {
+    "name": "Velonasaur",
+    "link": "https://ark.wiki.gg/wiki/Velonasaur",
+    "image": "https://ark.wiki.gg/images/thumb/0/00/Velonasaur.png/120px-Velonasaur.png",
+    "category": "Fantasy Creatures",
+    "tag": "Velonasaur",
+    "entityId": "Spindles_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Spindles/Spindles_Character_BP.Spindles_Character_BP'"
+  },
+  {
+    "name": "Chalk Golem",
+    "link": "https://ark.wiki.gg/wiki/Chalk_Golem",
+    "image": "https://ark.wiki.gg/images/thumb/6/6a/Chalk_Golem.png/120px-Chalk_Golem.png",
+    "category": "Fantasy Creatures",
+    "tag": "RockElemental",
+    "entityId": "ChalkGolem_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Mods/Valguero/Assets/Dinos/RockGolem/ChalkGolem/ChalkGolem_Character_BP.ChalkGolem_Character_BP'"
+  },
+  {
+    "name": "Deinonychus",
+    "link": "https://ark.wiki.gg/wiki/Deinonychus",
+    "image": "https://ark.wiki.gg/images/thumb/4/4e/Deinonychus.png/120px-Deinonychus.png",
+    "category": "Dinosaurs",
+    "tag": "Deinonychus",
+    "entityId": "Deinonychus_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/Uberraptor/Deinonychus_Character_BP.Deinonychus_Character_BP'"
+  },
+  {
+    "name": "Ice Golem",
+    "link": "https://ark.wiki.gg/wiki/Ice_Golem",
+    "image": "https://ark.wiki.gg/images/thumb/8/8a/Ice_Golem.png/120px-Ice_Golem.png",
+    "category": "Fantasy Creatures",
+    "tag": "RockElemental",
+    "entityId": "IceGolem_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/IceGolem/IceGolem_Character_BP.IceGolem_Character_BP'"
+  },
+  {
+    "name": "Alpha Corrupted Master Controller",
+    "link": "https://ark.wiki.gg/wiki/Alpha_Corrupted_Master_Controller",
+    "image": "https://ark.wiki.gg/images/thumb/7/79/Alpha_Corrupted_Master_Controller.png/120px-Alpha_Corrupted_Master_Controller.png",
+    "category": "Bosses",
+    "tag": null,
+    "entityId": "VRMainBoss_Character_Hard_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/VRMainBoss/VRMainBoss_Character_Hard.VRMainBoss_Character_Hard'"
+  },
+  {
+    "name": "Alpha Moeder, Master of the Ocean",
+    "link": "https://ark.wiki.gg/wiki/Alpha_Moeder,_Master_of_the_Ocean",
+    "image": "https://ark.wiki.gg/images/thumb/7/71/Alpha_Moeder%2C_Master_of_the_Ocean.png/120px-Alpha_Moeder%2C_Master_of_the_Ocean.png",
+    "category": "Bosses",
+    "tag": "EelBoss",
+    "entityId": "EelBoss_Character_BP_Hard_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/EelBoss/EelBoss_Character_BP_Hard.EelBoss_Character_BP_Hard'"
+  },
+  {
+    "name": "Alpha X-Triceratops",
+    "link": "https://ark.wiki.gg/wiki/Alpha_X-Triceratops",
+    "image": "https://ark.wiki.gg/images/thumb/0/08/Alpha_X-Triceratops.png/120px-Alpha_X-Triceratops.png",
+    "category": "Alpha Creatures",
+    "tag": "Trike",
+    "entityId": "Volcano_Trike_Character_BP_Retrieve_Alpha_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Retrieve/Volcanic/Volcano_Trike_Character_BP_Retrieve_Alpha.Volcano_Trike_Character_BP_Retrieve_Alpha'"
+  },
+  {
+    "name": "Astrocetus",
+    "link": "https://ark.wiki.gg/wiki/Astrocetus",
+    "image": "https://ark.wiki.gg/images/thumb/6/69/Astrocetus.png/120px-Astrocetus.png",
+    "category": "Fantasy Creatures",
+    "tag": "Whale",
+    "entityId": "SpaceWhale_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/SpaceWhale/SpaceWhale_Character_BP.SpaceWhale_Character_BP'"
+  },
+  {
+    "name": "Beta Corrupted Master Controller",
+    "link": "https://ark.wiki.gg/wiki/Beta_Corrupted_Master_Controller",
+    "image": "https://ark.wiki.gg/images/thumb/9/90/Beta_Corrupted_Master_Controller.png/120px-Beta_Corrupted_Master_Controller.png",
+    "category": "Bosses",
+    "tag": null,
+    "entityId": "VRMainBoss_Character_Medium_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/VRMainBoss/VRMainBoss_Character_Medium.VRMainBoss_Character_Medium'"
+  },
+  {
+    "name": "Beta Moeder, Master of the Ocean",
+    "link": "https://ark.wiki.gg/wiki/Beta_Moeder,_Master_of_the_Ocean",
+    "image": "https://ark.wiki.gg/images/thumb/c/cb/Beta_Moeder%2C_Master_of_the_Ocean.png/120px-Beta_Moeder%2C_Master_of_the_Ocean.png",
+    "category": "Bosses",
+    "tag": "EelBoss",
+    "entityId": "EelBoss_Character_BP_Medium_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/EelBoss/EelBoss_Character_BP_Medium.EelBoss_Character_BP_Medium'"
+  },
+  {
+    "name": "Bloodstalker",
+    "link": "https://ark.wiki.gg/wiki/Bloodstalker",
+    "image": "https://ark.wiki.gg/images/thumb/1/1a/Bloodstalker.png/120px-Bloodstalker.png",
+    "category": "Fantasy Creatures",
+    "tag": "Bloodstalker",
+    "entityId": "BogSpider_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/BogSpider/BogSpider_Character_BP.BogSpider_Character_BP'"
+  },
+  {
+    "name": "Brute Araneo",
+    "link": "https://ark.wiki.gg/wiki/Brute_Araneo",
+    "image": "https://ark.wiki.gg/images/thumb/b/b5/Brute_Araneo.png/120px-Brute_Araneo.png",
+    "category": "Brute Creatures",
+    "tag": "Spider",
+    "entityId": "SpiderS_Character_BP_Hunt_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Hunt/Bog/SpiderS_Character_BP_Hunt.SpiderS_Character_BP_Hunt'"
+  },
+  {
+    "name": "Brute Astrocetus",
+    "link": "https://ark.wiki.gg/wiki/Brute_Astrocetus",
+    "image": "https://ark.wiki.gg/images/thumb/0/0c/Brute_Astrocetus.png/120px-Brute_Astrocetus.png",
+    "category": "Brute Creatures",
+    "tag": "Whale",
+    "entityId": "SpaceWhale_Character_BP_Brute_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Hunt/Lunar/SpaceWhale_Character_BP_Brute.SpaceWhale_Character_BP_Brute'"
+  },
+  {
+    "name": "Brute Basilosaurus",
+    "link": "https://ark.wiki.gg/wiki/Brute_Basilosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/0/02/Brute_Basilosaurus.png/120px-Brute_Basilosaurus.png",
+    "category": "Brute Creatures",
+    "tag": "Basilosaurus",
+    "entityId": "Basilosaurus_Character_BP_Hunt_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Hunt/Ocean/Basilosaurus_Character_BP_Hunt.Basilosaurus_Character_BP_Hunt'"
+  },
+  {
+    "name": "Brute Bloodstalker",
+    "link": "https://ark.wiki.gg/wiki/Brute_Bloodstalker",
+    "image": "https://ark.wiki.gg/images/thumb/4/49/Brute_Bloodstalker.png/120px-Brute_Bloodstalker.png",
+    "category": "Brute Creatures",
+    "tag": "Bloodstalker",
+    "entityId": "BogSpider_Character_BP_Hunt_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Hunt/Bog/BogSpider_Character_BP_Hunt.BogSpider_Character_BP_Hunt'"
+  },
+  {
+    "name": "Brute Ferox",
+    "link": "https://ark.wiki.gg/wiki/Brute_Ferox",
+    "image": "https://ark.wiki.gg/images/thumb/d/dd/Brute_Ferox.png/120px-Brute_Ferox.png",
+    "category": "Brute Creatures",
+    "tag": "Bigly",
+    "entityId": "Shapeshifter_Large_Character_BP_Hunt_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Hunt/Arctic/Shapeshifter_Large_Character_BP_Hunt.Shapeshifter_Large_Character_BP_Hunt'"
+  },
+  {
+    "name": "Brute Fire Wyvern",
+    "link": "https://ark.wiki.gg/wiki/Brute_Fire_Wyvern",
+    "image": "https://ark.wiki.gg/images/thumb/4/4f/Brute_Fire_Wyvern.png/120px-Brute_Fire_Wyvern.png",
+    "category": "Brute Creatures",
+    "tag": "Wyvern",
+    "entityId": "Wyvern_Character_BP_Fire_GauntletBoss_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Gauntlet/Volcanic/Wyvern_Character_BP_Fire_GauntletBoss.Wyvern_Character_BP_Fire_GauntletBoss'"
+  },
+  {
+    "name": "Brute Leedsichthys",
+    "link": "https://ark.wiki.gg/wiki/Brute_Leedsichthys",
+    "image": "https://ark.wiki.gg/images/thumb/6/63/Brute_Leedsichthys.png/120px-Brute_Leedsichthys.png",
+    "category": "Brute Creatures",
+    "tag": "Leedsichthys",
+    "entityId": "Leedsichthys_Character_BP_Hunt_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Hunt/Ocean/Leedsichthys_Character_BP_Hunt.Leedsichthys_Character_BP_Hunt'"
+  },
+  {
+    "name": "Brute Magmasaur",
+    "link": "https://ark.wiki.gg/wiki/Brute_Magmasaur",
+    "image": "https://ark.wiki.gg/images/thumb/7/79/Brute_Magmasaur.png/120px-Brute_Magmasaur.png",
+    "category": "Brute Creatures",
+    "tag": "LavaLizard",
+    "entityId": "Cherufe_Character_BP_Hunt_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Hunt/Volcanic/Cherufe_Character_BP_Hunt.Cherufe_Character_BP_Hunt'"
+  },
+  {
+    "name": "Brute Malfunctioned Tek Giganotosaurus",
+    "link": "https://ark.wiki.gg/wiki/Brute_Malfunctioned_Tek_Giganotosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/9/96/Brute_Malfunctioned_Tek_Giganotosaurus.png/120px-Brute_Malfunctioned_Tek_Giganotosaurus.png",
+    "category": "Brute Creatures",
+    "tag": "Gigant",
+    "entityId": "BionicGigant_Character_BP_Malfunctioned_Hunt_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Hunt/Lunar/BionicGigant_Character_BP_Malfunctioned_Hunt.BionicGigant_Character_BP_Malfunctioned_Hunt'"
+  },
+  {
+    "name": "Brute Malfunctioned Tek Rex",
+    "link": "https://ark.wiki.gg/wiki/Brute_Malfunctioned_Tek_Rex",
+    "image": "https://ark.wiki.gg/images/thumb/c/c8/Brute_Malfunctioned_Tek_Rex.png/120px-Brute_Malfunctioned_Tek_Rex.png",
+    "category": "Brute Creatures",
+    "tag": "Rex",
+    "entityId": "BionicRex_Character_BP_Malfunctioned_Hunt_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Hunt/Lunar/BionicRex_Character_BP_Malfunctioned_Hunt.BionicRex_Character_BP_Malfunctioned_Hunt'"
+  },
+  {
+    "name": "Brute Mammoth",
+    "link": "https://ark.wiki.gg/wiki/Brute_Mammoth",
+    "image": "https://ark.wiki.gg/images/thumb/c/c1/Brute_Mammoth.png/120px-Brute_Mammoth.png",
+    "category": "Brute Creatures",
+    "tag": "Mammoth",
+    "entityId": "Mammoth_Character_BP_Hunt_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Hunt/Arctic/Mammoth_Character_BP_Hunt.Mammoth_Character_BP_Hunt'"
+  },
+  {
+    "name": "Brute Megaloceros",
+    "link": "https://ark.wiki.gg/wiki/Brute_Megaloceros",
+    "image": "https://ark.wiki.gg/images/thumb/7/74/Brute_Megaloceros.png/120px-Brute_Megaloceros.png",
+    "category": "Brute Creatures",
+    "tag": "Stag",
+    "entityId": "Stag_Character_BP_Hunt_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Hunt/Arctic/Stag_Character_BP_Hunt.Stag_Character_BP_Hunt'"
+  },
+  {
+    "name": "Brute Plesiosaur",
+    "link": "https://ark.wiki.gg/wiki/Brute_Plesiosaur",
+    "image": "https://ark.wiki.gg/images/thumb/9/91/Brute_Plesiosaur.png/120px-Brute_Plesiosaur.png",
+    "category": "Brute Creatures",
+    "tag": "Plesiosaur",
+    "entityId": "Plesiosaur_Character_BP_Hunt_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Hunt/Ocean/Plesiosaur_Character_BP_Hunt.Plesiosaur_Character_BP_Hunt'"
+  },
+  {
+    "name": "Brute Reaper King",
+    "link": "https://ark.wiki.gg/wiki/Brute_Reaper_King",
+    "image": "https://ark.wiki.gg/images/thumb/6/61/Brute_Reaper_King.png/120px-Brute_Reaper_King.png",
+    "category": "Brute Creatures",
+    "tag": "Xenomorph",
+    "entityId": "Xenomorph_Character_BP_Male_InitialBuryOnly_Hunt_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Hunt/Lunar/Xenomorph_Character_BP_Male_InitialBuryOnly_Hunt.Xenomorph_Character_BP_Male_InitialBuryOnly_Hunt'"
+  },
+  {
+    "name": "Brute Sarco",
+    "link": "https://ark.wiki.gg/wiki/Brute_Sarco",
+    "image": "https://ark.wiki.gg/images/thumb/4/4a/Brute_Sarco.png/120px-Brute_Sarco.png",
+    "category": "Brute Creatures",
+    "tag": "Sarco",
+    "entityId": "Sarco_Character_BP_Hunt_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Hunt/Bog/Sarco_Character_BP_Hunt.Sarco_Character_BP_Hunt'"
+  },
+  {
+    "name": "Brute Seeker",
+    "link": "https://ark.wiki.gg/wiki/Brute_Seeker",
+    "image": "https://ark.wiki.gg/images/thumb/d/dd/Brute_Seeker.png/120px-Brute_Seeker.png",
+    "category": "Brute Creatures",
+    "tag": "Seeker",
+    "entityId": "Pteroteuthis_Char_BP_HuntFollower_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Hunt/Lunar/Pteroteuthis_Char_BP_HuntFollower.Pteroteuthis_Char_BP_HuntFollower'"
+  },
+  {
+    "name": "Brute Tusoteuthis",
+    "link": "https://ark.wiki.gg/wiki/Brute_Tusoteuthis",
+    "image": "https://ark.wiki.gg/images/thumb/c/c6/Brute_Tusoteuthis.png/120px-Brute_Tusoteuthis.png",
+    "category": "Brute Creatures",
+    "tag": "Tusoteuthis",
+    "entityId": "Tusoteuthis_Character_BP_Hunt_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Hunt/Ocean/Tusoteuthis_Character_BP_Hunt.Tusoteuthis_Character_BP_Hunt'"
+  },
+  {
+    "name": "Brute X-Allosaurus",
+    "link": "https://ark.wiki.gg/wiki/Brute_X-Allosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/8/80/Brute_X-Allosaurus.png/120px-Brute_X-Allosaurus.png",
+    "category": "Brute Creatures",
+    "tag": "Allo",
+    "entityId": "Volcano_Allo_Character_BP_Hunt_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Hunt/Volcanic/Volcano_Allo_Character_BP_Hunt.Volcano_Allo_Character_BP_Hunt'"
+  },
+  {
+    "name": "Brute X-Megalodon",
+    "link": "https://ark.wiki.gg/wiki/Brute_X-Megalodon",
+    "image": "https://ark.wiki.gg/images/thumb/8/86/Brute_X-Megalodon.png/120px-Brute_X-Megalodon.png",
+    "category": "Brute Creatures",
+    "tag": "Mega",
+    "entityId": "Ocean_Megalodon_Character_BP_Hunt_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Hunt/Ocean/Ocean_Megalodon_Character_BP_Hunt.Ocean_Megalodon_Character_BP_Hunt'"
+  },
+  {
+    "name": "Brute X-Mosasaurus",
+    "link": "https://ark.wiki.gg/wiki/Brute_X-Mosasaurus",
+    "image": "https://ark.wiki.gg/images/thumb/b/b1/Brute_X-Mosasaurus.png/120px-Brute_X-Mosasaurus.png",
+    "category": "Brute Creatures",
+    "tag": "Mosasaur",
+    "entityId": "Ocean_Mosa_Character_BP_Hunt_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Hunt/Ocean/Ocean_Mosa_Character_BP_Hunt.Ocean_Mosa_Character_BP_Hunt'"
+  },
+  {
+    "name": "Brute X-Raptor",
+    "link": "https://ark.wiki.gg/wiki/Brute_X-Raptor",
+    "image": "https://ark.wiki.gg/images/thumb/4/46/Brute_X-Raptor.png/120px-Brute_X-Raptor.png",
+    "category": "Brute Creatures",
+    "tag": "Raptor",
+    "entityId": "Bog_Raptor_Character_BP_Hunt_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Hunt/Bog/Bog_Raptor_Character_BP_Hunt.Bog_Raptor_Character_BP_Hunt'"
+  },
+  {
+    "name": "Brute X-Rex",
+    "link": "https://ark.wiki.gg/wiki/Brute_X-Rex",
+    "image": "https://ark.wiki.gg/images/thumb/d/df/Brute_X-Rex.png/120px-Brute_X-Rex.png",
+    "category": "Brute Creatures",
+    "tag": "Rex",
+    "entityId": "Volcano_Rex_Character_BP_Hunt_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Hunt/Volcanic/Volcano_Rex_Character_BP_Hunt.Volcano_Rex_Character_BP_Hunt'"
+  },
+  {
+    "name": "Brute X-Rock Elemental",
+    "link": "https://ark.wiki.gg/wiki/Brute_X-Rock_Elemental",
+    "image": "https://ark.wiki.gg/images/thumb/f/fc/Brute_X-Rock_Elemental.png/120px-Brute_X-Rock_Elemental.png",
+    "category": "Brute Creatures",
+    "tag": "RockElemental",
+    "entityId": "Volcano_Golem_Character_BP_Hunt_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Hunt/Volcanic/Volcano_Golem_Character_BP_Hunt.Volcano_Golem_Character_BP_Hunt'"
+  },
+  {
+    "name": "Brute X-Spino",
+    "link": "https://ark.wiki.gg/wiki/Brute_X-Spino",
+    "image": "https://ark.wiki.gg/images/thumb/8/82/Brute_X-Spino.png/120px-Brute_X-Spino.png",
+    "category": "Brute Creatures",
+    "tag": "Spino",
+    "entityId": "Bog_Spino_Character_BP_Hunt_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Hunt/Bog/Bog_Spino_Character_BP_Hunt.Bog_Spino_Character_BP_Hunt'"
+  },
+  {
+    "name": "Brute X-Yutyrannus",
+    "link": "https://ark.wiki.gg/wiki/Brute_X-Yutyrannus",
+    "image": "https://ark.wiki.gg/images/thumb/0/05/Brute_X-Yutyrannus.png/120px-Brute_X-Yutyrannus.png",
+    "category": "Brute Creatures",
+    "tag": "Yutyrannus",
+    "entityId": "Snow_Yutyrannus_Character_BP_Hunt_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Hunt/Arctic/Snow_Yutyrannus_Character_BP_Hunt.Snow_Yutyrannus_Character_BP_Hunt'"
+  },
+  {
+    "name": "Corrupted Avatar",
+    "link": "https://ark.wiki.gg/wiki/Corrupted_Avatar",
+    "image": "https://ark.wiki.gg/images/thumb/f/fa/Corrupted_Avatar.png/120px-Corrupted_Avatar.png",
+    "category": "Mammals",
+    "tag": null,
+    "entityId": "Bot_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/Bots/Bot_Character_BP.Bot_Character_BP'"
+  },
+  {
+    "name": "Eel Minion",
+    "link": "https://ark.wiki.gg/wiki/Eel_Minion",
+    "image": "https://ark.wiki.gg/images/thumb/b/bd/Moeder%2C_Master_of_the_Ocean.png/120px-Moeder%2C_Master_of_the_Ocean.png",
+    "category": "Fantasy Creatures",
+    "tag": null,
+    "entityId": "EelMinion_Character_BP_Easy_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/EelBoss/EelMinion_Character_BP_Easy.EelMinion_Character_BP_Easy'"
+  },
+  {
+    "name": "Gamma Corrupted Master Controller",
+    "link": "https://ark.wiki.gg/wiki/Gamma_Corrupted_Master_Controller",
+    "image": "https://ark.wiki.gg/images/thumb/d/d2/Gamma_Corrupted_Master_Controller.png/120px-Gamma_Corrupted_Master_Controller.png",
+    "category": "Bosses",
+    "tag": null,
+    "entityId": "VRMainBoss_Character_Easy_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/VRMainBoss/VRMainBoss_Character_Easy.VRMainBoss_Character_Easy'"
+  },
+  {
+    "name": "Gamma Moeder, Master of the Ocean",
+    "link": "https://ark.wiki.gg/wiki/Gamma_Moeder,_Master_of_the_Ocean",
+    "image": "https://ark.wiki.gg/images/thumb/6/6f/Gamma_Moeder%2C_Master_of_the_Ocean.png/120px-Gamma_Moeder%2C_Master_of_the_Ocean.png",
+    "category": "Bosses",
+    "tag": "EelBoss",
+    "entityId": "EelBoss_Character_BP_Easy_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/EelBoss/EelBoss_Character_BP_Easy.EelBoss_Character_BP_Easy'"
+  },
+  {
+    "name": "Golden Striped Brute Megalodon",
+    "link": "https://ark.wiki.gg/wiki/Golden_Striped_Brute_Megalodon",
+    "image": "https://ark.wiki.gg/images/thumb/9/9a/Golden_Striped_Brute_Megalodon.png/120px-Golden_Striped_Brute_Megalodon.png",
+    "category": "Brute Creatures",
+    "tag": "Mega",
+    "entityId": "Ocean_Megalodon_Character_BP_Retrieve_Brute_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Retrieve/Ocean/Ocean_Megalodon_Character_BP_Retrieve_Brute.Ocean_Megalodon_Character_BP_Retrieve_Brute'"
+  },
+  {
+    "name": "Golden Striped Megalodon",
+    "link": "https://ark.wiki.gg/wiki/Golden_Striped_Megalodon",
+    "image": "https://ark.wiki.gg/images/thumb/d/dd/Golden_Striped_Megalodon.png/120px-Golden_Striped_Megalodon.png",
+    "category": "X-Creatures",
+    "tag": "Mega",
+    "entityId": "Ocean_Megalodon_Character_BP_Retrieve_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Retrieve/Ocean/Ocean_Megalodon_Character_BP_Retrieve.Ocean_Megalodon_Character_BP_Retrieve'"
+  },
+  {
+    "name": "Ferox (Large)",
+    "link": "https://ark.wiki.gg/wiki/Ferox_(Large)",
+    "image": "https://ark.wiki.gg/images/thumb/5/58/Ferox_%28Large%29.png/120px-Ferox_%28Large%29.png",
+    "category": "Fantasy Creatures",
+    "tag": "Bigly",
+    "entityId": "Shapeshifter_Large_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/Shapeshifter/Shapeshifter_Large/Shapeshifter_Large_Character_BP.Shapeshifter_Large_Character_BP'"
+  },
+  {
+    "name": "Ferox",
+    "link": "https://ark.wiki.gg/wiki/Ferox",
+    "image": "https://ark.wiki.gg/images/thumb/7/79/Ferox.png/120px-Ferox.png",
+    "category": "Fantasy Creatures",
+    "tag": "Gremlin",
+    "entityId": "Shapeshifter_Small_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/Shapeshifter/Shapeshifter_Small/Shapeshifter_Small_Character_BP.Shapeshifter_Small_Character_BP'"
+  },
+  {
+    "name": "Injured Brute Reaper King",
+    "link": "https://ark.wiki.gg/wiki/Injured_Brute_Reaper_King",
+    "image": "https://ark.wiki.gg/images/thumb/4/44/Injured_Brute_Reaper_King.png/120px-Injured_Brute_Reaper_King.png",
+    "category": "Brute Creatures",
+    "tag": "Xenomorph",
+    "entityId": "Xenomorph_Character_BP_Male_InitialBuryOnly_Brute_Retrieve_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Retrieve/Lunar/Xenomorph_Character_BP_Male_InitialBuryOnly_Brute_Retrieve.Xenomorph_Character_BP_Male_InitialBuryOnly_Brute_Retrieve'"
+  },
+  {
+    "name": "Insect Swarm",
+    "link": "https://ark.wiki.gg/wiki/Insect_Swarm",
+    "image": "https://ark.wiki.gg/images/thumb/a/a7/Insect_Swarm.png/120px-Insect_Swarm.png",
+    "category": "Fantasy Creatures",
+    "tag": "InsectSwarm",
+    "entityId": "InsectSwarmChar_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/Swarms/InsectSwarmChar_BP.InsectSwarmChar_BP'"
+  },
+  {
+    "name": "Magmasaur",
+    "link": "https://ark.wiki.gg/wiki/Magmasaur",
+    "image": "https://ark.wiki.gg/images/thumb/3/35/Magmasaur.png/120px-Magmasaur.png",
+    "category": "Fantasy Creatures",
+    "tag": "LavaLizard",
+    "entityId": "Cherufe_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/Cherufe/Cherufe_Character_BP.Cherufe_Character_BP'"
+  },
+  {
+    "name": "Malfunctioned Tek Giganotosaurus",
+    "link": "https://ark.wiki.gg/wiki/Malfunctioned_Tek_Giganotosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/4/4f/Malfunctioned_Tek_Giganotosaurus.png/120px-Malfunctioned_Tek_Giganotosaurus.png",
+    "category": "Malfunctioned Tek Creatures",
+    "tag": "Gigant",
+    "entityId": "BionicGigant_Character_BP_Malfunctioned_Gauntlet_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Gauntlet/Lunar/BionicGigant_Character_BP_Malfunctioned_Gauntlet.BionicGigant_Character_BP_Malfunctioned_Gauntlet'"
+  },
+  {
+    "name": "Malfunctioned Tek Giganotosaurus",
+    "link": "https://ark.wiki.gg/wiki/Malfunctioned_Tek_Giganotosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/4/4f/Malfunctioned_Tek_Giganotosaurus.png/120px-Malfunctioned_Tek_Giganotosaurus.png",
+    "category": "Malfunctioned Tek Creatures",
+    "tag": "Gigant",
+    "entityId": "BionicGigant_Character_BP_Malfunctioned_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/BionicGigant_Character_BP_Malfunctioned.BionicGigant_Character_BP_Malfunctioned'"
+  },
+  {
+    "name": "Malfunctioned Tek Parasaur",
+    "link": "https://ark.wiki.gg/wiki/Malfunctioned_Tek_Parasaur",
+    "image": "https://ark.wiki.gg/images/thumb/7/70/Malfunctioned_Tek_Parasaur.png/120px-Malfunctioned_Tek_Parasaur.png",
+    "category": "Malfunctioned Tek Creatures",
+    "tag": "Para",
+    "entityId": "BionicPara_Character_BP_Malfunctioned_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Para/BionicPara_Character_BP_Malfunctioned.BionicPara_Character_BP_Malfunctioned'"
+  },
+  {
+    "name": "Malfunctioned Tek Quetzal",
+    "link": "https://ark.wiki.gg/wiki/Malfunctioned_Tek_Quetzal",
+    "image": "https://ark.wiki.gg/images/thumb/d/d3/Malfunctioned_Tek_Quetzal.png/120px-Malfunctioned_Tek_Quetzal.png",
+    "category": "Malfunctioned Tek Creatures",
+    "tag": "Quetz",
+    "entityId": "BionicQuetz_Character_BP_Malfunctioned_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Quetzalcoatlus/BionicQuetz_Character_BP_Malfunctioned.BionicQuetz_Character_BP_Malfunctioned'"
+  },
+  {
+    "name": "Malfunctioned Tek Raptor",
+    "link": "https://ark.wiki.gg/wiki/Malfunctioned_Tek_Raptor",
+    "image": "https://ark.wiki.gg/images/thumb/6/69/Malfunctioned_Tek_Raptor.png/120px-Malfunctioned_Tek_Raptor.png",
+    "category": "Malfunctioned Tek Creatures",
+    "tag": "Raptor",
+    "entityId": "BionicRaptor_Character_BP_Malfunctioned_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/BionicRaptor_Character_BP_Malfunctioned.BionicRaptor_Character_BP_Malfunctioned'"
+  },
+  {
+    "name": "Malfunctioned Tek Rex",
+    "link": "https://ark.wiki.gg/wiki/Malfunctioned_Tek_Rex",
+    "image": "https://ark.wiki.gg/images/thumb/8/81/Malfunctioned_Tek_Rex.png/120px-Malfunctioned_Tek_Rex.png",
+    "category": "Malfunctioned Tek Creatures",
+    "tag": "Rex",
+    "entityId": "BionicRex_Character_BP_Malfunctioned_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/BionicRex_Character_BP_Malfunctioned.BionicRex_Character_BP_Malfunctioned'"
+  },
+  {
+    "name": "Malfunctioned Tek Stegosaurus",
+    "link": "https://ark.wiki.gg/wiki/Malfunctioned_Tek_Stegosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/0/0b/Malfunctioned_Tek_Stegosaurus.png/120px-Malfunctioned_Tek_Stegosaurus.png",
+    "category": "Malfunctioned Tek Creatures",
+    "tag": "Stego",
+    "entityId": "BionicStego_Character_BP_Malfunctioned_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stego/BionicStego_Character_BP_Malfunctioned.BionicStego_Character_BP_Malfunctioned'"
+  },
+  {
+    "name": "Malfunctioned Tek Triceratops",
+    "link": "https://ark.wiki.gg/wiki/Malfunctioned_Tek_Triceratops",
+    "image": "https://ark.wiki.gg/images/thumb/d/d4/Malfunctioned_Tek_Triceratops.png/120px-Malfunctioned_Tek_Triceratops.png",
+    "category": "Malfunctioned Tek Creatures",
+    "tag": "Trike",
+    "entityId": "BionicTrike_Character_BP_Malfunctioned_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trike/BionicTrike_Character_BP_Malfunctioned.BionicTrike_Character_BP_Malfunctioned'"
+  },
+  {
+    "name": "Megachelon",
+    "link": "https://ark.wiki.gg/wiki/Megachelon",
+    "image": "https://ark.wiki.gg/images/thumb/a/a4/Megachelon.png/120px-Megachelon.png",
+    "category": "Fantasy Creatures",
+    "tag": "GiantTurtle",
+    "entityId": "GiantTurtle_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/GiantTurtle/GiantTurtle_Character_BP.GiantTurtle_Character_BP'"
+  },
+  {
+    "name": "Parakeet Fish School",
+    "link": "https://ark.wiki.gg/wiki/Parakeet_Fish_School",
+    "image": "https://ark.wiki.gg/images/thumb/c/c4/Parakeet_Fish_School.png/120px-Parakeet_Fish_School.png",
+    "category": "Fantasy Creatures",
+    "tag": "Swarm",
+    "entityId": "MicrobeSwarmChar_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/Swarms/MicrobeSwarmChar_BP.MicrobeSwarmChar_BP'"
+  },
+  {
+    "name": "Reaper Prince",
+    "link": "https://ark.wiki.gg/wiki/Reaper_Prince",
+    "image": "https://ark.wiki.gg/images/thumb/6/6e/Reaper_Prince.png/120px-Reaper_Prince.png",
+    "category": "Fantasy Creatures",
+    "tag": "Xenomorph",
+    "entityId": "Xenomorph_Character_BP_Male_InitialBuryOnly_Adolescent_C",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/Nameless/Xenomorph_Character_BP_Male_InitialBuryOnly_Adolescent.Xenomorph_Character_BP_Male_InitialBuryOnly_Adolescent'"
+  },
+  {
+    "name": "File:Tek Giganotosaurus.png",
+    "link": "https://ark.wiki.gg/wiki/Special:Upload?wpDestFile=Tek_Giganotosaurus.png",
+    "image": "https://ark.wiki.ggundefined",
+    "category": "Tek Creatures",
+    "tag": "Gigant",
+    "entityId": "BionicGigant_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/BionicGigant_Character_BP.BionicGigant_Character_BP'"
+  },
+  {
+    "name": "Tek Triceratops",
+    "link": "https://ark.wiki.gg/wiki/Tek_Triceratops",
+    "image": "https://ark.wiki.gg/images/thumb/3/33/Tek_Triceratops.png/120px-Tek_Triceratops.png",
+    "category": "Tek Creatures",
+    "tag": "Trike",
+    "entityId": "BionicTrike_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trike/BionicTrike_Character_BP.BionicTrike_Character_BP'"
+  },
+  {
+    "name": "X-Allosaurus",
+    "link": "https://ark.wiki.gg/wiki/X-Allosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/6/66/X-Allosaurus.png/120px-X-Allosaurus.png",
+    "category": "X-Creatures",
+    "tag": "Allo",
+    "entityId": "Volcano_Allo_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/BiomeVariants/Volcano_Allosaurus/Volcano_Allo_Character_BP.Volcano_Allo_Character_BP'"
+  },
+  {
+    "name": "X-Ankylosaurus",
+    "link": "https://ark.wiki.gg/wiki/X-Ankylosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/e/ee/X-Ankylosaurus.png/120px-X-Ankylosaurus.png",
+    "category": "X-Creatures",
+    "tag": "Anky",
+    "entityId": "Volcano_Ankylo_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/BiomeVariants/Volcano_Ankylosaurus/Volcano_Ankylo_Character_BP.Volcano_Ankylo_Character_BP'"
+  },
+  {
+    "name": "X-Argentavis",
+    "link": "https://ark.wiki.gg/wiki/X-Argentavis",
+    "image": "https://ark.wiki.gg/images/thumb/4/45/X-Argentavis.png/120px-X-Argentavis.png",
+    "category": "X-Creatures",
+    "tag": "Argent",
+    "entityId": "Snow_Argent_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/BiomeVariants/Snow_Argentavis/Snow_Argent_Character_BP.Snow_Argent_Character_BP'"
+  },
+  {
+    "name": "X-Basilosaurus",
+    "link": "https://ark.wiki.gg/wiki/X-Basilosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/3/31/X-Basilosaurus.png/120px-X-Basilosaurus.png",
+    "category": "X-Creatures",
+    "tag": "Basilosaurus",
+    "entityId": "Ocean_Basilosaurus_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/BiomeVariants/Ocean_Basilosaurus/Ocean_Basilosaurus_Character_BP.Ocean_Basilosaurus_Character_BP'"
+  },
+  {
+    "name": "X-Dunkleosteus",
+    "link": "https://ark.wiki.gg/wiki/X-Dunkleosteus",
+    "image": "https://ark.wiki.gg/images/thumb/c/cc/X-Dunkleosteus.png/120px-X-Dunkleosteus.png",
+    "category": "X-Creatures",
+    "tag": "Dunkle",
+    "entityId": "Ocean_Dunkle_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/BiomeVariants/Ocean_Dunkleosteus/Ocean_Dunkle_Character_BP.Ocean_Dunkle_Character_BP'"
+  },
+  {
+    "name": "X-Ichthyosaurus",
+    "link": "https://ark.wiki.gg/wiki/X-Ichthyosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/b/b3/X-Ichthyosaurus.png/120px-X-Ichthyosaurus.png",
+    "category": "X-Creatures",
+    "tag": "Dolphin",
+    "entityId": "Ocean_Dolphin_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/BiomeVariants/Ocean_Dolphin/Ocean_Dolphin_Character_BP.Ocean_Dolphin_Character_BP'"
+  },
+  {
+    "name": "X-Megalodon",
+    "link": "https://ark.wiki.gg/wiki/X-Megalodon",
+    "image": "https://ark.wiki.gg/images/thumb/1/13/X-Megalodon.png/120px-X-Megalodon.png",
+    "category": "X-Creatures",
+    "tag": "Mega",
+    "entityId": "Ocean_Megalodon_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/BiomeVariants/Ocean_Megalodon/Ocean_Megalodon_Character_BP.Ocean_Megalodon_Character_BP'"
+  },
+  {
+    "name": "X-Mosasaurus",
+    "link": "https://ark.wiki.gg/wiki/X-Mosasaurus",
+    "image": "https://ark.wiki.gg/images/thumb/2/23/X-Mosasaurus.png/120px-X-Mosasaurus.png",
+    "category": "X-Creatures",
+    "tag": "Mosasaur",
+    "entityId": "Ocean_Mosa_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/BiomeVariants/Ocean_Mosasaurus/Ocean_Mosa_Character_BP.Ocean_Mosa_Character_BP'"
+  },
+  {
+    "name": "X-Otter",
+    "link": "https://ark.wiki.gg/wiki/X-Otter",
+    "image": "https://ark.wiki.gg/images/thumb/9/9b/X-Otter.png/120px-X-Otter.png",
+    "category": "X-Creatures",
+    "tag": "Otter",
+    "entityId": "Snow_Otter_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/BiomeVariants/Snow_Otter/Snow_Otter_Character_BP.Snow_Otter_Character_BP'"
+  },
+  {
+    "name": "X-Paraceratherium",
+    "link": "https://ark.wiki.gg/wiki/X-Paraceratherium",
+    "image": "https://ark.wiki.gg/images/thumb/9/97/X-Paraceratherium.png/120px-X-Paraceratherium.png",
+    "category": "X-Creatures",
+    "tag": "Paracer",
+    "entityId": "Bog_Paracer_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/BiomeVariants/BogParaceratherium/Bog_Paracer_Character_BP.Bog_Paracer_Character_BP'"
+  },
+  {
+    "name": "X-Parasaur",
+    "link": "https://ark.wiki.gg/wiki/X-Parasaur",
+    "image": "https://ark.wiki.gg/images/thumb/0/0d/X-Parasaur.png/120px-X-Parasaur.png",
+    "category": "X-Creatures",
+    "tag": "Para",
+    "entityId": "Bog_Para_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/BiomeVariants/BogPara/Bog_Para_Character_BP.Bog_Para_Character_BP'"
+  },
+  {
+    "name": "X-Raptor",
+    "link": "https://ark.wiki.gg/wiki/X-Raptor",
+    "image": "https://ark.wiki.gg/images/thumb/d/d1/X-Raptor.png/120px-X-Raptor.png",
+    "category": "X-Creatures",
+    "tag": "Raptor",
+    "entityId": "Bog_Raptor_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/BiomeVariants/Bog_Raptor/Bog_Raptor_Character_BP.Bog_Raptor_Character_BP'"
+  },
+  {
+    "name": "X-Rex",
+    "link": "https://ark.wiki.gg/wiki/X-Rex",
+    "image": "https://ark.wiki.gg/images/thumb/d/d2/X-Rex.png/120px-X-Rex.png",
+    "category": "X-Creatures",
+    "tag": "Rex",
+    "entityId": "Volcano_Rex_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/BiomeVariants/Volcano_Rex/Volcano_Rex_Character_BP.Volcano_Rex_Character_BP'"
+  },
+  {
+    "name": "X-Rock Elemental",
+    "link": "https://ark.wiki.gg/wiki/X-Rock_Elemental",
+    "image": "https://ark.wiki.gg/images/thumb/c/c8/X-Rock_Elemental.png/120px-X-Rock_Elemental.png",
+    "category": "X-Creatures",
+    "tag": "RockElemental",
+    "entityId": "Volcano_Golem_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/BiomeVariants/Lava_Golem/Volcano_Golem_Character_BP.Volcano_Golem_Character_BP'"
+  },
+  {
+    "name": "X-Sabertooth",
+    "link": "https://ark.wiki.gg/wiki/X-Sabertooth",
+    "image": "https://ark.wiki.gg/images/thumb/e/e9/X-Sabertooth.png/120px-X-Sabertooth.png",
+    "category": "X-Creatures",
+    "tag": "Sabertooth",
+    "entityId": "Snow_Saber_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/BiomeVariants/Snow_Saber/Snow_Saber_Character_BP.Snow_Saber_Character_BP'"
+  },
+  {
+    "name": "X-Sabertooth Salmon",
+    "link": "https://ark.wiki.gg/wiki/X-Sabertooth_Salmon",
+    "image": "https://ark.wiki.gg/images/thumb/9/9a/X-Sabertooth_Salmon.png/120px-X-Sabertooth_Salmon.png",
+    "category": "X-Creatures",
+    "tag": "Salmon",
+    "entityId": "Lunar_Salmon_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/BiomeVariants/Lunar_Salmon/Lunar_Salmon_Character_BP.Lunar_Salmon_Character_BP'"
+  },
+  {
+    "name": "X-Spino",
+    "link": "https://ark.wiki.gg/wiki/X-Spino",
+    "image": "https://ark.wiki.gg/images/thumb/b/b0/X-Spino.png/120px-X-Spino.png",
+    "category": "X-Creatures",
+    "tag": "Spino",
+    "entityId": "Bog_Spino_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/BiomeVariants/Bog_Spino/Bog_Spino_Character_BP.Bog_Spino_Character_BP'"
+  },
+  {
+    "name": "X-Tapejara",
+    "link": "https://ark.wiki.gg/wiki/X-Tapejara",
+    "image": "https://ark.wiki.gg/images/thumb/2/28/X-Tapejara.png/120px-X-Tapejara.png",
+    "category": "X-Creatures",
+    "tag": "Tapejara",
+    "entityId": "Bog_Tapejara_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/BiomeVariants/Bog_Tapejara/Bog_Tapejara_Character_BP.Bog_Tapejara_Character_BP'"
+  },
+  {
+    "name": "X-Triceratops",
+    "link": "https://ark.wiki.gg/wiki/X-Triceratops",
+    "image": "https://ark.wiki.gg/images/thumb/1/1f/X-Triceratops.png/120px-X-Triceratops.png",
+    "category": "X-Creatures",
+    "tag": "Trike",
+    "entityId": "Volcano_Trike_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/BiomeVariants/Volcano_Trike/Volcano_Trike_Character_BP.Volcano_Trike_Character_BP'"
+  },
+  {
+    "name": "X-Woolly Rhino",
+    "link": "https://ark.wiki.gg/wiki/X-Woolly_Rhino",
+    "image": "https://ark.wiki.gg/images/thumb/3/30/X-Woolly_Rhino.png/120px-X-Woolly_Rhino.png",
+    "category": "X-Creatures",
+    "tag": "Rhino",
+    "entityId": "Snow_Rhino_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/BiomeVariants/Snow_WoollyRhino/Snow_Rhino_Character_BP.Snow_Rhino_Character_BP'"
+  },
+  {
+    "name": "X-Yutyrannus",
+    "link": "https://ark.wiki.gg/wiki/X-Yutyrannus",
+    "image": "https://ark.wiki.gg/images/thumb/7/76/X-Yutyrannus.png/120px-X-Yutyrannus.png",
+    "category": "X-Creatures",
+    "tag": "Yutyrannus",
+    "entityId": "Snow_Yutyrannus_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/BiomeVariants/Snow_Yutyrannus/Snow_Yutyrannus_Character_BP.Snow_Yutyrannus_Character_BP'"
+  },
+  {
+    "name": "Alpha Blood Crystal Wyvern",
+    "link": "https://ark.wiki.gg/wiki/Alpha_Blood_Crystal_Wyvern",
+    "image": "https://ark.wiki.gg/images/thumb/8/8c/Alpha_Blood_Crystal_Wyvern.png/120px-Alpha_Blood_Crystal_Wyvern.png",
+    "category": "Alpha Creatures",
+    "tag": "Wyvern",
+    "entityId": "CrystalWyvern_Character_BP_Mega_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/CrystalWyvern/CrystalWyvern_Character_BP_Mega.CrystalWyvern_Character_BP_Mega'"
+  },
+  {
+    "name": "Blood Crystal Wyvern",
+    "link": "https://ark.wiki.gg/wiki/Blood_Crystal_Wyvern",
+    "image": "https://ark.wiki.gg/images/thumb/e/e5/Blood_Crystal_Wyvern.png/120px-Blood_Crystal_Wyvern.png",
+    "category": "Fantasy Creatures",
+    "tag": "Wyvern",
+    "entityId": "CrystalWyvern_Character_BP_Blood_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/CrystalWyvern/CrystalWyvern_Character_BP_Blood.CrystalWyvern_Character_BP_Blood'"
+  },
+  {
+    "name": "Crystal Wyvern Queen (Gamma)",
+    "link": "https://ark.wiki.gg/wiki/Crystal_Wyvern_Queen_(Gamma)",
+    "image": "https://ark.wiki.gg/images/thumb/e/e1/Crystal_Wyvern_Queen_%28Gamma%29.png/120px-Crystal_Wyvern_Queen_%28Gamma%29.png",
+    "category": "Bosses",
+    "tag": "Wyvern",
+    "entityId": "CrystalWyvern_Character_BP_Boss_Easy_C",
+    "blueprint": "Blueprint'/Game/Mods/CrystalIsles/Assets/Dinos/CIBoss/CrystalWyvern_Character_BP_Boss_Easy.CrystalWyvern_Character_BP_Boss_Easy'"
+  },
+  {
+    "name": "Crystal Wyvern Queen (Beta)",
+    "link": "https://ark.wiki.gg/wiki/Crystal_Wyvern_Queen_(Beta)",
+    "image": "https://ark.wiki.gg/images/thumb/7/78/Crystal_Wyvern_Queen_%28Beta%29.png/120px-Crystal_Wyvern_Queen_%28Beta%29.png",
+    "category": "Bosses",
+    "tag": "Wyvern",
+    "entityId": "CrystalWyvern_Character_BP_Boss_Medium_C",
+    "blueprint": "Blueprint'/Game/Mods/CrystalIsles/Assets/Dinos/CIBoss/CrystalWyvern_Character_BP_Boss_Medium.CrystalWyvern_Character_BP_Boss_Medium'"
+  },
+  {
+    "name": "Crystal Wyvern Queen (Alpha)",
+    "link": "https://ark.wiki.gg/wiki/Crystal_Wyvern_Queen_(Alpha)",
+    "image": "https://ark.wiki.gg/images/thumb/1/18/Crystal_Wyvern_Queen_%28Alpha%29.png/120px-Crystal_Wyvern_Queen_%28Alpha%29.png",
+    "category": "Bosses",
+    "tag": "Wyvern",
+    "entityId": "CrystalWyvern_Character_BP_Boss_Hard_C",
+    "blueprint": "Blueprint'/Game/Mods/CrystalIsles/Assets/Dinos/CIBoss/CrystalWyvern_Character_BP_Boss_Hard.CrystalWyvern_Character_BP_Boss_Hard'"
+  },
+  {
+    "name": "Ember Crystal Wyvern",
+    "link": "https://ark.wiki.gg/wiki/Ember_Crystal_Wyvern",
+    "image": "https://ark.wiki.gg/images/thumb/7/7f/Ember_Crystal_Wyvern.png/120px-Ember_Crystal_Wyvern.png",
+    "category": "Fantasy Creatures",
+    "tag": "Wyvern",
+    "entityId": "CrystalWyvern_Character_BP_Ember_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/CrystalWyvern/CrystalWyvern_Character_BP_Ember.CrystalWyvern_Character_BP_Ember'"
+  },
+  {
+    "name": "Giant Worker Bee",
+    "link": "https://ark.wiki.gg/wiki/Giant_Worker_Bee",
+    "image": "https://ark.wiki.gg/images/thumb/6/6b/Giant_Worker_Bee.png/120px-Giant_Worker_Bee.png",
+    "category": "Invertebrates",
+    "tag": "Bee",
+    "entityId": "HoneyBee_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Mods/CrystalIsles/Assets/Dinos/HoneyBee/HoneyBee_Character_BP.HoneyBee_Character_BP'"
+  },
+  {
+    "name": "Tropeognathus",
+    "link": "https://ark.wiki.gg/wiki/Tropeognathus",
+    "image": "https://ark.wiki.gg/images/thumb/9/94/Tropeognathus.png/120px-Tropeognathus.png",
+    "category": "Reptiles",
+    "tag": "Tropeognathus",
+    "entityId": "Tropeognathus_Character_BP_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Tropeognathus/Tropeognathus_Character_BP.Tropeognathus_Character_BP'"
+  },
+  {
+    "name": "Tropical Crystal Wyvern",
+    "link": "https://ark.wiki.gg/wiki/Tropical_Crystal_Wyvern",
+    "image": "https://ark.wiki.gg/images/thumb/f/fd/Tropical_Crystal_Wyvern.png/120px-Tropical_Crystal_Wyvern.png",
+    "category": "Fantasy Creatures",
+    "tag": "Wyvern",
+    "entityId": "CrystalWyvern_Character_BP_WS_C",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/CrystalWyvern/CrystalWyvern_Character_BP_WS.CrystalWyvern_Character_BP_WS'"
+  },
+  {
+    "name": "Astrodelphis",
+    "link": "https://ark.wiki.gg/wiki/Astrodelphis",
+    "image": "https://ark.wiki.gg/images/thumb/2/25/Astrodelphis.png/120px-Astrodelphis.png",
+    "category": "Fantasy Creatures",
+    "tag": "Astrodelphis",
+    "entityId": "SpaceDolphin_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/SpaceDolphin/SpaceDolphin_Character_BP.SpaceDolphin_Character_BP'"
+  },
+  {
+    "name": "Maewing",
+    "link": "https://ark.wiki.gg/wiki/Maewing",
+    "image": "https://ark.wiki.gg/images/thumb/5/55/Maewing.png/120px-Maewing.png",
+    "category": "Fantasy Creatures",
+    "tag": "Maewing",
+    "entityId": "MilkGlider_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/MilkGlider/MilkGlider_Character_BP.MilkGlider_Character_BP'"
+  },
+  {
+    "name": "Noglin",
+    "link": "https://ark.wiki.gg/wiki/Noglin",
+    "image": "https://ark.wiki.gg/images/thumb/4/43/Noglin.png/120px-Noglin.png",
+    "category": "Fantasy Creatures",
+    "tag": "BrainSlug",
+    "entityId": "BrainSlug_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BrainSlug/BrainSlug_Character_BP.BrainSlug_Character_BP'"
+  },
+  {
+    "name": "Shadowmane",
+    "link": "https://ark.wiki.gg/wiki/Shadowmane",
+    "image": "https://ark.wiki.gg/images/thumb/e/e8/Shadowmane.png/120px-Shadowmane.png",
+    "category": "Fantasy Creatures",
+    "tag": "Lion",
+    "entityId": "LionfishLion_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/LionfishLion/LionfishLion_Character_BP.LionfishLion_Character_BP'"
+  },
+  {
+    "name": "Tek Stryder",
+    "link": "https://ark.wiki.gg/wiki/Tek_Stryder",
+    "image": "https://ark.wiki.gg/images/thumb/9/97/Tek_Stryder.png/120px-Tek_Stryder.png",
+    "category": "Mechanical Creatures",
+    "tag": "TekStrider",
+    "entityId": "TekStrider_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/TekStrider/TekStrider_Character_BP.TekStrider_Character_BP'"
+  },
+  {
+    "name": "Voidwyrm",
+    "link": "https://ark.wiki.gg/wiki/Voidwyrm",
+    "image": "https://ark.wiki.gg/images/thumb/4/4c/Voidwyrm.png/120px-Voidwyrm.png",
+    "category": "Mechanical Creatures",
+    "tag": "TekWyvern",
+    "entityId": "TekWyvern_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/TekWyvern/TekWyvern_Character_BP.TekWyvern_Character_BP'"
+  },
+  {
+    "name": "R-Allosaurus",
+    "link": "https://ark.wiki.gg/wiki/R-Allosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/8/80/R-Allosaurus.png/120px-R-Allosaurus.png",
+    "category": "R-Creatures",
+    "tag": "Allo",
+    "entityId": "Allo_Character_BP_Rockwell_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Allo_Character_BP_Rockwell.Allo_Character_BP_Rockwell'"
+  },
+  {
+    "name": "R-Carnotaurus",
+    "link": "https://ark.wiki.gg/wiki/R-Carnotaurus",
+    "image": "https://ark.wiki.gg/images/thumb/f/f6/R-Carnotaurus.png/120px-R-Carnotaurus.png",
+    "category": "R-Creatures",
+    "tag": "Carno",
+    "entityId": "Carno_Character_BP_Rockwell_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Carno_Character_BP_Rockwell.Carno_Character_BP_Rockwell'"
+  },
+  {
+    "name": "R-Daeodon",
+    "link": "https://ark.wiki.gg/wiki/R-Daeodon",
+    "image": "https://ark.wiki.gg/images/thumb/a/ab/R-Daeodon.png/120px-R-Daeodon.png",
+    "category": "R-Creatures",
+    "tag": "Daeodon",
+    "entityId": "Daeodon_Character_BP_Eden_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Daeodon_Character_BP_Eden.Daeodon_Character_BP_Eden'"
+  },
+  {
+    "name": "R-Dilophosaur",
+    "link": "https://ark.wiki.gg/wiki/R-Dilophosaur",
+    "image": "https://ark.wiki.gg/images/thumb/f/f6/R-Dilophosaur.png/120px-R-Dilophosaur.png",
+    "category": "R-Creatures",
+    "tag": "Dilo",
+    "entityId": "Dilo_Character_BP_Rockwell_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Dilo_Character_BP_Rockwell.Dilo_Character_BP_Rockwell'"
+  },
+  {
+    "name": "R-Dire Bear",
+    "link": "https://ark.wiki.gg/wiki/R-Dire_Bear",
+    "image": "https://ark.wiki.gg/images/thumb/5/5e/R-Dire_Bear.png/120px-R-Dire_Bear.png",
+    "category": "R-Creatures",
+    "tag": "Direbear",
+    "entityId": "Direbear_Character_BP_Rockwell_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Direbear_Character_BP_Rockwell.Direbear_Character_BP_Rockwell'"
+  },
+  {
+    "name": "R-Direwolf",
+    "link": "https://ark.wiki.gg/wiki/R-Direwolf",
+    "image": "https://ark.wiki.gg/images/thumb/c/cc/R-Direwolf.png/120px-R-Direwolf.png",
+    "category": "R-Creatures",
+    "tag": "Direwolf",
+    "entityId": "Direwolf_Character_BP_Eden_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Direwolf_Character_BP_Eden.Direwolf_Character_BP_Eden'"
+  },
+  {
+    "name": "R-Equus",
+    "link": "https://ark.wiki.gg/wiki/R-Equus",
+    "image": "https://ark.wiki.gg/images/thumb/3/3a/R-Equus.png/120px-R-Equus.png",
+    "category": "R-Creatures",
+    "tag": "Equus",
+    "entityId": "Equus_Character_BP_Eden_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Equus_Character_BP_Eden.Equus_Character_BP_Eden'"
+  },
+  {
+    "name": "R-Gasbags",
+    "link": "https://ark.wiki.gg/wiki/R-Gasbags",
+    "image": "https://ark.wiki.gg/images/thumb/a/a8/R-Gasbags.png/120px-R-Gasbags.png",
+    "category": "R-Creatures",
+    "tag": "GasBags",
+    "entityId": "GasBags_Character_BP_Eden_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/GasBags_Character_BP_Eden.GasBags_Character_BP_Eden'"
+  },
+  {
+    "name": "R-Giganotosaurus",
+    "link": "https://ark.wiki.gg/wiki/R-Giganotosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/a/a5/R-Giganotosaurus.png/120px-R-Giganotosaurus.png",
+    "category": "R-Creatures",
+    "tag": "Gigant",
+    "entityId": "Gigant_Character_BP_Rockwell_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Gigant_Character_BP_Rockwell.Gigant_Character_BP_Rockwell'"
+  },
+  {
+    "name": "R-Megatherium",
+    "link": "https://ark.wiki.gg/wiki/R-Megatherium",
+    "image": "https://ark.wiki.gg/images/thumb/c/c1/R-Megatherium.png/120px-R-Megatherium.png",
+    "category": "R-Creatures",
+    "tag": "Megatherium",
+    "entityId": "Megatherium_Character_BP_Eden_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Megatherium_Character_BP_Eden.Megatherium_Character_BP_Eden'"
+  },
+  {
+    "name": "R-Snow Owl",
+    "link": "https://ark.wiki.gg/wiki/R-Snow_Owl",
+    "image": "https://ark.wiki.gg/images/thumb/5/5b/R-Snow_Owl.png/120px-R-Snow_Owl.png",
+    "category": "R-Creatures",
+    "tag": "Owl",
+    "entityId": "Owl_Character_BP_Eden_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Owl_Character_BP_Eden.Owl_Character_BP_Eden'"
+  },
+  {
+    "name": "R-Parasaur",
+    "link": "https://ark.wiki.gg/wiki/R-Parasaur",
+    "image": "https://ark.wiki.gg/images/thumb/d/d5/R-Parasaur.png/120px-R-Parasaur.png",
+    "category": "R-Creatures",
+    "tag": "Para",
+    "entityId": "Para_Character_BP_Eden_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Para_Character_BP_Eden.Para_Character_BP_Eden'"
+  },
+  {
+    "name": "R-Procoptodon",
+    "link": "https://ark.wiki.gg/wiki/R-Procoptodon",
+    "image": "https://ark.wiki.gg/images/thumb/b/ba/R-Procoptodon.png/120px-R-Procoptodon.png",
+    "category": "R-Creatures",
+    "tag": "Kangaroo",
+    "entityId": "Procoptodon_Character_BP_Eden_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Procoptodon_Character_BP_Eden.Procoptodon_Character_BP_Eden'"
+  },
+  {
+    "name": "R-Quetzal",
+    "link": "https://ark.wiki.gg/wiki/R-Quetzal",
+    "image": "https://ark.wiki.gg/images/thumb/5/55/R-Quetzal.png/120px-R-Quetzal.png",
+    "category": "R-Creatures",
+    "tag": "Quetz",
+    "entityId": "Quetz_Character_BP_Rockwell_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Quetz_Character_BP_Rockwell.Quetz_Character_BP_Rockwell'"
+  },
+  {
+    "name": "R-Brontosaurus",
+    "link": "https://ark.wiki.gg/wiki/R-Brontosaurus",
+    "image": "https://ark.wiki.gg/images/thumb/3/3b/R-Brontosaurus.png/120px-R-Brontosaurus.png",
+    "category": "R-Creatures",
+    "tag": "Bronto",
+    "entityId": "Sauropod_Character_BP_Rockwell_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Sauropod_Character_BP_Rockwell.Sauropod_Character_BP_Rockwell'"
+  },
+  {
+    "name": "R-Velonasaur",
+    "link": "https://ark.wiki.gg/wiki/R-Velonasaur",
+    "image": "https://ark.wiki.gg/images/thumb/9/9e/R-Velonasaur.png/120px-R-Velonasaur.png",
+    "category": "R-Creatures",
+    "tag": "Velonasaur",
+    "entityId": "Spindles_Character_BP_Rockwell_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Spindles_Character_BP_Rockwell.Spindles_Character_BP_Rockwell'"
+  },
+  {
+    "name": "R-Thylacoleo",
+    "link": "https://ark.wiki.gg/wiki/R-Thylacoleo",
+    "image": "https://ark.wiki.gg/images/thumb/3/34/R-Thylacoleo.png/120px-R-Thylacoleo.png",
+    "category": "R-Creatures",
+    "tag": "Thylacoleo",
+    "entityId": "Thylacoleo_Character_BP_Eden_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Thylacoleo_Character_BP_Eden.Thylacoleo_Character_BP_Eden'"
+  },
+  {
+    "name": "R-Carbonemys",
+    "link": "https://ark.wiki.gg/wiki/R-Carbonemys",
+    "image": "https://ark.wiki.gg/images/thumb/0/04/R-Carbonemys.png/120px-R-Carbonemys.png",
+    "category": "R-Creatures",
+    "tag": "Turtle",
+    "entityId": "Turtle_Character_BP_Rockwell_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Turtle_Character_BP_Rockwell.Turtle_Character_BP_Rockwell'"
+  },
+  {
+    "name": "R-Reaper Queen",
+    "link": "https://ark.wiki.gg/wiki/R-Reaper_Queen",
+    "image": "https://ark.wiki.gg/images/thumb/4/4c/R-Reaper_Queen.png/120px-R-Reaper_Queen.png",
+    "category": "R-Creatures",
+    "tag": "Xenomorph",
+    "entityId": "Xenomorph_Character_BP_Female_Gen2_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Xenomorph_Character_BP_Female_Gen2.Xenomorph_Character_BP_Female_Gen2'"
+  },
+  {
+    "name": "R-Reaper King",
+    "link": "https://ark.wiki.gg/wiki/R-Reaper_King",
+    "image": "https://ark.wiki.gg/images/thumb/b/b9/R-Reaper_King.png/120px-R-Reaper_King.png",
+    "category": "R-Creatures",
+    "tag": "Xenomorph",
+    "entityId": "Xenomorph_Character_BP_Male_Gen2_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Xenomorph_Character_BP_Male_Gen2.Xenomorph_Character_BP_Male_Gen2'"
+  },
+  {
+    "name": "R-Reaper King (Tamed)",
+    "link": "https://ark.wiki.gg/wiki/R-Reaper_King_(Tamed)",
+    "image": "https://ark.wiki.gg/images/thumb/b/b9/R-Reaper_King.png/120px-R-Reaper_King.png",
+    "category": "R-Creatures",
+    "tag": "Xenomorph",
+    "entityId": "Xenomorph_Character_BP_Male_Tamed_Gen2_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Xenomorph_Character_BP_Male_Tamed_Gen2.Xenomorph_Character_BP_Male_Tamed_Gen2'"
+  },
+  {
+    "name": "Summoner",
+    "link": "https://ark.wiki.gg/wiki/Summoner",
+    "image": "https://ark.wiki.gg/images/thumb/2/2f/Summoner.png/120px-Summoner.png",
+    "category": "Fantasy Creatures",
+    "tag": "Summoner",
+    "entityId": "Summoner_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/Summoner/Summoner_Character_BP.Summoner_Character_BP'"
+  },
+  {
+    "name": "Macrophage",
+    "link": "https://ark.wiki.gg/wiki/Macrophage",
+    "image": "https://ark.wiki.gg/images/thumb/0/0e/Macrophage.png/120px-Macrophage.png",
+    "category": "Fantasy Creatures",
+    "tag": "Macrophage",
+    "entityId": "Macrophage_Swarm_Character_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/Macrophage/Macrophage_Swarm_Character.Macrophage_Swarm_Character'"
+  },
+  {
+    "name": "Exo-Mek",
+    "link": "https://ark.wiki.gg/wiki/Exo-Mek",
+    "image": "https://ark.wiki.gg/images/thumb/f/fc/Exo-Mek.png/120px-Exo-Mek.png",
+    "category": "Vehicles",
+    "tag": "Exosuit",
+    "entityId": "Exosuit_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/Exosuit/Exosuit_Character_BP.Exosuit_Character_BP'"
+  },
+  {
+    "name": "Rockwell Prime",
+    "link": "https://ark.wiki.gg/wiki/Rockwell_Prime",
+    "image": "https://ark.wiki.gg/images/thumb/c/cc/Rockwell_Prime.png/120px-Rockwell_Prime.png",
+    "category": "Bosses",
+    "tag": "RockwellPrime",
+    "entityId": "RockwellNode_Character_BP_Boss_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Missions/ModularMission/FinalBattleAlt/Dinos/RockwellNode_Character_BP_Boss.RockwellNode_Character_BP_Boss'"
+  },
+  {
+    "name": "Rockwell Prime (Alpha)",
+    "link": "https://ark.wiki.gg/wiki/Rockwell_Prime_(Alpha)",
+    "image": "https://ark.wiki.gg/images/thumb/1/11/Rockwell_Prime_%28Alpha%29.png/120px-Rockwell_Prime_%28Alpha%29.png",
+    "category": "Bosses",
+    "tag": "RockwellPrime",
+    "entityId": "RockwellNode_Character_BP_Boss_Alpha_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Missions/ModularMission/FinalBattleAlt/Difficulties/Alpha/RockwellNode_Character_BP_Boss_Alpha.RockwellNode_Character_BP_Boss_Alpha'"
+  },
+  {
+    "name": "Rockwell Prime (Beta)",
+    "link": "https://ark.wiki.gg/wiki/Rockwell_Prime_(Beta)",
+    "image": "https://ark.wiki.gg/images/thumb/4/40/Rockwell_Prime_%28Beta%29.png/120px-Rockwell_Prime_%28Beta%29.png",
+    "category": "Bosses",
+    "tag": "RockwellPrime",
+    "entityId": "RockwellNode_Character_BP_Boss_Beta_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Missions/ModularMission/FinalBattleAlt/Difficulties/Beta/RockwellNode_Character_BP_Boss_Beta.RockwellNode_Character_BP_Boss_Beta'"
+  },
+  {
+    "name": "Rockwell Prime (Gamma)",
+    "link": "https://ark.wiki.gg/wiki/Rockwell_Prime_(Gamma)",
+    "image": "https://ark.wiki.gg/images/thumb/8/82/Rockwell_Prime_%28Gamma%29.png/120px-Rockwell_Prime_%28Gamma%29.png",
+    "category": "Bosses",
+    "tag": "RockwellPrime",
+    "entityId": "RockwellNode_Character_BP_Boss_Gamma_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Missions/ModularMission/FinalBattleAlt/Difficulties/Gamma/RockwellNode_Character_BP_Boss_Gamma.RockwellNode_Character_BP_Boss_Gamma'"
+  },
+  {
+    "name": "Rockwell Node",
+    "link": "https://ark.wiki.gg/wiki/Rockwell_Node",
+    "image": "https://ark.wiki.gg/images/thumb/8/87/Rockwell_Node.png/120px-Rockwell_Node.png",
+    "category": "Bosses",
+    "tag": "RockwellPrime",
+    "entityId": "RockwellNode_Character_BP_FinalFight_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Missions/ModularMission/FinalBattleAlt/Dinos/RockwellNode_Character_BP_FinalFight.RockwellNode_Character_BP_FinalFight'"
+  },
+  {
+    "name": "Rockwell Node (Alpha)",
+    "link": "https://ark.wiki.gg/wiki/Rockwell_Node_(Alpha)",
+    "image": "https://ark.wiki.gg/images/thumb/b/b7/Rockwell_Node_%28Alpha%29.png/120px-Rockwell_Node_%28Alpha%29.png",
+    "category": "Bosses",
+    "tag": "RockwellPrime",
+    "entityId": "RockwellNode_Character_BP_FinalFight_Alpha_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Missions/ModularMission/FinalBattleAlt/Difficulties/Alpha/RockwellNode_Character_BP_FinalFight_Alpha.RockwellNode_Character_BP_FinalFight_Alpha'"
+  },
+  {
+    "name": "Rockwell Node (Beta)",
+    "link": "https://ark.wiki.gg/wiki/Rockwell_Node_(Beta)",
+    "image": "https://ark.wiki.gg/images/thumb/7/76/Rockwell_Node_%28Beta%29.png/120px-Rockwell_Node_%28Beta%29.png",
+    "category": "Bosses",
+    "tag": "RockwellPrime",
+    "entityId": "RockwellNode_Character_BP_FinalFight_Beta_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Missions/ModularMission/FinalBattleAlt/Difficulties/Beta/RockwellNode_Character_BP_FinalFight_Beta.RockwellNode_Character_BP_FinalFight_Beta'"
+  },
+  {
+    "name": "Rockwell Node (Gamma)",
+    "link": "https://ark.wiki.gg/wiki/Rockwell_Node_(Gamma)",
+    "image": "https://ark.wiki.gg/images/thumb/1/13/Rockwell_Node_%28Gamma%29.png/120px-Rockwell_Node_%28Gamma%29.png",
+    "category": "Bosses",
+    "tag": "RockwellPrime",
+    "entityId": "RockwellNode_Character_BP_FinalFight_Gamma_C",
+    "blueprint": "Blueprint'/Game/Genesis2/Missions/ModularMission/FinalBattleAlt/Difficulties/Gamma/RockwellNode_Character_BP_FinalFight_Gamma.RockwellNode_Character_BP_FinalFight_Gamma'"
+  },
+  {
+    "name": "Amargasaurus",
+    "link": "https://ark.wiki.gg/wiki/Amargasaurus",
+    "image": "https://ark.wiki.gg/images/thumb/9/92/Amargasaurus.png/120px-Amargasaurus.png",
+    "category": "Dinosaurs",
+    "tag": "Amarga",
+    "entityId": "Amargasaurus_Character_BP_C",
+    "blueprint": "Blueprint'/Game/LostIsland/Dinos/Amargasaurus/Amargasaurus_Character_BP.Amargasaurus_Character_BP'"
+  },
+  {
+    "name": "Dinopithecus",
+    "link": "https://ark.wiki.gg/wiki/Dinopithecus",
+    "image": "https://ark.wiki.gg/images/thumb/e/ed/Dinopithecus.png/120px-Dinopithecus.png",
+    "category": "Mammals",
+    "tag": "Dinopithecus",
+    "entityId": "Dinopithecus_Character_BP_C",
+    "blueprint": "Blueprint'/Game/LostIsland/Dinos/Dinopithecus/Dinopithecus_Character_BP.Dinopithecus_Character_BP'"
+  },
+  {
+    "name": "Dinopithecus King (Gamma)",
+    "link": "https://ark.wiki.gg/wiki/Dinopithecus_King_(Gamma)",
+    "image": "https://ark.wiki.gg/images/thumb/5/51/Dinopithecus_King_%28Gamma%29.png/120px-Dinopithecus_King_%28Gamma%29.png",
+    "category": "Bosses",
+    "tag": "Dinopithecus",
+    "entityId": "BossDinopithecus_Character_BP_Easy_C",
+    "blueprint": "Blueprint'/Game/LostIsland/Boss/BossDinopithecus_Character_BP_Easy.BossDinopithecus_Character_BP_Easy'"
+  },
+  {
+    "name": "Dinopithecus King (Beta)",
+    "link": "https://ark.wiki.gg/wiki/Dinopithecus_King_(Beta)",
+    "image": "https://ark.wiki.gg/images/thumb/5/56/Dinopithecus_King_%28Beta%29.png/120px-Dinopithecus_King_%28Beta%29.png",
+    "category": "Bosses",
+    "tag": "Dinopithecus",
+    "entityId": "BossDinopithecus_Character_BP_Medium_C",
+    "blueprint": "Blueprint'/Game/LostIsland/Boss/BossDinopithecus_Character_BP_Medium.BossDinopithecus_Character_BP_Medium'"
+  },
+  {
+    "name": "Dinopithecus King (Alpha)",
+    "link": "https://ark.wiki.gg/wiki/Dinopithecus_King_(Alpha)",
+    "image": "https://ark.wiki.gg/images/thumb/4/44/Dinopithecus_King_%28Alpha%29.png/120px-Dinopithecus_King_%28Alpha%29.png",
+    "category": "Bosses",
+    "tag": "Dinopithecus",
+    "entityId": "BossDinopithecus_Character_BP_Hard_C",
+    "blueprint": "Blueprint'/Game/LostIsland/Boss/BossDinopithecus_Character_BP_Hard.BossDinopithecus_Character_BP_Hard'"
+  },
+  {
+    "name": "Sinomacrops",
+    "link": "https://ark.wiki.gg/wiki/Sinomacrops",
+    "image": "https://ark.wiki.gg/images/thumb/0/07/Sinomacrops.png/120px-Sinomacrops.png",
+    "category": "Reptiles",
+    "tag": "Sino",
+    "entityId": "Sinomacrops_Character_BP_C",
+    "blueprint": "Blueprint'/Game/LostIsland/Dinos/Sinomacrops/Sinomacrops_Character_BP.Sinomacrops_Character_BP'"
+  },
+  {
+    "name": "Andrewsarchus",
+    "link": "https://ark.wiki.gg/wiki/Andrewsarchus",
+    "image": "https://ark.wiki.gg/images/thumb/c/ce/Andrewsarchus.png/120px-Andrewsarchus.png",
+    "category": "Mammals",
+    "tag": "Andrewsarchus",
+    "entityId": "Andrewsarchus_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Fjordur/Dinos/Andrewsarchus/Andrewsarchus_Character_BP.Andrewsarchus_Character_BP'"
+  },
+  {
+    "name": "Desmodus",
+    "link": "https://ark.wiki.gg/wiki/Desmodus",
+    "image": "https://ark.wiki.gg/images/thumb/f/f0/Desmodus.png/120px-Desmodus.png",
+    "category": "Mammals",
+    "tag": "Desmodus",
+    "entityId": "Desmodus_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Fjordur/Dinos/Desmodus/Desmodus_Character_BP.Desmodus_Character_BP'"
+  },
+  {
+    "name": "Fenrir",
+    "link": "https://ark.wiki.gg/wiki/Fenrir",
+    "image": "https://ark.wiki.gg/images/thumb/6/6a/Fenrir.png/120px-Fenrir.png",
+    "category": "Fantasy Creatures",
+    "tag": "Wolf",
+    "entityId": "Fenrir_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Fjordur/Dinos/Fenrir/Fenrir_Character_BP.Fenrir_Character_BP'"
+  },
+  {
+    "name": "Fjordhawk",
+    "link": "https://ark.wiki.gg/wiki/Fjordhawk",
+    "image": "https://ark.wiki.gg/images/thumb/b/b9/Fjordhawk.png/120px-Fjordhawk.png",
+    "category": "Birds",
+    "tag": "Fjordhawk",
+    "entityId": "Fjordhawk_Character_BP_C",
+    "blueprint": "Blueprint'/Game/Fjordur/Dinos/Fjordhawk/Fjordhawk_Character_BP.Fjordhawk_Character_BP'"
+  }
+]

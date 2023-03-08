@@ -1,0 +1,8 @@
+<div *ngIf="cluster">
+    <page-message></page-message>
+    <div *ngIf="ready">
+        <cluster-stats [cluster]="cluster"></cluster-stats>
+        <cluster-announcements  [cluster]="cluster" [notify]="notify"></cluster-announcements>
+        <cluster-home-details [cluster]="cluster"></cluster-home-details>
+    </div>
+</div>

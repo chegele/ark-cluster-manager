@@ -1,0 +1,13 @@
+<div *ngIf="cluster">
+    <header-nav-view></header-nav-view>
+    <dropdown-nav-view [cluster]="cluster" (onNavigation)="navUpdate($event)"></dropdown-nav-view>
+    <side-navigation [cluster]="cluster" (onNavigation)="navUpdate($event)"></side-navigation>
+    <div class="blur-background">
+        <div class="page-content">
+            <cluster-home-page *ngIf="currentView == 'home'" [cluster]="cluster"></cluster-home-page>
+            <cluster-general *ngIf="currentView == 'general'" [cluster]="cluster"></cluster-general>
+            <cluster-loot-tables *ngIf="currentView == 'drops'" [cluster]="cluster"></cluster-loot-tables>
+        </div>
+    </div>
+    <footer-nav-view></footer-nav-view>
+</div>

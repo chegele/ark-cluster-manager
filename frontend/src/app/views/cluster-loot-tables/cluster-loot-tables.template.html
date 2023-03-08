@@ -1,0 +1,34 @@
+
+<div class="page-section">
+    <config-loot-table 
+        *ngIf="currentTable"
+        (closeClick)="currentTable=null"
+        (click)="$event.stopPropagation()"
+        [lootTable]="currentTable">
+    </config-loot-table>
+
+    <div class="filters" *ngIf="ready" [hidden]="currentTable != null">
+        <input-enum-field 
+            class="filter"
+            [options]="mapOptions" 
+            (selectionChange)="filterMaps($event.value)" 
+            [placeholder]="mapPlaceholder">
+        </input-enum-field>
+        <input-text-field 
+            class="filter"
+            icon="spyglass"
+            placeholder="Filter Items" 
+            [(value)]="filterValue" 
+            [status]="filterStatus">
+        </input-text-field>
+    </div>
+
+    <div class="wrapper" [hidden]="currentTable != null">
+        <config-loot-summary 
+            *ngFor="let table of filteredTables"
+            [filter]="filterValue"
+            [lootTable]="table"
+            (click)="currentTable = table">
+        </config-loot-summary>
+    </div>
+</div>

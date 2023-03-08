@@ -1,0 +1,95 @@
+<!-- Show loaded cluster -->
+<div class="card active" *ngIf="id" (click)="clusterClicked()">
+    <img
+        [hidden]="loading || !iconSrc"
+        class="icon" 
+        [src]="iconSrc"
+        width="50px" 
+        height="50px" 
+    />
+    <div class="header">
+        <div class="head-item" [hidden]="loading" [title]="members + ' members'">
+            <bootstrap-icon 
+                preset="person" 
+                width="20px" 
+                height="20px">
+            </bootstrap-icon>
+            <span>{{members}}</span>
+        </div>
+        <bootstrap-icon 
+            class="head-item" 
+            [preset]="platformIcon" 
+            [title]="platformText"
+            width="20px"
+            height="20px"> 
+        </bootstrap-icon>
+        <div class="head-item"></div>
+        <bootstrap-icon 
+            class="head-item" 
+            [preset]="hostingIcon"
+            [title]="hostingText" 
+            width="20px" 
+            height="20px">
+        </bootstrap-icon>
+        <bootstrap-icon 
+            style="width: 50px;"
+            class="dispose head-item" 
+            preset="closeSquared" 
+            width="20px" 
+            height="20px"
+            (click)="showDeletionPrompt = true; $event.stopPropagation()">
+        </bootstrap-icon>
+    </div>
+    <div style="margin: auto;" *ngIf="cluster">
+        <h1>{{cluster.generalInformation.name || ""}}</h1>
+        <p>{{cluster.generalInformation.shortDescription || ""}}</p>
+    </div>
+    <p class="error" *ngIf="error">{{error}}</p>
+    <loading-animation *ngIf="loading" [active]="loading" style="padding-top: 40px;"></loading-animation>
+</div>
+
+<!-- No id - show new cluster button -->
+<div class="card" *ngIf="!id">
+    <img
+        class="icon" 
+        src="/assets/img/icon-3.png"
+        width="50px" 
+        height="50px" 
+    />
+    <button style="margin-top: 35px;" (click)="showClusterBuilder = true">
+        New Cluster
+    </button>
+</div>
+
+<!-- Cluster deletion prompt -->
+<div id="backdrop" *ngIf="showDeletionPrompt && type == 'ownership'">
+    <div class="content-box">
+        <div class="prompt">
+            <h4>Are you sure you want to delete this cluster?</h4>
+        </div>
+        <div class="userSelection">
+            <button (click)="showDeletionPrompt = false">Cancel</button>
+            <button (click)="deleteClicked()">Delete</button>
+        </div>
+    </div>
+</div>
+
+<!-- Cluster leave prompt -->
+<div id="backdrop" *ngIf="showDeletionPrompt && type == 'membership'">
+    <div class="content-box">
+        <div class="prompt">
+            <h4>Are you sure you want to leave this cluster?</h4>
+        </div>
+        <div class="userSelection">
+            <button (click)="showDeletionPrompt = false">Cancel</button>
+            <button (click)="leaveClicked()">Leave</button>
+        </div>
+    </div>
+</div>
+
+<!-- Configuration Builder -->
+<cluster-builder
+    *ngIf="showClusterBuilder"
+    [show]="showClusterBuilder" 
+    (showChange)="showClusterBuilder = false">
+</cluster-builder>

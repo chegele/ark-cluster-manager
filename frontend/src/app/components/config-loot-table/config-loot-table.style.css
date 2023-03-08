@@ -1,0 +1,100 @@
+
+.loot-table {
+    position: relative;
+    width: 98vw;
+    max-width: 800px;
+    max-height: 80vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid rgba(var(--background-color-2-rgb), 0.9);
+    background-color: rgba(var(--background-color-1-rgb), 0.9);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.loot-table::-webkit-scrollbar {
+    display: none;
+  }
+
+.header {
+    width: 100%;
+    padding: 7px 45px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgba(var(--interactive-color-1-rgb), 0.4);
+}
+
+.header span {
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.header i {
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    float: right;
+    font-size: 25px;
+    color: var(--text-color-1);
+}
+
+.header i:hover {
+    filter: drop-shadow(1px 1px black);
+    opacity: 90%;
+}
+
+.header i:active {
+    scale: 0.95;
+    opacity: 80%;
+}
+
+.collection-header {
+    display: flex;
+    color: var(--text-color-3);
+    font-weight: bold;
+}
+
+.collection-row {
+    display: flex;
+    color: var(--text-color-3);
+}
+
+.item-set {
+    padding: 5px 0px;
+    border-radius: 5px;
+    border: 1px solid rgba(var(--background-color-3-rgb), 0.5);
+}
+
+.loot-header {
+    background-color: #0d465d;
+    display: flex;
+    color: var(--text-color-3);
+    font-weight: bold;
+    padding: 0px;
+}
+
+.loot-row {
+    display: flex;
+    color: var(--text-color-3); 
+}
+
+.row-style:nth-child(odd) {
+    background-color: rgba(var(--interactive-color-1-rgb), 0.2);
+}
+.row-style:nth-child(even) {
+    background-color: rgba(var(--interactive-color-2-rgb), 0.2);
+}
+
+a:link {
+    color: var(--text-color-3);
+    text-decoration: underline;
+    text-decoration-color: rgba(var(--interactive-color-1-rgb), 0.7);
+}
+  
+a:visited {
+    color: var(--text-color-4);
+}

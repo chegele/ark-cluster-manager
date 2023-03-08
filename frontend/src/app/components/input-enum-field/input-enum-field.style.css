@@ -1,0 +1,70 @@
+
+bootstrap-icon {
+    color: white;
+}
+
+.dropdown-wrapper {
+    position: relative;
+    width: 80%;
+    max-width: 350px;
+    height: 50px;
+    margin: 15px auto;
+    color: var(--text-color-1);
+}
+
+.dropdown-button { 
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    padding: 0px 16px;
+    border-radius: 12px;
+    border: 1px solid var(--interactive-color-2);
+    background: rgba(var(--interactive-color-2-rgb), 0.5);
+}
+
+.dropdown-value span{
+    font-size: 20px;
+    margin-left: 18px;
+}
+
+.dropdown-selector {
+    z-index: 100;
+    position: absolute;
+    top: 0px; left: 0px;
+    width: 100%;
+    height: fit-content;
+    max-height: 200px;
+    overflow-y: auto;
+    background: rgba(var(--interactive-color-2-rgb), 0.95);
+    border: 1px solid var(--interactive-color-2);
+    border-radius: 12px;
+    overflow-x: auto;
+}
+
+.dropdown-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    height: 45px;
+    padding: 5px 16px;
+    border-bottom: thin solid rgba(var(--interactive-color-1-rgb), 0.8);
+    font-size: 18px;
+}
+
+.dropdown-row:hover {
+    background-color: rgba(var(--interactive-color-1-rgb), 0.5);
+    cursor: pointer;
+}
+
+.input-success {
+    border: 1px solid var(--success-outline-color);
+}
+
+.input-failure {
+    border: 1px solid var(--error-outline-color);
+}

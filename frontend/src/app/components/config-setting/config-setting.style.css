@@ -1,0 +1,37 @@
+
+.wrapper {
+    display: flex;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: var(--background-color-2);
+    border: 1px solid var(--background-color-1);
+    font-size: 16px;
+}
+
+.label {
+    display: inline-block;
+    width: 60%;
+    padding: auto;
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: default;
+}
+
+.label:hover, .label:active {
+    white-space: normal;
+    overflow: none;
+    text-overflow: none;
+}
+
+.value {
+    display: inline-block;
+    background-color: var(--background-color-1);
+    margin-left: 5%;
+    width: 35%;
+    text-align: center;
+    overflow-x: auto;
+}

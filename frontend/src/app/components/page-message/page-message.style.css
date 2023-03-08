@@ -1,0 +1,45 @@
+.message {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(var(--background-color-1-rgb), 0.8);
+    margin: 10px;
+    height: 0px;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(2px 2px 4px #222);
+    filter: drop-shadow(3px 3px 6px #222);
+}
+
+.countdown {
+    color: var(--text-color-3);
+    text-align: center;
+    width: 26px;
+    height: 26px;
+    min-width: 26px;
+    max-height: 26px;
+    border-radius: 26px;
+    border: 1px solid var(--text-color-4);
+    cursor: pointer;
+}
+
+.countdown:active {
+    font-weight: bold;
+    scale: 0.99;
+    opacity: 0.9;
+}
+
+.info {
+    color: var(--text-color-2);
+}
+
+.error {
+    color: var(--error-text-color);
+}
+
+.success {
+    color: var(--success-text-color);
+}
+
+span {
+    color: inherit;
+}

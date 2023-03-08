@@ -1,0 +1,189 @@
+[
+    {
+        "parent": "gameObject",
+        "originalKey": "pvPZoneStructureDamageMultiplier",
+        "definedKey": "caveDamageMultiplier",
+        "type": "Number",
+        "category": "structures",
+        "required": false,
+        "default": 6,
+        "label": "Cave Damage Multiplier",
+        "description": "Scales the amount of damage structures take within caves."
+    },
+    {
+        "parent": "userObject",
+        "originalKey": "autoDestroyOldStructuresMultiplier",
+        "definedKey": "autoDestroyMultiplier",
+        "type": "Number",
+        "category": "structures",
+        "required": false,
+        "default": 1,
+        "label": "Auto Destroy Multiplier",
+        "description": "Amount of time before abandoned structures are automatically destroyed."
+    },
+    {
+        "parent": "userObject",
+        "originalKey": "autoDestroyStructures",
+        "definedKey": "enableAutoDestroy",
+        "type": "Boolean",
+        "category": "structures",
+        "required": false,
+        "default": false,
+        "label": "Enable Auto Destroy",
+        "description": "Enables the automatic destruction of old structures."
+    },
+    {
+        "parent": "userObject",
+        "originalKey": "bAllowPlatformSaddleMultiFloors",
+        "definedKey": "multiFloorPlatforms",
+        "type": "Boolean",
+        "category": "structures",
+        "required": false,
+        "default": false,
+        "label": "Enable Multi-floor Platforms",
+        "description": "Enables placement of multiple floors on platform saddles."
+    },
+    {
+        "parent": "userObject",
+        "originalKey": "destroyUnconnectedWaterPipes",
+        "definedKey": "destroyIsolatedPipes",
+        "type": "Boolean",
+        "category": "structures",
+        "required": false,
+        "default": false,
+        "label": "Destroy Unconnected Pipes",
+        "description": "Enables the automatic destruction of unconnected pipes after 48 hours."
+    },
+    {
+        "parent": "userObject",
+        "originalKey": "disableStructureDecayPvE",
+        "definedKey": "disableStructureDecay",
+        "type": "Boolean",
+        "category": "structures",
+        "required": false,
+        "default": false,
+        "label": "Disable Structure Decay",
+        "description": "Disables the 7 day decay of player structures."
+    },
+    {
+        "parent": "userObject",
+        "originalKey": "enableExtraStructurePreventionVolumes",
+        "definedKey": "disableResourceBlocking",
+        "type": "Boolean",
+        "category": "structures",
+        "required": false,
+        "default": false,
+        "label": "Disable Resource Blocking",
+        "description": "Disables building in specific resource-rich areas."
+    },
+    {
+        "parent": "userObject",
+        "originalKey": "forceAllStructureLocking",
+        "definedKey": "lockByDefault",
+        "type": "Boolean",
+        "category": "structures",
+        "required": false,
+        "default": false,
+        "label": "Lock By Default",
+        "description": "Containers & doors will default to being locked when placed."
+    },
+    {
+        "parent": "userObject",
+        "originalKey": "onlyAutoDestroyCoreStructures",
+        "definedKey": "destroyCoreOnly",
+        "type": "Boolean",
+        "category": "structures",
+        "required": false,
+        "default": false,
+        "label": "Only Destroy Core Structures",
+        "description": "Prevents non-foundation type structures from being automatically destroyed."
+    },
+    {
+        "parent": "userObject",
+        "originalKey": "onlyDecayUnsnappedCoreStructures",
+        "definedKey": "onlyDecayUnsnapped",
+        "type": "Boolean",
+        "category": "structures",
+        "required": false,
+        "default": false,
+        "label": "Only Decay Unsnapped",
+        "description": "Only allows decay on core structures which are not snapped to other structures."
+    },
+    {
+        "parent": "userObject",
+        "originalKey": "overrideStructurePlatformPrevention",
+        "definedKey": "enableAllPlatformStructures",
+        "type": "Boolean",
+        "category": "structures",
+        "required": false,
+        "default": false,
+        "label": "Enable All Platform Structures",
+        "description": "Allows all structures, like spikes, to be placed to platforms."
+    },
+    {
+        "parent": "userObject",
+        "originalKey": "perPlatformMaxStructuresMultiplier",
+        "definedKey": "platformCountMultiplier",
+        "type": "Number",
+        "category": "structures",
+        "required": false,
+        "default": 1,
+        "label": "Platform Structure Multiplier",
+        "description": "The number of structures that can be places on a platform."
+    },
+    {
+        "parent": "userObject",
+        "originalKey": "pvEStructureDecayPeriodMultiplier",
+        "definedKey": "decayMultiplier",
+        "type": "Number",
+        "category": "structures",
+        "required": false,
+        "default": 1,
+        "label": "Decay Multiplier",
+        "description": "The rate at which structures will decay."
+    },
+    {
+        "parent": "userObject",
+        "originalKey": "structureDamageMultiplier",
+        "definedKey": "spikeDamageMultiplier",
+        "type": "Number",
+        "category": "structures",
+        "required": false,
+        "default": 1,
+        "label": "Spike Damage Multiplier",
+        "description": "The amount of damage done by structures like spikes."
+    },
+    {
+        "parent": "userObject",
+        "originalKey": "structurememopts",
+        "definedKey": "enableOptimizations",
+        "type": "Boolean",
+        "category": "structures",
+        "required": false,
+        "default": false,
+        "label": "Memory Optimizations",
+        "description": "Enables structure based memory optimizations."
+    },
+    {
+        "parent": "userObject",
+        "originalKey": "structureResistanceMultiplier",
+        "definedKey": "structureDamageMultiplier",
+        "type": "Number",
+        "category": "structures",
+        "required": false,
+        "default": null,
+        "label": "Structure Damage Multiplier",
+        "description": "The amount of damage structures will take when attacked."
+    },
+    {
+        "parent": "userObject",
+        "originalKey": "theMaxStructuresInRange",
+        "definedKey": "maxStructures",
+        "type": "Number",
+        "category": "structures",
+        "required": false,
+        "default": 10500,
+        "label": "Maximum Structures",
+        "description": "The maximum number of structures within range of each other."
+    }
+]

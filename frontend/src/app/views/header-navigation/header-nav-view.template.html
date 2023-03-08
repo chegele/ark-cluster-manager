@@ -1,0 +1,9 @@
+<div class="header">
+    <div class="navigation"> 
+        <img id="login-logo" src="/assets/img/logo-2.png" class="logo">
+        <div *ngFor="let item of displayNavItems" class="nav-item" (click)="navClicked(item)">
+            <bootstrap-icon [preset]="item.icon" width="30px" height="30px" ></bootstrap-icon>
+            <p>{{item.text}}</p>
+        </div>
+    </div>
+</div>

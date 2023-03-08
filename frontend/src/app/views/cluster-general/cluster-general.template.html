@@ -1,0 +1,20 @@
+<div class="page-section">
+    <div class="header">
+        <input-text-field
+            class="search"
+            icon="person" 
+            placeholder="Filter Settings"
+            (valueChange)="filterSearchResults($event)">
+        </input-text-field>
+    </div>
+    <hr />
+    <div *ngFor="let section of sections" class="category">
+        <h2>{{section | titlecase}}</h2>
+        <div class="wrapper">
+            <config-setting 
+                *ngFor="let setting of filteredSettings | settingsFilter: section"
+                [setting]="setting">
+            </config-setting>
+        </div>
+    </div>
+</div>

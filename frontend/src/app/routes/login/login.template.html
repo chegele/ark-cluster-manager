@@ -1,0 +1,22 @@
+<div>
+    <div id="login-frame">
+
+        <img id="login-logo" src="/assets/img/logo-2.png"> <br />
+        <p style="text-align: center;">Enter a username and password to login or register.</p>
+        <ul><li *ngFor="let error of errors">{{error}}</li></ul>
+        <input-text-field inputType="username" (keydown.enter)="onSubmit()" [(value)]="usernameValue" [status]="usernameState"></input-text-field>
+        <input-text-field inputType="password" (keydown.enter)="onSubmit()" [(value)]="passwordValue" [status]="passwordState"></input-text-field>
+        <input-text-field *ngIf="['signup', 'validate'].includes(stage)" (keydown.enter)="onSubmit()" inputType="email" [(value)]="emailValue" [status]="emailState"></input-text-field>
+        <input-text-field *ngIf="stage == 'verify'" (keydown.enter)="onSubmit()" inputType="key" [(value)]="keyValue" [status]="keyState"></input-text-field>
+
+        <button *ngIf="stage == 'login'" (click)="onSubmit()" class="input-button">Login or Register</button>  
+        <button *ngIf="stage == 'signup'" (click)="onSubmit()" class="input-button">Register Account</button>
+        <button *ngIf="stage == 'verify'" (click)="onSubmit()" class="input-button">Verify & Login</button>
+
+        <div class="sub-navigation">
+            <a *ngIf="stage == 'login'" (click)="onForgotPassword()">Forgot Password</a>
+            <a *ngIf="stage != 'login'" (click)="onShowLogin()">Return to Login</a>
+        </div>
+    </div>
+    <reset-password [show]="showPasswordReset" (showChange)="showPasswordReset = $event"></reset-password>
+</div>

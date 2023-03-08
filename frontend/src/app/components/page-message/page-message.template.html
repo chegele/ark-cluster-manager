@@ -1,0 +1,17 @@
+<div class="message" [ngClass]="currentStyle" [@expand]="processingMessages ? 'expand' : 'contract'">
+    <div [@fade]="fadeMessage ? 'out' : 'in'">
+        <i *ngIf="currentStyle == 'info'" class="bi bi-info-circle"></i>
+        <i *ngIf="currentStyle == 'success'" class="bi bi-check-circle"></i>
+        <i *ngIf="currentStyle == 'error'" class="bi bi-x-circle"></i>
+        <span style="padding-left: 10px">{{currentMessage}}</span>
+    </div>
+    <div 
+        class="countdown" 
+        title="Clear {{messageQueue.length + 1}} messages"
+        (mouseenter)="showClose = true"
+        (mouseleave)="showClose = false"
+        (click)="clearMessages()">
+        <span *ngIf="!showClose"> {{messageQueue.length + 1}} </span>
+        <i *ngIf="showClose" class="bi bi-x-lg"></i>
+    </div>
+</div>

@@ -1,0 +1,207 @@
+
+@media (max-width:800px) {
+    .content {
+        display: none;
+    }
+}
+
+@media (min-width:800px) {
+    .content {
+        display: flex;
+    }
+}
+
+#backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(var(--background-color-3-rgb), 0.8);
+    backdrop-filter: blur(6px);
+}
+
+.content-box {
+    width: 90%;
+    max-width: 500px;
+    height: fit-content;
+    overflow: auto;
+    padding: 15px;
+    margin-bottom: 60px;
+    border-radius: 25px;
+    background: rgba(14, 75, 98, 0.9);
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+}
+
+.content-box button {
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+    background: var(--interactive-color-2);
+    border-radius: 16px;
+    border: none;
+    width: 80%;
+    max-width: 350px;
+    height: 50px;
+    margin: auto;
+}
+
+.errors p {
+    color: var(--error-text-color);
+    padding: 5px 10px;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: var(--text-color-1);
+}
+
+#closeIcon:hover, button:hover {
+    cursor: pointer;
+    opacity: 80%;
+}
+
+#closeIcon:active, button:active:not(.disabled) {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+    transform: scale(0.98);
+}
+
+.content {
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(var(--background-color-1-rgb));
+    background: linear-gradient(180deg, 
+        rgba(var(--background-color-2-rgb), 1) 0%, 
+        rgba(var(--background-color-2-rgb), 1) 10%, 
+        rgba(var(--background-color-1-rgb), 1) 50%
+    );
+    width: 300px;
+    z-index: 50;
+    padding: 10px 10px 10px 5px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    filter: drop-shadow(0px 2px 4px #000000);
+}
+
+#edit-button {
+    color: var(--text-color-3);
+    position: absolute;
+    right: 90px;
+    top: 140px;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    background-color: var(--background-color-3);
+    border-radius: 25px;
+    border: solid;
+    border-width: thin;
+    border-color: var(--interactive-color-2);
+    cursor: pointer;
+}
+
+#edit-button:hover {
+    color: var(--text-color-1);
+    background-color: var(--interactive-color-1);
+    filter: drop-shadow(1px 1px 2px black);
+}
+
+#edit-button:active {
+    scale: 0.95;
+}
+
+.logo {
+    filter: drop-shadow(2px 3px 2px #000000);
+}
+
+.icon {
+    overflow: hidden;
+    background-color: var(--background-color-3);
+    border-radius: 125px;
+    border: solid;
+    border-width: thin;
+    border-color: var(--interactive-color-2);
+    padding: 1px;
+    margin: 30px;
+    min-height: 125px;
+}
+
+hr {
+    width: 100%;
+    color: var(--text-color-3);
+}
+
+h2 {
+    color: var(--text-color-2);
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+
+.navigation {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+ul {
+    width: 100%;
+    margin-top: 10px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+ul:last-child {
+    color: var(--text-color-3);
+    border-bottom: 1px solid var(--interactive-color-2);
+}
+
+li {
+    color: var(--text-color-3);
+    font-size: 20px;
+    padding: 5px 5px 5px 30px;
+    border-top: 1px solid var(--interactive-color-2);
+}
+
+li.active {
+    padding-left: 45px;
+    background-color: var(--background-color-2);
+    background: linear-gradient(90deg, 
+        rgba(var(--background-color-2-rgb), 0) 0%, 
+        rgba(var(--background-color-2-rgb), 1) 15%, 
+        rgba(var(--background-color-2-rgb), 1) 50%,
+        rgba(var(--background-color-2-rgb), 0) 100%
+    );
+}
+
+li:hover {
+    cursor: pointer;
+    scale: 1.01;
+    background-color: var(--interactive-color-2);
+    background: linear-gradient(90deg, 
+        rgba(var(--interactive-color-2-rgb), 0) 0%, 
+        rgba(var(--interactive-color-2-rgb), 1) 15%, 
+        rgba(var(--interactive-color-2-rgb), 1) 50%,
+        rgba(var(--interactive-color-2-rgb), 0) 100%
+    );
+}
+
+li:active {
+    scale: 0.99;
+}
+

@@ -1,0 +1,189 @@
+[
+    {
+        "parent": "gameObject",
+        "originalKey": "cropGrowthSpeedMultiplier",
+        "definedKey": "cropGrowth",
+        "type": "Number",
+        "category": "consumption",
+        "required": false,
+        "default": 1,
+        "label": "Crop Growth Multiplier",
+        "description": "The speed that crops will grow."
+    },
+    {
+        "parent": "gameObject",
+        "originalKey": "cropDecaySpeedMultiplier",
+        "definedKey": "cropResistance",
+        "type": "Number",
+        "category": "consumption",
+        "required": false,
+        "default": 1,
+        "label": "Crop Resistance Multiplier",
+        "description": "The resistance that crops have to decaying."
+    },
+    {
+        "parent": "gameObject",
+        "originalKey": "fastDecayInterval",
+        "definedKey": "fastDecay",
+        "type": "Number",
+        "category": "consumption",
+        "required": false,
+        "default": 43200,
+        "label": "Fast Decay Seconds",
+        "description": "The decay time in seconds for 'fast decay' structures."
+    },
+    {
+        "parent": "gameObject",
+        "originalKey": "globalCorpseDecompositionTimeMultiplier",
+        "definedKey": "corpseResistance",
+        "type": "Number",
+        "category": "consumption",
+        "required": false,
+        "default": 1,
+        "label": "Corpse Resistance Multiplier",
+        "description": "The resistance that corpse's have to decaying"
+    },
+    {
+        "parent": "gameObject",
+        "originalKey": "globalItemDecompositionTimeMultiplier",
+        "definedKey": "droppedItemResistance",
+        "type": "Number",
+        "category": "consumption",
+        "required": false,
+        "default": 1,
+        "label": "Dropped Item Resistance",
+        "description": "The resistance that dropped items have to being destroyed."
+    },
+    {
+        "parent": "gameObject",
+        "originalKey": "globalPoweredBatteryDurabilityDecreasePerSecond",
+        "definedKey": "batteryConsumption",
+        "type": "Number",
+        "category": "consumption",
+        "required": false,
+        "default": 3,
+        "label": "Battery Consumption",
+        "description": "The durability lost per second of battery use."
+    },
+    {
+        "parent": "gameObject",
+        "originalKey": "globalSpoilingTimeMultiplier",
+        "definedKey": "spoilResistance",
+        "type": "Number",
+        "category": "consumption",
+        "required": false,
+        "default": 1,
+        "label": "Spoil Resistance",
+        "description": "The resistance that perishable food has to spoiling."
+    },
+    {
+        "parent": "gameObject",
+        "originalKey": "useCorpseLifeSpanMultiplier",
+        "definedKey": "corpseLifespan",
+        "type": "Number",
+        "category": "consumption",
+        "required": false,
+        "default": 1,
+        "label": "Corpse Lifespan",
+        "description": "Modifies the lifespan of corpse's and loot bags."
+    },
+    {
+        "parent": "gameObject",
+        "originalKey": "wildDinoCharacterFoodDrainMultiplier",
+        "definedKey": "wildFoodConsumption",
+        "type": "Number",
+        "category": "consumption",
+        "required": false,
+        "default": 1,
+        "label": "Wild Dino Consumption",
+        "description": "How fast wild dinosaurs will consume food."
+    },
+    {
+        "parent": "gameObject",
+        "originalKey": "wildDinoTorporDrainMultiplier",
+        "definedKey": "wildTorporDissipation",
+        "type": "Number",
+        "category": "consumption",
+        "required": false,
+        "default": 1,
+        "label": "Wild Torpor Dissipation",
+        "description": "How fast wild dinosaurs lose torpidity."
+    },
+    {
+        "parent": "gameObject",
+        "originalKey": "fuelConsumptionIntervalMultiplier",
+        "definedKey": "fuelInterval",
+        "type": "Number",
+        "category": "consumption",
+        "required": false,
+        "default": 1,
+        "label": "Fuel Consumption",
+        "description": "How often fuel is consumed."
+    },
+    {
+        "parent": "userObject",
+        "originalKey": "autoDestroyDecayedDinos",
+        "definedKey": "destroyUnclaimedDinos",
+        "type": "Boolean",
+        "category": "consumption",
+        "required": false,
+        "default": true,
+        "label": "Destroy Decayed Unclaimed Dinos",
+        "description": "Auto-destroy claimable decayed dinos on load, rather than have them remain around as Claimable."
+    },
+    {
+        "parent": "userObject",
+        "originalKey": "disableDinoDecayPvE",
+        "definedKey": "disableTameDecay",
+        "type": "Boolean",
+        "category": "consumption",
+        "required": false,
+        "default": false,
+        "label": "Disable Tame Decay",
+        "description": "Disable the gradual (7 days) decay of dinosaur ownership. Without this set to true, every dinosaur can be claimed by any player."
+    },
+    {
+        "parent": "userObject",
+        "originalKey": "fastDecayUnsnappedCoreStructures",
+        "definedKey": "",
+        "type": "Number",
+        "category": "consumption",
+        "required": false,
+        "default": 1,
+        "label": "",
+        "description": ""
+    },
+    {
+        "parent": "userObject",
+        "originalKey": "pvEDinoDecayPeriodMultiplier",
+        "definedKey": "",
+        "type": "Number",
+        "category": "consumption",
+        "required": false,
+        "default": 1,
+        "label": "",
+        "description": ""
+    },
+    {
+        "parent": "userObject",
+        "originalKey": "pvPDinoDecay",
+        "definedKey": "",
+        "type": "Number",
+        "category": "consumption",
+        "required": false,
+        "default": 1,
+        "label": "",
+        "description": ""
+    },
+    {
+        "parent": "userObject",
+        "originalKey": "pvPStructureDecay",
+        "definedKey": "",
+        "type": "Number",
+        "category": "consumption",
+        "required": false,
+        "default": 1,
+        "label": "",
+        "description": ""
+    }
+]

@@ -1,0 +1,10 @@
+<div class="card">
+    <img [src]="container.image">
+    <div class="information">
+        <h4>{{container.name | titlecase}}</h4>
+        <span>{{container.map}}</span>
+        <div class="spacer"></div>
+        <span><b>Collections:</b> {{lootTable.collections.length}} ({{items.length}})</span>
+        <span><b>Rewarded:</b> {{rewards}}</span>
+    </div>
+</div>

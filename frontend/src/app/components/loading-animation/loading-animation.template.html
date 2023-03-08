@@ -1,0 +1,7 @@
+<div class="loader" *ngIf="active" [style.height]="height + 'px'">
+    <div class="wave" 
+    *ngFor="let _ of [].constructor(width / 10); let i = index"
+    [style.animation-delay]="i/(width/12.5) + 's'"
+    [style.height]="height-20 + 'px'">
+</div>
+</div>

@@ -1,0 +1,18 @@
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-shrink: 1;
+}
+
+.page-section {
+    background-color: rgba(var(--background-color-1-rgb), 0.8);
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(2px 2px 4px #222);
+    filter: drop-shadow(3px 3px 6px #222);
+}

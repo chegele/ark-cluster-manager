@@ -1,0 +1,15 @@
+<div>
+    <h1 class="section-header">{{type == "ownership" ? 'Owned Clusters' : "Joined Clusters"}}</h1>
+    <div class="wrapper">
+        <cluster-summary
+            *ngFor="let id of clusterIds"
+            [id]="id"
+            [type]="type">
+        </cluster-summary>
+        <cluster-summary *ngIf="type == 'ownership' && usersOwnedClusters < maxOwnedCluster">
+        </cluster-summary>
+        <div *ngIf="type == 'membership' && clusterIds.length == 0" class="empty-card">
+            <p>You can join a cluster to quickly access its home pages from here.</p>
+        </div>
+    </div>
+</div>

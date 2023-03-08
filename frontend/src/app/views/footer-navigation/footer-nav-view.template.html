@@ -1,0 +1,8 @@
+<div class="footer">
+    <div class="navigation"> 
+        <div *ngFor="let item of displayNavItems" class="nav-item" (click)="navClicked(item)">
+            <bootstrap-icon [preset]="item.icon" width="25px" height="25px" ></bootstrap-icon>
+            <p>{{item.text}}</p>
+        </div>
+    </div>
+</div>

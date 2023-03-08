@@ -1,0 +1,104 @@
+<div id="backdrop" (click)="close()" [ngClass]="{ 'd-none': show == false }">
+    <div class="content-box" (click)="$event.stopPropagation()">
+
+        <div class="header">
+            <h2 id="title">Cluster Editor {{display == 'input' ? inputPage + '/3' : ''}}</h2>
+            <bootstrap-icon 
+                id="closeIcon"
+                preset="closeSquared" 
+                color="var(--text-color-2)" 
+                width="26px" 
+                height="26px"
+                (click)="close()">
+            </bootstrap-icon>
+        </div>
+
+        <div id="input-view" [ngClass]="{ 'd-none': display != 'input' }">
+            <ul class="errors"><li *ngFor="let error of errors">{{error}}</li></ul>
+            <div [hidden]="inputPage != 1">
+                <input-text-field placeholder="Cluster Name" icon="title" 
+                    [(value)]="nameValue" [status]="nameStatus">
+                </input-text-field>
+                <input-text-field placeholder="Description" icon="information" 
+                    [(value)]="descriptionValue" [status]="descriptionStatus">
+                </input-text-field>
+                <input-text-field placeholder="Image (optional url)" icon="image" 
+                    [(value)]="logoValue" [status]="logoStatus">
+                </input-text-field>
+            </div>
+            <div [hidden]="inputPage != 2">
+                <input-enum-field [placeholder]="configIdPlaceholder" 
+                    [status]="configIdStatus"
+                    [options]="configIdOptions" 
+                    [setOption]="configIdInitialOption"                    
+                    (selectionChange)="configIdValue = $event.value">
+                </input-enum-field>
+                <input-enum-field [placeholder]="platformPlaceholder" 
+                    [status]="platformStatus"
+                    [options]="platformOptions" 
+                    [setOption]="platformInitialOption"
+                    (selectionChange)="platformValue = $event.value">
+                </input-enum-field>
+                <input-enum-field [placeholder]="hostTypePlaceholder" 
+                    [status]="hostTypeStatus"
+                    [options]="hostTypeOptions" 
+                    [setOption]="hostTypeInitialOption"
+                    (selectionChange)="hostTypeValue = $event.value">
+                </input-enum-field>
+            </div>
+            <div [hidden]="inputPage != 3">
+                <input-date-field placeholder="Last Wipe" icon="eraser" 
+                    [status]="lastWipeStatus"
+                    [setDate]="lastWipeInitialDate"
+                    [(value)]="lastWipeValue">
+                </input-date-field>
+                <input-date-field placeholder="Next Wipe" icon="eraserFill" 
+                    [status]="nextWipeStatus"
+                    [setDate]="nextWipeInitialDate"
+                    [(value)]="nextWipeValue">
+                </input-date-field>
+                <div style="height: 45px;">
+                    <input-boolean-field icon="faceLove" iconFalse="faceDead"
+                        displayTrue="PVE"
+                        displayFalse="PVP"
+                        [status]="pveStatus"
+                        [(value)]="pveValue">
+                    </input-boolean-field>
+                </div>
+                <div style="height: 45px;">
+                    <input-boolean-field icon="eye" iconFalse="eyeBlocked"
+                        displayTrue="Public"
+                        displayFalse="Private"
+                        [status]="publicStatus"
+                        [(value)]="publicValue">
+                    </input-boolean-field>
+                </div>
+            </div>
+            <div class="paging-group">
+                <button style="width: 50px" (click)="pageInput(-1)" [ngClass]="{disabled: inputPage == 1}">
+                    <bootstrap-icon width="20" height="20" preset="chevronLeft"></bootstrap-icon>
+                </button>
+                <button style="width: 50%;" (click)="inputPage == 3 ? updateCluster() : null" [ngClass]="{disabled: inputPage != 3}">
+                    Update Cluster
+                </button>
+                <button style="width: 50px" (click)="pageInput(1)" [ngClass]="{disabled: inputPage == 3}">
+                    <bootstrap-icon width="20" height="20" preset="chevronRight"></bootstrap-icon>
+                </button>
+            </div>
+        </div>
+
+        <div id="loading-view" [ngClass]="{ 'd-none': display != 'loading' }">
+            <loading-animation [width]="250"></loading-animation>
+            <p>Updating the cluster...</p>
+        </div>
+
+        <div id="results-view" [ngClass]="{ 'd-none': display != 'result' }">
+            <h3>Successfully updated {{resultingCluster?.generalInformation?.name}}</h3>
+            <p>{{resultingCluster?.generalInformation?.shortDescription}}</p>
+            <div id="button-wrapper">
+                <button (click)="revertClicked()">Revert</button>
+                <button (click)="continueClicked()">Continue</button>
+            </div>
+        </div>
+    </div>
+</div>

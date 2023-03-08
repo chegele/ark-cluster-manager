@@ -1,0 +1,50 @@
+
+<div class="editor">
+    <div>
+        <div class="btn-toolbar" role="toolbar">
+            <div class="btn-group me-2" role="group">
+                <button 
+                    *ngFor="let tool of toolbar" 
+                    type="button" 
+                    class="btn tool" 
+                    title="{{tool.title}}" 
+                    (click)="tool.action()"
+                    [attr.disabled]="!tool.icon && !tool.text ? 'true' : null">
+                    <i *ngIf="tool.icon" class="bi bi-{{tool.icon}}"> </i>
+                    <span *ngIf="tool.text"> {{tool.text}} </span>
+                </button>
+            </div>
+        </div>
+        <ngx-codemirror
+            #code_mirror
+            [(ngModel)]="content"
+            [options]="{
+                lineNumbers: true,
+                lineWrapping: true,
+                theme: 'oceanic-next',
+                mode: 'markdown'
+            }"
+        ></ngx-codemirror>
+        <div class="errors" *ngIf="errors.length > 0">
+            <ul> <li *ngFor="let error of errors">{{error}}</li> </ul>
+        </div>
+        <div class="btn-actions" role="toolbar">
+            <div class="btn-group" role="group">
+                <button 
+                    *ngFor="let tool of actions" 
+                    type="button" 
+                    class="btn action" 
+                    title="{{tool.title}}" 
+                    (click)="tool.action()"
+                    [attr.disabled]="!tool.icon && !tool.text ? 'true' : null">
+                    <i *ngIf="tool.icon" class="bi bi-{{tool.icon}}"> </i>
+                    <span *ngIf="tool.text"> <b>{{tool.text}}</b> </span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div [hidden]="previewMarkdown.trim().length < 2" >
+    <hr />
+    <markdown-viewer [markdown]="previewMarkdown"> </markdown-viewer>
+</div>

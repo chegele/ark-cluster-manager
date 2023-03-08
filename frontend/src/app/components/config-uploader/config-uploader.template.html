@@ -1,0 +1,57 @@
+<div id="backdrop" (click)="closeClick($event)" [ngClass]="{ 'd-none': show == false }">
+    <div class="content-box">
+        <div class="header">
+            <h2 id="title">Configuration Upload</h2>
+            <bootstrap-icon 
+                id="closeIcon"
+                preset="closeSquared" 
+                color="var(--text-color-2)" 
+                width="26px" 
+                height="26px">
+            </bootstrap-icon>
+        </div>
+        <div id="input-view" [ngClass]="{ 'd-none': display != 'input' }">
+            <ul class="errors"><li *ngFor="let error of errors">{{error}}</li></ul>
+            <input-text-field 
+                [(value)]="nameValue" 
+                [status]="nameStatus"
+                inputType="other" 
+                icon="title" 
+                placeholder="Name">
+            </input-text-field>
+            <input-text-field 
+                [(value)]="descriptionValue" 
+                [status]="descriptionStatus"
+                inputType="other" 
+                icon="information" 
+                placeholder="Description">
+            </input-text-field>
+            <input-file-field 
+                [(value)]="gameFile1Value" 
+                [status]="gameFile1Status"
+                placeholder="game.ini">
+            </input-file-field>
+            <input-file-field 
+                [(value)]="gameFile2Value" 
+                [status]="gameFile2Status"
+                placeholder="gameUserSettings.ini">
+            </input-file-field>
+            <button (click)="uploadClicked()">Upload Configuration</button>
+        </div>
+        <div id="loading-view" [ngClass]="{ 'd-none': display != 'loading' }">
+            <loading-animation [width]="250"></loading-animation>
+            <p>This will take a minute...</p>
+        </div>
+        <div id="results-view" [ngClass]="{ 'd-none': display != 'result' }">
+            <p class="errors" *ngFor="let error of errors">{{error}}</p>
+            <h4>Parsing Results: </h4> 
+            <div id="list-wrapper"><ul> <li *ngFor="let item of results">
+                {{capitalize(item.category)}}: <span [ngStyle]="{'color': percentColor(item.percent)}">{{item.percent}}%</span>
+            </li></ul></div>
+            <div id="button-wrapper">
+                <button (click)="deleteClicked()">Delete</button>
+                <button (click)="continueClicked()">Continue</button>
+            </div>
+        </div>
+    </div>
+</div>

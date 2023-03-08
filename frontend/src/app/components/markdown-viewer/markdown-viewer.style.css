@@ -1,0 +1,27 @@
+
+/* == == == == == == == WARNING == == == == == == == */
+/*   The styling in this file is not encapsulated    */
+/* Prefix all styles in this document with .markdown */
+/* This will prevent unintentional external styling  */
+/* == == == == == == == WARNING == == == == == == == */
+
+.markdown img {
+    display: block; 
+    text-align: center;
+}
+
+.markdown .center {
+    margin: 5px auto;
+}
+
+.markdown .fit {
+    max-width: 100%;
+}
+
+.markdown p {
+    padding-left: 10px;
+}
+
+.markdown hr {
+    color: var(--text-color-1);
+}

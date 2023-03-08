@@ -1,0 +1,21 @@
+<div class="page-section">
+    <button 
+        *ngIf="isOwner && !loading"
+        class="full" 
+        style="margin-left: 10px; margin-bottom: 10pxl; float: right;" 
+        (click)="displayEditor = !displayEditor">
+        {{displayEditor ? 'Hide Editor' : 'Show Editor'}}
+    </button>
+    <markdown-viewer 
+        *ngIf="!displayEditor && !loading"
+        [markdown]="body.length > 1 ? body : defaultBody">
+    </markdown-viewer>
+    <div *ngIf="displayEditor" style="clear:both; padding-top: 15px;">
+        <markdown-editor
+            [content]="body"
+            [validation]="validateChanges"
+            (contentSubmitted)="updateHomepage($event)">
+        </markdown-editor>
+    </div>
+    <loading-animation [active]="loading"></loading-animation>
+</div>

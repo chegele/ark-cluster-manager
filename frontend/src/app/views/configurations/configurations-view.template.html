@@ -1,0 +1,9 @@
+<div>
+    <h1 class="section-header">Configurations</h1>
+    <div class="wrapper">
+        <config-summary *ngFor="let id of profile?.configurations" [id]="id">
+        </config-summary>
+        <config-summary *ngIf="usersConfigCount < maxConfigurations">
+        </config-summary>
+    </div>
+</div>

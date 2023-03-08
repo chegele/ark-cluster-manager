@@ -1,0 +1,30 @@
+
+
+.loader {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.wave {
+    width: 5px;
+    background: linear-gradient(45deg, var(--interactive-color-3), var(--interactive-color-1), var(--interactive-color-3));
+    margin: 5px;
+    animation: wave 1.25s linear infinite;
+    border-radius: 20px;
+  }
+  
+  @keyframes wave {
+    0% {
+      transform: scale(0.1);
+      opacity: 60%;
+    }
+    50% {
+      transform: scale(1);
+      opacity: 100%;
+    }
+    100% {
+      transform: scale(0.1);
+      opacity: 60%;
+    }
+  }

@@ -1,0 +1,13 @@
+[
+    {
+        "parent": "gameObject",
+        "originalKey": "",
+        "definedKey": "",
+        "type": "Number",
+        "category": "player",
+        "required": false,
+        "default": 1,
+        "label": "",
+        "description": ""
+    }
+]

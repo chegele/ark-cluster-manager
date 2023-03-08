@@ -1,0 +1,154 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import '~codemirror/lib/codemirror';
+@import '~codemirror/theme/oceanic-next';
+
+:root {
+    --text-color-1: #ffffff;
+    --text-color-2: #C6EAF3;
+    --text-color-3: #9FD7E5;
+    --text-color-4: #80B6C5;
+    --background-color-1: #0E475F;
+    --background-color-2: #053946;
+    --background-color-3: #0A313C;
+    --interactive-color-1:#2996B4;
+    --interactive-color-2: #0F748E;
+    --interactive-color-3: #012b38; 
+    --error-text-color: #FFB2B2;
+    --error-outline-color: #F13223;
+    --success-text-color: #82cc9e;
+    --success-outline-color: #34A853;
+    --warning-text-color: #f6c069;
+    --warning-outline-color: #ee8712;
+
+    --text-color-1-rgb: 255, 255, 255;
+    --text-color-2-rgb: 198, 234, 243;
+    --text-color-3-rgb: 159, 215, 229;
+    --text-color-4-rgb: 128, 182, 197;
+    --background-color-1-rgb: 14, 71, 95;
+    --background-color-2-rgb: 5, 57, 70;
+    --background-color-3-rgb: 10, 49, 60;
+    --interactive-color-1-rgb:41, 150, 180;
+    --interactive-color-2-rgb: 15, 116, 142;
+    --interactive-color-3-rgb: 1, 43, 56; 
+    --error-text-color-rgb: 255, 178, 178;
+    --error-outline-color-rgb: 241, 50, 35;
+    --success-outline-color-rgb: 52, 168, 83;
+}
+
+button, input, h1, h2, h3, h4, p, span {
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    letter-spacing: 0.6px;
+    color: var(--text-color-2);
+}
+
+button, input {
+    line-height: 140%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 125%;
+    color: var(--text-color-1);  
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 125%;
+    color: var(--text-color-1);  
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 125%;
+    color: var(--text-color-1);  
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    color: var(--text-color-1);  
+}
+
+span, p, ul, ol {  
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.4px;
+    color: var(--text-color-3);
+}
+
+/* Small media styling */
+@media (max-width:800px) {
+    .page-content {
+        margin: 0px auto;
+        width: 90%;
+        padding: 20px 10px 60px 10px;
+        overflow: hidden;
+    }
+}
+
+/* Large media styling */
+@media (min-width:800px) {
+    .page-content {
+        margin: 0px auto;
+        width: 80%;
+        max-width: 1200px;
+        padding: 80px 15px 20px 15px;
+        
+    }
+}
+
+#content {
+    overflow: auto;
+    height: 100%;
+}
+
+#bg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background-image:
+        linear-gradient(180deg, rgba(5, 57, 70, 0.61) 1.23%, rgb(5, 57, 70) 98.28%), 
+        url("/assets/img/hex-bg-v1.png");
+    background-attachment: fixed;
+  }
+
+.bg-image-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-image:
+        linear-gradient(180deg, rgba(5, 57, 70, 0.61) 1.23%, rgb(5, 57, 70) 98.28%), 
+        url("/assets/img/hex-bg-v1.png");
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+
+.section-header { 
+    padding: 5px 20px 5px 20px;
+    width: 100%;
+    max-width: 450px;
+    margin-left: -20px;
+    margin-top: 20px;
+    background: linear-gradient(90deg, 
+        rgba(var(--background-color-1-rgb),0.0) 0%,
+        rgba(var(--background-color-3-rgb),0.9) 5%, 
+        rgba(var(--background-color-2-rgb),0.7) 80%, 
+        rgba(var(--background-color-1-rgb),0) 100%
+    );
+    border-radius: 0 30% 30% 0;
+}
+
+
+
+

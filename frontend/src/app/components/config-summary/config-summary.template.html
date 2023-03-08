@@ -1,0 +1,53 @@
+
+<!-- Show loaded configuration -->
+<div class="card" *ngIf="id">
+    <bootstrap-icon 
+        class="icon" 
+        preset="gearFill" 
+        width="75px" 
+        height="75px">
+    </bootstrap-icon>
+    <bootstrap-icon 
+        class="dispose" 
+        preset="closeSquared" 
+        width="20px" 
+        height="20px"
+        (click)="showDeletionPrompt = true">
+    </bootstrap-icon>
+    <loading-animation [active]="loading"></loading-animation>
+    <h1 *ngIf="config">{{config.name}}</h1>
+    <h3 *ngIf="config">{{config.uploaded.toDateString()}}</h3>
+    <p *ngIf="config && !error">{{config.description}}</p>
+    <p *ngIf="error" class="error">{{error}}</p>
+</div>
+
+<!-- Show config upload card if no id provided -->
+<div class="card" *ngIf="!id">
+    <bootstrap-icon 
+        class="icon" 
+        preset="gearFill" 
+        width="75px" 
+        height="75px">
+    </bootstrap-icon>  
+    <button class="btn-fill-1" (click)="showConfigUploader = true">Add Configuration</button> 
+</div>
+
+<!-- Configuration uploader -->
+<config-uploader 
+    id="uploader"
+    [show]="showConfigUploader" 
+    (showChange)="showConfigUploader = false">
+</config-uploader>
+
+<!-- Configuration deletion prompt -->
+<div id="backdrop" *ngIf="showDeletionPrompt">
+    <div class="content-box">
+        <div class="prompt">
+            <h4>Are you sure you want to delete this config?</h4>
+        </div>
+        <div class="userSelection">
+            <button (click)="showDeletionPrompt = false">Cancel</button>
+            <button (click)="deleteClicked()">Delete</button>
+        </div>
+    </div>
+</div>

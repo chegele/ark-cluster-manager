@@ -1,0 +1,25 @@
+
+<div class="dropdown-wrapper" >
+  <button 
+    class="dropdown-button" 
+    (click)="showDropdown = !showDropdown"
+    [ngClass]="{'input-success': status == 1, 'input-failure': status == -1}">
+    <div class="dropdown-value">
+      <bootstrap-icon [preset]="currentValue.icon" width="25px" height="25px"></bootstrap-icon>
+      <span [ngStyle]="{color: currentValue != placeholder ? 'var(--text-color-1)' : '#6c757d'}">
+        {{currentValue.display}}
+      </span>
+    </div>
+    <bootstrap-icon preset="carrotDown" width="25px" height="25px"></bootstrap-icon>
+  </button>
+  <div *ngIf="showDropdown" class="dropdown-selector">
+    <div (click)="showDropdown = false">
+      <h4 style="padding: 10px;">{{placeholder.display}}</h4>
+      <hr style="margin: 0px;"/>
+    </div>
+    <div *ngFor="let option of options" class="dropdown-row" (click)="selectOption(option)">
+      <bootstrap-icon [preset]="option.icon" width="23" height="23"></bootstrap-icon>
+      <span>{{option.display}}</span>
+    </div>
+  </div>
+</div>

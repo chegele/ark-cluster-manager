@@ -1,0 +1,25 @@
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+}
+
+.empty-card {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    height: 180px;
+    border: solid;
+    border-width: thin;
+    border-radius: 16px;
+    margin: 10px;
+    margin-top: 30px;
+    padding: 6px;
+    background-color: rgba(var(--background-color-1-rgb), 0.8);
+    border-color: var(--interactive-color-1);
+    color: var(--text-color-2);
+}

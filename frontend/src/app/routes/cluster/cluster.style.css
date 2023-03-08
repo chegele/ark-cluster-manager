@@ -1,0 +1,30 @@
+
+.blur-background {
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: fit-content;
+    min-height: 100vh;
+}
+
+/* Small media styling */
+@media (max-width:800px) {
+    .blur-background {
+        padding-left: 0px;
+    }
+    .page-content {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+/* Large media styling */
+@media (min-width:800px) {
+    .blur-background {
+        padding-left: 300px;
+    }
+    .page-content {
+        width: 90%;
+        max-width: 1600px;
+    }
+}

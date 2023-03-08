@@ -1,0 +1,818 @@
+[
+  {
+    "map": "The Island",
+    "name": "Cave Beacon 1",
+    "containerId": "SupplyCrate_Cave_QualityTier1_C",
+    "image": "https://ark.wiki.gg/images/thumb/5/52/White_Beacon.png/228px-White_Beacon.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Cave Beacon 2",
+    "containerId": "SupplyCrate_Cave_QualityTier2_C",
+    "image": "https://ark.wiki.gg/images/thumb/5/52/White_Beacon.png/228px-White_Beacon.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Cave Beacon 3",
+    "containerId": "SupplyCrate_Cave_QualityTier3_C",
+    "image": "https://ark.wiki.gg/images/thumb/5/52/White_Beacon.png/228px-White_Beacon.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Cave Beacon 4",
+    "containerId": "SupplyCrate_Cave_QualityTier4_C",
+    "image": "https://ark.wiki.gg/images/thumb/5/52/White_Beacon.png/228px-White_Beacon.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Swamp Cave Loot Crate blue",
+    "containerId": "SupplyCrate_SwampCaveTier1_C",
+    "image": "https://ark.wiki.gg/images/thumb/9/9c/Blue_Crate.png/228px-Blue_Crate.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Swamp Cave Loot Crate yellow",
+    "containerId": "SupplyCrate_SwampCaveTier2_C",
+    "image": "https://ark.wiki.gg/images/thumb/6/63/Yellow_Crate.png/228px-Yellow_Crate.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Swamp Cave Loot Crate red",
+    "containerId": "SupplyCrate_SwampCaveTier3_C",
+    "image": "https://ark.wiki.gg/images/thumb/c/c5/Red_Crate.png/228px-Red_Crate.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Ice Cave Loot Crate blue",
+    "containerId": "SupplyCrate_IceCaveTier1_C",
+    "image": "https://ark.wiki.gg/images/thumb/9/9c/Blue_Crate.png/228px-Blue_Crate.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Ice Cave Loot Crate yellow",
+    "containerId": "SupplyCrate_IceCaveTier2_C",
+    "image": "https://ark.wiki.gg/images/thumb/6/63/Yellow_Crate.png/228px-Yellow_Crate.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Ice Cave Loot Crate red",
+    "containerId": "SupplyCrate_IceCaveTier3_C",
+    "image": "https://ark.wiki.gg/images/thumb/c/c5/Red_Crate.png/228px-Red_Crate.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Underwater Caves Loot Crate blue",
+    "containerId": "SupplyCrate_UnderwaterCaveTier1_C",
+    "image": "https://ark.wiki.gg/images/thumb/9/9c/Blue_Crate.png/228px-Blue_Crate.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Underwater Caves Loot Crate yellow",
+    "containerId": "SupplyCrate_UnderwaterCaveTier2_C",
+    "image": "https://ark.wiki.gg/images/thumb/6/63/Yellow_Crate.png/228px-Yellow_Crate.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Underwater Caves Loot Crate red",
+    "containerId": "SupplyCrate_UnderwaterCaveTier3_C",
+    "image": "https://ark.wiki.gg/images/thumb/c/c5/Red_Crate.png/228px-Red_Crate.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Deep Sea Loot Crate",
+    "containerId": "SupplyCrate_OceanInstant_C",
+    "image": "https://ark.wiki.gg/images/thumb/8/8c/White_Crate.png/228px-White_Crate.png"
+  },
+  {
+    "map": "The Island",
+    "name": "White Beacon",
+    "containerId": "SupplyCrate_Level03_C",
+    "image": "https://ark.wiki.gg/images/thumb/5/52/White_Beacon.png/228px-White_Beacon.png"
+  },
+  {
+    "map": "The Island",
+    "name": "White Beacon (Double items)",
+    "containerId": "SupplyCrate_Level03_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/5/52/White_Beacon.png/228px-White_Beacon.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Green Beacon",
+    "containerId": "SupplyCrate_Level15_C",
+    "image": "https://ark.wiki.gg/images/thumb/3/3e/Green_Beacon.png/228px-Green_Beacon.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Green Beacon (Double items)",
+    "containerId": "SupplyCrate_Level15_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/3/3e/Green_Beacon.png/228px-Green_Beacon.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Blue Beacon",
+    "containerId": "SupplyCrate_Level25_C",
+    "image": "https://ark.wiki.gg/images/thumb/f/ff/Blue_Beacon.png/228px-Blue_Beacon.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Blue Beacon (Double items)",
+    "containerId": "SupplyCrate_Level25_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/f/ff/Blue_Beacon.png/228px-Blue_Beacon.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Purple Beacon",
+    "containerId": "SupplyCrate_Level35_C",
+    "image": "https://ark.wiki.gg/images/thumb/f/f2/Purple_Beacon.png/228px-Purple_Beacon.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Purple Beacon (Double items)",
+    "containerId": "SupplyCrate_Level35_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/f/f2/Purple_Beacon.png/228px-Purple_Beacon.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Yellow Beacon",
+    "containerId": "SupplyCrate_Level45_C",
+    "image": "https://ark.wiki.gg/images/thumb/d/d4/Yellow_Beacon.png/228px-Yellow_Beacon.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Yellow Beacon (Double items)",
+    "containerId": "SupplyCrate_Level45_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/d/d4/Yellow_Beacon.png/228px-Yellow_Beacon.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Red Beacon",
+    "containerId": "SupplyCrate_Level60_C",
+    "image": "https://ark.wiki.gg/images/thumb/5/53/Red_Beacon.png/228px-Red_Beacon.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Red Beacon (Double items)",
+    "containerId": "SupplyCrate_Level60_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/5/53/Red_Beacon.png/228px-Red_Beacon.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Artifact Container Hunter",
+    "containerId": "ArtifactCrate_1_C",
+    "image": "https://ark.wiki.gg/images/thumb/2/23/Artifact_of_the_Immune.png/228px-Artifact_of_the_Immune.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Artifact Container Pack",
+    "containerId": "ArtifactCrate_2_C",
+    "image": "https://ark.wiki.gg/images/thumb/2/23/Artifact_of_the_Immune.png/228px-Artifact_of_the_Immune.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Artifact Container Massive",
+    "containerId": "ArtifactCrate_3_C",
+    "image": "https://ark.wiki.gg/images/thumb/2/23/Artifact_of_the_Immune.png/228px-Artifact_of_the_Immune.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Artifact Container Devious",
+    "containerId": "ArtifactCrate_4_C",
+    "image": "https://ark.wiki.gg/images/thumb/2/23/Artifact_of_the_Immune.png/228px-Artifact_of_the_Immune.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Artifact Container Clever",
+    "containerId": "ArtifactCrate_5_C",
+    "image": "https://ark.wiki.gg/images/thumb/2/23/Artifact_of_the_Immune.png/228px-Artifact_of_the_Immune.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Artifact Container Skylord",
+    "containerId": "ArtifactCrate_6_C",
+    "image": "https://ark.wiki.gg/images/thumb/2/23/Artifact_of_the_Immune.png/228px-Artifact_of_the_Immune.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Artifact Container Devourer",
+    "containerId": "ArtifactCrate_7_C",
+    "image": "https://ark.wiki.gg/images/thumb/2/23/Artifact_of_the_Immune.png/228px-Artifact_of_the_Immune.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Artifact Container Immune",
+    "containerId": "ArtifactCrate_8_C",
+    "image": "https://ark.wiki.gg/images/thumb/2/23/Artifact_of_the_Immune.png/228px-Artifact_of_the_Immune.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Artifact Container Strong",
+    "containerId": "ArtifactCrate_9_C",
+    "image": "https://ark.wiki.gg/images/thumb/2/23/Artifact_of_the_Immune.png/228px-Artifact_of_the_Immune.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Artifact Container Cunning",
+    "containerId": "ArtifactCrate_10_C",
+    "image": "https://ark.wiki.gg/images/thumb/2/23/Artifact_of_the_Immune.png/228px-Artifact_of_the_Immune.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Artifact Container Brute",
+    "containerId": "ArtifactCrate_11_C",
+    "image": "https://ark.wiki.gg/images/thumb/2/23/Artifact_of_the_Immune.png/228px-Artifact_of_the_Immune.png"
+  },
+  {
+    "map": "The Island",
+    "name": "<a href=\"/wiki/Beaver_Dam\" class=\"mw-redirect\" title=\"Beaver Dam\">Beaver Dam</a>",
+    "containerId": "BeaverDam_C",
+    "image": "https://ark.wiki.gg/images/thumb/2/21/Giant_Beaver_Dam.png/228px-Giant_Beaver_Dam.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Giant Beaver Dam Logs",
+    "containerId": "SupplyCrateBaseBP_Instantaneous_DamLogs_Child_C",
+    "image": "https://ark.wiki.gg/images/thumb/2/21/Giant_Beaver_Dam.png/228px-Giant_Beaver_Dam.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Giant Beaver Dam",
+    "containerId": "SupplyCrateBaseBP_Instantaneous_DenLogs_Child2_C",
+    "image": "https://ark.wiki.gg/images/thumb/2/21/Giant_Beaver_Dam.png/228px-Giant_Beaver_Dam.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Raptor Claus Present",
+    "containerId": "SupplyCrate_Gift_C",
+    "image": "https://ark.wiki.gg/images/thumb/d/d0/Storage_Box.png/228px-Storage_Box.png"
+  },
+  {
+    "map": "Scorched Earth",
+    "name": "Cave Beacon 1",
+    "containerId": "SupplyCrate_Cave_QualityTier1_ScorchedEarth_C",
+    "image": "https://ark.wiki.gg/images/thumb/5/52/White_Beacon.png/228px-White_Beacon.png"
+  },
+  {
+    "map": "Scorched Earth",
+    "name": "Cave Beacon 2",
+    "containerId": "SupplyCrate_Cave_QualityTier2_ScorchedEarth_C",
+    "image": "https://ark.wiki.gg/images/thumb/5/52/White_Beacon.png/228px-White_Beacon.png"
+  },
+  {
+    "map": "Scorched Earth",
+    "name": "Cave Beacon 3",
+    "containerId": "SupplyCrate_Cave_QualityTier3_ScorchedEarth_C",
+    "image": "https://ark.wiki.gg/images/thumb/5/52/White_Beacon.png/228px-White_Beacon.png"
+  },
+  {
+    "map": "Scorched Earth",
+    "name": "White Beacon",
+    "containerId": "SupplyCrate_Level03_ScorchedEarth_C",
+    "image": "https://ark.wiki.gg/images/thumb/5/52/White_Beacon.png/228px-White_Beacon.png"
+  },
+  {
+    "map": "Scorched Earth",
+    "name": "White Beacon (Double items)",
+    "containerId": "SupplyCrate_Level03_Double_ScorchedEarth_C",
+    "image": "https://ark.wiki.gg/images/thumb/5/52/White_Beacon.png/228px-White_Beacon.png"
+  },
+  {
+    "map": "Scorched Earth",
+    "name": "Green Beacon",
+    "containerId": "SupplyCrate_Level15_ScorchedEarth_C",
+    "image": "https://ark.wiki.gg/images/thumb/3/3e/Green_Beacon.png/228px-Green_Beacon.png"
+  },
+  {
+    "map": "Scorched Earth",
+    "name": "Green Beacon (Double items)",
+    "containerId": "SupplyCrate_Level15_Double_ScorchedEarth_C",
+    "image": "https://ark.wiki.gg/images/thumb/3/3e/Green_Beacon.png/228px-Green_Beacon.png"
+  },
+  {
+    "map": "Scorched Earth",
+    "name": "Blue Beacon",
+    "containerId": "SupplyCrate_Level30_ScorchedEarth_C",
+    "image": "https://ark.wiki.gg/images/thumb/f/ff/Blue_Beacon.png/228px-Blue_Beacon.png"
+  },
+  {
+    "map": "Scorched Earth",
+    "name": "Blue Beacon (Double items)",
+    "containerId": "SupplyCrate_Level30_Double_ScorchedEarth_C",
+    "image": "https://ark.wiki.gg/images/thumb/f/ff/Blue_Beacon.png/228px-Blue_Beacon.png"
+  },
+  {
+    "map": "Scorched Earth",
+    "name": "Purple Beacon",
+    "containerId": "SupplyCrate_Level45_ScorchedEarth_C",
+    "image": "https://ark.wiki.gg/images/thumb/f/f2/Purple_Beacon.png/228px-Purple_Beacon.png"
+  },
+  {
+    "map": "Scorched Earth",
+    "name": "Purple Beacon (Double items)",
+    "containerId": "SupplyCrate_Level45_Double_ScorchedEarth_C",
+    "image": "https://ark.wiki.gg/images/thumb/f/f2/Purple_Beacon.png/228px-Purple_Beacon.png"
+  },
+  {
+    "map": "Scorched Earth",
+    "name": "Yellow Beacon",
+    "containerId": "SupplyCrate_Level55_ScorchedEarth_C",
+    "image": "https://ark.wiki.gg/images/thumb/d/d4/Yellow_Beacon.png/228px-Yellow_Beacon.png"
+  },
+  {
+    "map": "Scorched Earth",
+    "name": "Yellow Beacon (Double items)",
+    "containerId": "SupplyCrate_Level55_Double_ScorchedEarth_C",
+    "image": "https://ark.wiki.gg/images/thumb/d/d4/Yellow_Beacon.png/228px-Yellow_Beacon.png"
+  },
+  {
+    "map": "Scorched Earth",
+    "name": "Red Beacon",
+    "containerId": "SupplyCrate_Level70_ScorchedEarth_C",
+    "image": "https://ark.wiki.gg/images/thumb/5/53/Red_Beacon.png/228px-Red_Beacon.png"
+  },
+  {
+    "map": "Scorched Earth",
+    "name": "Red Beacon (Double items)",
+    "containerId": "SupplyCrate_Level70_Double_ScorchedEarth_C",
+    "image": "https://ark.wiki.gg/images/thumb/5/53/Red_Beacon.png/228px-Red_Beacon.png"
+  },
+  {
+    "map": "Scorched Earth",
+    "name": "Artifact Container Destroyer",
+    "containerId": "ArtifactCrate_SE_C",
+    "image": "https://ark.wiki.gg/images/thumb/2/23/Artifact_of_the_Immune.png/228px-Artifact_of_the_Immune.png"
+  },
+  {
+    "map": "Scorched Earth",
+    "name": "Artifact Container Gatekeeper",
+    "containerId": "ArtifactCrate_2_SE_C",
+    "image": "https://ark.wiki.gg/images/thumb/2/23/Artifact_of_the_Immune.png/228px-Artifact_of_the_Immune.png"
+  },
+  {
+    "map": "Scorched Earth",
+    "name": "Artifact Container Crag",
+    "containerId": "ArtifactCrate_3_SE_C",
+    "image": "https://ark.wiki.gg/images/thumb/2/23/Artifact_of_the_Immune.png/228px-Artifact_of_the_Immune.png"
+  },
+  {
+    "map": "Ragnarok",
+    "name": "Treasure Chest",
+    "containerId": "SupplyCrate_Chest_Treasure_JacksonL_C",
+    "image": "https://ark.wiki.gg/images/thumb/d/d0/Storage_Box.png/228px-Storage_Box.png"
+  },
+  {
+    "map": "Ragnarok",
+    "name": "Desert Loot Crate",
+    "containerId": "SupplyCreate_OceanInstant_High_C",
+    "image": "https://ark.wiki.gg/images/thumb/8/8c/White_Crate.png/228px-White_Crate.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "White Crate",
+    "containerId": "</p>",
+    "image": "https://ark.wiki.gg/images/thumb/8/8c/White_Crate.png/228px-White_Crate.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Green Crate",
+    "containerId": "</p>",
+    "image": "https://ark.wiki.gg/images/thumb/5/50/Green_Crate.png/228px-Green_Crate.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Blue Crate",
+    "containerId": "</p>",
+    "image": "https://ark.wiki.gg/images/thumb/9/9c/Blue_Crate.png/228px-Blue_Crate.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Purple Crate",
+    "containerId": "</p>",
+    "image": "https://ark.wiki.gg/images/thumb/6/6d/Purple_Crate.png/228px-Purple_Crate.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Yellow Crate",
+    "containerId": "</p>",
+    "image": "https://ark.wiki.gg/images/thumb/6/63/Yellow_Crate.png/228px-Yellow_Crate.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Red Crate",
+    "containerId": "</p>",
+    "image": "https://ark.wiki.gg/images/thumb/c/c5/Red_Crate.png/228px-Red_Crate.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Blue Dungeon Crate",
+    "containerId": "SupplyCrate_Dungeon_Aberration_Level35_C",
+    "image": "https://ark.wiki.gg/images/thumb/9/9c/Blue_Crate.png/228px-Blue_Crate.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Purple Dungeon Crate",
+    "containerId": "SupplyCrate_Dungeon_Aberration_Level50_C",
+    "image": "https://ark.wiki.gg/images/thumb/6/6d/Purple_Crate.png/228px-Purple_Crate.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Yellow Dungeon Crate",
+    "containerId": "SupplyCrate_Dungeon_Aberration_Level65_C",
+    "image": "https://ark.wiki.gg/images/thumb/6/63/Yellow_Crate.png/228px-Yellow_Crate.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Red Dungeon Crate",
+    "containerId": "SupplyCrate_Dungeon_Aberration_Level80_C",
+    "image": "https://ark.wiki.gg/images/thumb/c/c5/Red_Crate.png/228px-Red_Crate.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Blue Surface Beacon",
+    "containerId": "</p>",
+    "image": "https://ark.wiki.gg/images/thumb/f/ff/Blue_Beacon.png/228px-Blue_Beacon.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Purple Surface Beacon",
+    "containerId": "</p>",
+    "image": "https://ark.wiki.gg/images/thumb/f/f2/Purple_Beacon.png/228px-Purple_Beacon.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Yellow Surface Beacon",
+    "containerId": "</p>",
+    "image": "https://ark.wiki.gg/images/thumb/d/d4/Yellow_Beacon.png/228px-Yellow_Beacon.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Red Surface Beacon",
+    "containerId": "</p>",
+    "image": "https://ark.wiki.gg/images/thumb/5/53/Red_Beacon.png/228px-Red_Beacon.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Artifact Container Depths",
+    "containerId": "ArtifactCrate_AB_C",
+    "image": "https://ark.wiki.gg/images/thumb/2/23/Artifact_of_the_Immune.png/228px-Artifact_of_the_Immune.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Artifact Container Shadows",
+    "containerId": "ArtifactCrate_2_AB_C",
+    "image": "https://ark.wiki.gg/images/thumb/2/23/Artifact_of_the_Immune.png/228px-Artifact_of_the_Immune.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Artifact Container Stalker",
+    "containerId": "ArtifactCrate_3_AB_C",
+    "image": "https://ark.wiki.gg/images/thumb/2/23/Artifact_of_the_Immune.png/228px-Artifact_of_the_Immune.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Artifact Container Lost",
+    "containerId": "ArtifactCrate_4_AB_C",
+    "image": "https://ark.wiki.gg/images/thumb/2/23/Artifact_of_the_Immune.png/228px-Artifact_of_the_Immune.png"
+  },
+  {
+    "map": "Extinction",
+    "name": "Cave Loot Crate Blue",
+    "containerId": "SupplyCrate_Cave_QualityTier1_EX_C",
+    "image": "https://ark.wiki.gg/images/thumb/9/9c/Blue_Crate.png/228px-Blue_Crate.png"
+  },
+  {
+    "map": "Extinction",
+    "name": "Cave Loot Crate Yellow",
+    "containerId": "SupplyCrate_Cave_QualityTier2_EX_C",
+    "image": "https://ark.wiki.gg/images/thumb/6/63/Yellow_Crate.png/228px-Yellow_Crate.png"
+  },
+  {
+    "map": "Extinction",
+    "name": "Cave Loot Crate Red",
+    "containerId": "SupplyCrate_Cave_QualityTier3_EX_C",
+    "image": "https://ark.wiki.gg/images/thumb/c/c5/Red_Crate.png/228px-Red_Crate.png"
+  },
+  {
+    "map": "Extinction",
+    "name": "Orbital Supply Drop Blue",
+    "containerId": "SupplyCrate_Base_Horde_Easy_C",
+    "image": "https://ark.wiki.gg/images/thumb/3/30/Orbital_Supply_Drop.png/228px-Orbital_Supply_Drop.png"
+  },
+  {
+    "map": "Extinction",
+    "name": "Orbital Supply Drop Yellow",
+    "containerId": "SupplyCrate_Base_Horde_Medium_C",
+    "image": "https://ark.wiki.gg/images/thumb/3/30/Orbital_Supply_Drop.png/228px-Orbital_Supply_Drop.png"
+  },
+  {
+    "map": "Extinction",
+    "name": "Orbital Supply Drop Red",
+    "containerId": "SupplyCrate_Base_Horde_Hard_C",
+    "image": "https://ark.wiki.gg/images/thumb/3/30/Orbital_Supply_Drop.png/228px-Orbital_Supply_Drop.png"
+  },
+  {
+    "map": "Extinction",
+    "name": "Orbital Supply Drop Purple",
+    "containerId": "SupplyCrate_Base_Horde_Legendary_C",
+    "image": "https://ark.wiki.gg/images/thumb/3/30/Orbital_Supply_Drop.png/228px-Orbital_Supply_Drop.png"
+  },
+  {
+    "map": "Extinction",
+    "name": "Corrupt Element Node",
+    "containerId": "ElementNode_Easy_Horde_C",
+    "image": "https://ark.wiki.gg/images/thumb/c/cc/Element_Node.png/228px-Element_Node.png"
+  },
+  {
+    "map": "Extinction",
+    "name": "Artifact Container Chaos",
+    "containerId": "ArtifactCrate_Desert_Kaiju_EX_C",
+    "image": "https://ark.wiki.gg/images/thumb/2/23/Artifact_of_the_Immune.png/228px-Artifact_of_the_Immune.png"
+  },
+  {
+    "map": "Extinction",
+    "name": "Artifact Container Growth",
+    "containerId": "ArtifactCrate_ForestKaiju_EX_C",
+    "image": "https://ark.wiki.gg/images/thumb/2/23/Artifact_of_the_Immune.png/228px-Artifact_of_the_Immune.png"
+  },
+  {
+    "map": "Extinction",
+    "name": "Artifact Container Void",
+    "containerId": "ArtifactCrate_IceKaiju_EX_C",
+    "image": "https://ark.wiki.gg/images/thumb/2/23/Artifact_of_the_Immune.png/228px-Artifact_of_the_Immune.png"
+  },
+  {
+    "map": "Extinction",
+    "name": "King Titan Alpha",
+    "containerId": "ArtifactCrate_KingKaiju_Alpha_EX_C",
+    "image": "https://ark.wiki.gg/images/thumb/d/d0/Storage_Box.png/228px-Storage_Box.png"
+  },
+  {
+    "map": "Extinction",
+    "name": "King Titan Beta",
+    "containerId": "ArtifactCrate_KingKaiju_Beta_EX_C",
+    "image": "https://ark.wiki.gg/images/thumb/d/d0/Storage_Box.png/228px-Storage_Box.png"
+  },
+  {
+    "map": "Extinction",
+    "name": "King Titan Gamma",
+    "containerId": "ArtifactCrate_KingKaiju_EX_C",
+    "image": "https://ark.wiki.gg/images/thumb/d/d0/Storage_Box.png/228px-Storage_Box.png"
+  },
+  {
+    "map": "Valguero",
+    "name": "Purple Beacon",
+    "containerId": "Val_SupplyCrate_Level35_C",
+    "image": "https://ark.wiki.gg/images/thumb/f/f2/Purple_Beacon.png/228px-Purple_Beacon.png"
+  },
+  {
+    "map": "Valguero",
+    "name": "Purple Beacon (Double items)",
+    "containerId": "Val_SupplyCrate_Level35_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/f/f2/Purple_Beacon.png/228px-Purple_Beacon.png"
+  },
+  {
+    "map": "Valguero",
+    "name": "Yellow Beacon",
+    "containerId": "Val_SupplyCrate_Level45_C",
+    "image": "https://ark.wiki.gg/images/thumb/d/d4/Yellow_Beacon.png/228px-Yellow_Beacon.png"
+  },
+  {
+    "map": "Valguero",
+    "name": "Yellow Beacon (Double items)",
+    "containerId": "Val_SupplyCrate_Level45_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/d/d4/Yellow_Beacon.png/228px-Yellow_Beacon.png"
+  },
+  {
+    "map": "Valguero",
+    "name": "Red Beacon",
+    "containerId": "Val_SupplyCrate_Level60_C",
+    "image": "https://ark.wiki.gg/images/thumb/5/53/Red_Beacon.png/228px-Red_Beacon.png"
+  },
+  {
+    "map": "Valguero",
+    "name": "Red Beacon (Double items)",
+    "containerId": "Val_SupplyCrate_Level60_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/5/53/Red_Beacon.png/228px-Red_Beacon.png"
+  },
+  {
+    "map": "Genesis 2",
+    "name": "White Supply Crate",
+    "containerId": "SupplyCrate_Space_01_Ambergris_C",
+    "image": "https://ark.wiki.gg/images/thumb/8/8c/White_Crate.png/228px-White_Crate.png"
+  },
+  {
+    "map": "Genesis 2",
+    "name": "Green Supply Crate",
+    "containerId": "SupplyCrate_Space_02_Crystal_C",
+    "image": "https://ark.wiki.gg/images/thumb/5/50/Green_Crate.png/228px-Green_Crate.png"
+  },
+  {
+    "map": "Genesis 2",
+    "name": "Blue Supply Crate",
+    "containerId": "SupplyCrate_Space_03_Sulfur_C",
+    "image": "https://ark.wiki.gg/images/thumb/9/9c/Blue_Crate.png/228px-Blue_Crate.png"
+  },
+  {
+    "map": "Genesis 2",
+    "name": "Purple Supply Crate",
+    "containerId": "SupplyCrate_Space_04_ElementShards_C",
+    "image": "https://ark.wiki.gg/images/thumb/6/6d/Purple_Crate.png/228px-Purple_Crate.png"
+  },
+  {
+    "map": "Genesis 2",
+    "name": "Yellow Supply Crate",
+    "containerId": "SupplyCrate_Space_05_Obsidian_C",
+    "image": "https://ark.wiki.gg/images/thumb/6/63/Yellow_Crate.png/228px-Yellow_Crate.png"
+  },
+  {
+    "map": "Genesis 2",
+    "name": "Red Supply Crate",
+    "containerId": "SupplyCrate_Space_06_Oil_C",
+    "image": "https://ark.wiki.gg/images/thumb/c/c5/Red_Crate.png/228px-Red_Crate.png"
+  },
+  {
+    "map": "Genesis 2",
+    "name": "Cyan Supply Crate",
+    "containerId": "SupplyCrate_Space_07_ElementDust_C",
+    "image": "https://ark.wiki.gg/images/thumb/8/8c/White_Crate.png/228px-White_Crate.png"
+  },
+  {
+    "map": "Genesis 2",
+    "name": "Orange Supply Crate",
+    "containerId": "SupplyCrate_Space_08_BlackPearls_C",
+    "image": "https://ark.wiki.gg/images/thumb/8/8c/White_Crate.png/228px-White_Crate.png"
+  },
+  {
+    "map": "Lost Island",
+    "name": "Yellow Beacon",
+    "containerId": "SupplyCrate_Level45_LostIsland_C",
+    "image": "https://ark.wiki.gg/images/thumb/d/d4/Yellow_Beacon.png/228px-Yellow_Beacon.png"
+  },
+  {
+    "map": "Lost Island",
+    "name": "Yellow Beacon (Double items)",
+    "containerId": "SupplyCrate_Level45_LostIsland_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/d/d4/Yellow_Beacon.png/228px-Yellow_Beacon.png"
+  },
+  {
+    "map": "Lost Island",
+    "name": "Red Beacon",
+    "containerId": "SupplyCrate_Level60_LostIsland_C",
+    "image": "https://ark.wiki.gg/images/thumb/5/53/Red_Beacon.png/228px-Red_Beacon.png"
+  },
+  {
+    "map": "Lost Island",
+    "name": "Red Beacon (Double items)",
+    "containerId": "SupplyCrate_Level60_LostIsland_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/5/53/Red_Beacon.png/228px-Red_Beacon.png"
+  },
+  {
+    "map": "Lost Island",
+    "name": "Ruins Dungeon Crate",
+    "containerId": "SupplyCrate_Ruins_LostIsland_C",
+    "image": "https://ark.wiki.gg/images/thumb/8/8c/White_Crate.png/228px-White_Crate.png"
+  },
+  {
+    "map": "Fjordur",
+    "name": "Green Beacon",
+    "containerId": "Fjo_SupplyCrate_Level15_C",
+    "image": "https://ark.wiki.gg/images/thumb/3/3e/Green_Beacon.png/228px-Green_Beacon.png"
+  },
+  {
+    "map": "Fjordur",
+    "name": "Green Beacon (Double items)",
+    "containerId": "Fjo_SupplyCrate_Level15_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/3/3e/Green_Beacon.png/228px-Green_Beacon.png"
+  },
+  {
+    "map": "Fjordur",
+    "name": "Blue Beacon",
+    "containerId": "Fjo_SupplyCrate_Level25_C",
+    "image": "https://ark.wiki.gg/images/thumb/f/ff/Blue_Beacon.png/228px-Blue_Beacon.png"
+  },
+  {
+    "map": "Fjordur",
+    "name": "Blue Beacon (Double items)",
+    "containerId": "Fjo_SupplyCrate_Level25_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/f/ff/Blue_Beacon.png/228px-Blue_Beacon.png"
+  },
+  {
+    "map": "Fjordur",
+    "name": "Purple Beacon",
+    "containerId": "Fjo_SupplyCrate_Level35_C",
+    "image": "https://ark.wiki.gg/images/thumb/f/f2/Purple_Beacon.png/228px-Purple_Beacon.png"
+  },
+  {
+    "map": "Fjordur",
+    "name": "Purple Beacon (Double items)",
+    "containerId": "Fjo_SupplyCrate_Level35_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/f/f2/Purple_Beacon.png/228px-Purple_Beacon.png"
+  },
+  {
+    "map": "Fjordur",
+    "name": "Yellow Beacon",
+    "containerId": "Fjo_SupplyCrate_Level45_C",
+    "image": "https://ark.wiki.gg/images/thumb/d/d4/Yellow_Beacon.png/228px-Yellow_Beacon.png"
+  },
+  {
+    "map": "Fjordur",
+    "name": "Yellow Beacon (Double items)",
+    "containerId": "Fjo_SupplyCrate_Level45_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/d/d4/Yellow_Beacon.png/228px-Yellow_Beacon.png"
+  },
+  {
+    "map": "Fjordur",
+    "name": "Red Beacon",
+    "containerId": "Fjo_SupplyCrate_Level60_C",
+    "image": "https://ark.wiki.gg/images/thumb/5/53/Red_Beacon.png/228px-Red_Beacon.png"
+  },
+  {
+    "map": "Fjordur",
+    "name": "Red Beacon (Double items)",
+    "containerId": "Fjo_SupplyCrate_Level60_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/5/53/Red_Beacon.png/228px-Red_Beacon.png"
+  },
+  {
+    "map": "The Island",
+    "name": "Deep Sea Loot Crate (High)",
+    "containerId": "SupplyCrate_OceanInstant_High_C",
+    "image": "https://ark.wiki.gg/images/thumb/8/8c/White_Crate.png/228px-White_Crate.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "White Crate (Double items)",
+    "containerId": "SupplyCrate_Cave_Aberration_Level10_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/8/8c/White_Crate.png/228px-White_Crate.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Green Crate (Double items)",
+    "containerId": "SupplyCrate_Cave_Aberration_Level25_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/5/50/Green_Crate.png/228px-Green_Crate.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Blue Crate (Double items)",
+    "containerId": "SupplyCrate_Cave_Aberration_Level35_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/9/9c/Blue_Crate.png/228px-Blue_Crate.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Purple Crate (Double items)",
+    "containerId": "SupplyCrate_Cave_Aberration_Level50_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/6/6d/Purple_Crate.png/228px-Purple_Crate.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Yellow Crate (Double items)",
+    "containerId": "SupplyCrate_Cave_Aberration_Level65_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/6/63/Yellow_Crate.png/228px-Yellow_Crate.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Red Crate (Double items)",
+    "containerId": "SupplyCrate_Cave_Aberration_Level80_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/c/c5/Red_Crate.png/228px-Red_Crate.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Blue Surface Beacon (Double items)",
+    "containerId": "SupplyCrate_Level35_Aberrant_Surface_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/f/ff/Blue_Beacon.png/228px-Blue_Beacon.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Purple Surface Beacon (Double items)",
+    "containerId": "SupplyCrate_Level50_Aberrant_Surface_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/f/f2/Purple_Beacon.png/228px-Purple_Beacon.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Yellow Surface Beacon (Double items)",
+    "containerId": "SupplyCrate_Level65_Aberrant_Surface_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/d/d4/Yellow_Beacon.png/228px-Yellow_Beacon.png"
+  },
+  {
+    "map": "Aberration",
+    "name": "Red Surface Beacon (Double items)",
+    "containerId": "SupplyCrate_Level80_Aberrant_Surface_Double_C",
+    "image": "https://ark.wiki.gg/images/thumb/5/53/Red_Beacon.png/228px-Red_Beacon.png"
+  },
+  {
+    "map": "Extinction",
+    "name": "Corrupt Element Node (Medium)",
+    "containerId": "ElementNode_Medium_Horde_C",
+    "image": "https://ark.wiki.gg/images/thumb/c/cc/Element_Node.png/228px-Element_Node.png"
+  },
+  {
+    "map": "Extinction",
+    "name": "Corrupt Element Node (Hard)",
+    "containerId": "ElementNode_hard_Horde_C",
+    "image": "https://ark.wiki.gg/images/thumb/c/cc/Element_Node.png/228px-Element_Node.png"
+  },
+  {
+    "map": "Extinction",
+    "name": "Corrupt Element Node (King Kaiju)",
+    "containerId": "KingKaiju_ElementNode_C",
+    "image": "https://ark.wiki.gg/images/thumb/c/cc/Element_Node.png/228px-Element_Node.png"
+  }
+]

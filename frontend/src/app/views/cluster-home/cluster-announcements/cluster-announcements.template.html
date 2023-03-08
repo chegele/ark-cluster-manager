@@ -1,0 +1,72 @@
+<div class="page-section">
+    <button 
+        *ngIf="isOwner && !editingAnnouncement" 
+        style="float: right" 
+        class="full"
+        (click)="startEditing(null)">
+        Create New
+    </button>
+    <button 
+        *ngIf="editingAnnouncement" 
+        style="float: right" 
+        class="full"
+        (click)="editingAnnouncement = null;">
+        Discard Changes
+    </button>
+    <h1>Cluster Announcements</h1>
+    <hr />
+    <div *ngIf="!editingAnnouncement && announcements.length < 1">
+        <p>This cluster has not yet made any announcements.</p>
+    </div>
+    <div *ngIf="!editingAnnouncement && announcements.length > 0">
+        <div *ngFor="let ann of announcements.slice(paging.startIndex, paging.endIndex)" class="wrapper">
+            <div [attr.id]="ann.id"  class="announcement" [ngClass]="{expanded: ann.expanded}">
+                <div *ngIf="!ann.expanded && ann.overflowing" class="fog"></div>
+                <div class="date">
+                    <span >{{getDate(ann.date)}}</span>
+                    <i *ngIf="isOwner" class="bi bi-pencil-square" (click)="startEditing(ann)"></i>
+                    <i *ngIf="isOwner" class="bi bi-x-circle" (click)="verifyDeletion = ann"></i>
+                </div>
+                <markdown-viewer [markdown]="ann.content"></markdown-viewer>
+            </div>
+            <button 
+                class="expand-toggle"
+                *ngIf="!ann.expanded && ann.overflowing"
+                (click)="ann.expanded=true">
+                <i class="bi bi-chevron-compact-down"></i>
+            </button>
+            <button 
+                class="expand-toggle"
+                *ngIf="ann.expanded"
+                (click)="ann.expanded=false; resetAnnouncement(ann)">
+                <i class="bi bi-chevron-compact-up"></i>
+            </button>
+        </div>
+        <div class="btn-group" *ngIf="announcements.length > 1">
+            <button class="btn" title="First" (click)="changePage('first')"><i class="bi bi-chevron-double-left"></i></button>
+            <button class="btn" title="Previous" (click)="changePage('previous')"><i class="bi bi-chevron-left"></i></button>
+            <button class="btn disabled" disabled>{{paging.currentPage}} of {{paging.lastPage}}</button>
+            <button class="btn" title="Next" (click)="changePage('next')"><i class="bi bi-chevron-right"></i></button>
+            <button class="btn" title="Last" (click)="changePage('last')"><i class="bi bi-chevron-double-right"></i></button>
+        </div>
+    </div>
+    <markdown-editor
+        *ngIf="editingAnnouncement"
+        [content]="$any(editingAnnouncement.editor)"
+        [validation]="validateInput"
+        (contentSubmitted)="stopEditing($event)">
+    </markdown-editor>
+</div>
+
+<!-- Announcement deletion prompt -->
+<div id="backdrop" *ngIf="verifyDeletion">
+    <div class="content-box">
+        <div class="prompt">
+            <h4>Are you sure you want to delete this Announcement?</h4>
+        </div>
+        <div class="userSelection">
+            <button (click)="verifyDeletion = null">Cancel</button>
+            <button (click)="deleteAnnouncement(verifyDeletion)">Delete</button>
+        </div>
+    </div>
+</div>

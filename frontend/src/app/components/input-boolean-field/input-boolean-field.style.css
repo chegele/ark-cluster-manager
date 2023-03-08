@@ -1,0 +1,60 @@
+
+.toggle-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 80%;
+    max-width: 350px;
+    height: 100%;
+    max-height: 60px;
+    margin: 15px auto;
+    padding: 0px;
+    color: var(--text-color-1);
+    background: linear-gradient(90deg,
+        rgba(var(--error-outline-color-rgb), 1) 0%, 
+        rgba(var(--background-color-2-rgb), 1) 30%, 
+        rgba(var(--background-color-3-rgb), 1) 50%, 
+        rgba(var(--background-color-2-rgb), 1) 70%, 
+        rgba(var(--success-outline-color-rgb), 1) 100% 
+    );
+    border: 1px solid var(--interactive-color-2);
+    border-radius: 12px;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+#toggle {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    align-items: center;
+    width: 75%;
+    margin: -0.4%;
+    cursor: pointer;
+    font-size: 20px;
+    color: var(--text-color-2);
+    background: linear-gradient(0deg,
+        rgba(var(--interactive-color-2-rgb), 1) 00%, 
+        rgba(var(--interactive-color-1-rgb), 1) 50%, 
+        rgba(var(--interactive-color-2-rgb), 1) 100% 
+    );
+    border: 1px solid var(--background-color-2);
+    border-radius: 12px;
+}
+
+.handle {
+    color: rgba(var(--background-color-1-rgb), 0.5);
+}
+
+.input-success {
+    border: 1px solid var(--success-outline-color);
+}
+
+.input-failure {
+    border: 1px solid var(--error-outline-color);
+}

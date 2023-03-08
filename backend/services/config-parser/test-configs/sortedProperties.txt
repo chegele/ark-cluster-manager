@@ -1,0 +1,209 @@
+
+Breeding
+  gameObject.babyCuddleGracePeriodMultiplier
+  gameObject.babyCuddleIntervalMultiplier
+  gameObject.babyCuddleLoseImprintQualitySpeedMultiplier
+  gameObject.babyFoodConsumptionSpeedMultiplier
+  gameObject.babyImprintAmountMultiplier
+  gameObject.babyImprintingStatScaleMultiplier
+  gameObject.babyMatureSpeedMultiplier
+  gameObject.eggHatchSpeedMultiplier
+  gameObject.layEggIntervalMultiplier
+  gameObject.matingIntervalMultiplier
+  gameObject.matingSpeedMultiplier
+  userObject.allowAnyoneBabyImprintCuddle
+  userObject.disableImprintDinoBuff
+
+Structures
+  gameObject.pvPZoneStructureDamageMultiplier
+  userObject.autoDestroyOldStructuresMultiplier
+  userObject.autoDestroyStructures
+  userObject.bAllowPlatformSaddleMultiFloors
+  userObject.destroyUnconnectedWaterPipes
+  userObject.disableStructureDecayPvE
+  userObject.enableExtraStructurePreventionVolumes
+  userObject.forceAllStructureLocking
+  userObject.onlyAutoDestroyCoreStructures
+  userObject.onlyDecayUnsnappedCoreStructures
+  userObject.overrideStructurePlatformPrevention
+  userObject.perPlatformMaxStructuresMultiplier
+  userObject.pvEStructureDecayPeriodMultiplier
+  userObject.structureDamageMultiplier
+  userObject.structurememopts
+  userObject.structureResistanceMultiplier
+  userObject.theMaxStructuresInRange
+
+Crops, Decay, and Consumption
+  gameObject.cropGrowthSpeedMultiplier
+  gameObject.cropDecaySpeedMultiplier
+  gameObject.fastDecayInterval
+  gameObject.globalCorpseDecompositionTimeMultiplier
+  gameObject.globalItemDecompositionTimeMultiplier
+  gameObject.globalPoweredBatteryDurabilityDecreasePerSecond
+  gameObject.globalSpoilingTimeMultiplier
+  gameObject.useCorpseLifeSpanMultiplier
+  gameObject.wildDinoCharacterFoodDrainMultiplier
+  gameObject.wildDinoTorporDrainMultiplier
+  userObject.autoDestroyDecayedDinos
+  userObject.disableDinoDecayPvE
+  userObject.fastDecayUnsnappedCoreStructures
+  userObject.pvEDinoDecayPeriodMultiplier
+  userObject.pvPDinoDecay
+  userObject.pvPStructureDecay
+  gameObject.fuelConsumptionIntervalMultiplier
+
+Player & Experience
+  gameObject.craftXPMultiplier
+  gameObject.genericXPMultiplier
+  gameObject.harvestXPMultiplier
+  gameObject.killXPMultiplier
+  gameObject.specialXPMultiplier
+  userObject.xPMultiplier
+  userObject.oxygenSwimSpeedStatMultiplier
+  userObject.playerCharacterFoodDrainMultiplier
+  userObject.playerCharacterHealthRecoveryMultiplier
+  userObject.playerCharacterStaminaDrainMultiplier
+  userObject.playerCharacterWaterDrainMultiplier
+  userObject.playerDamageMultiplier
+  userObject.playerResistanceMultiplier
+
+Gathering & Looting
+  gameObject.dinoHarvestingDamageMultiplier
+  gameObject.playerHarvestingDamageMultiplier
+  gameObject.resourceNoReplenishRadiusPlayers
+  gameObject.resourceNoReplenishRadiusStructures
+  userObject.harvestAmountMultiplier
+  userObject.harvestHealthMultiplier
+  userObject.itemStackSizeMultiplier
+  userObject.nofishloot
+  userObject.resourcesRespawnPeriodMultiplier
+  userObject.useOptimizedHarvestingHealth
+  gameObject.fishingLootQualityMultiplier
+  gameObject.supplyCrateLootQualityMultiplier
+  userObject.allowCrateSpawnsOnTopOfStructures
+  userObject.randomSupplyCratePoints
+  gameObject.configOverrideSupplyCrateItems []
+
+Creatures
+  gameObject.configAddNPCSpawnEntriesContainer []
+  gameObject.configOverrideNPCSpawnEntriesContainer []
+  gameObject.tamedDinoCharacterFoodDrainMultiplier
+  gameObject.tamedDinoTorporDrainMultiplier
+  userObject.allowFlyingStaminaRecovery
+  userObject.bForceCanRideFliers
+  userObject.dinoCharacterFoodDrainMultiplier
+  userObject.dinoCharacterHealthRecoveryMultiplier
+  userObject.dinoCharacterStaminaDrainMultiplier
+  userObject.dinoCountMultiplier
+  userObject.dinoDamageMultiplier
+  userObject.dinoResistanceMultiplier
+  userObject.forceAllowCaveFlyers
+  userObject.forceRespawnDinos
+  gameObject.passiveTameIntervalMultiplier
+  userObject.tamingSpeedMultiplier
+
+Engrams
+  gameObject.bAutoUnlockAllEngrams
+  gameObject.bOnlyAllowSpecifiedEngrams
+  gameObject.configOverrideItemCraftingCosts []
+  gameObject.engramEntryAutoUnlocks []
+  gameObject.overrideNamedEngramEntries []
+  gameObject.overridePlayerLevelEngramPoints
+
+Tribes
+  gameObject.maxNumberOfPlayersInTribe
+  userObject.tribeLogDestroyedEnemyStructures
+  userObject.tribeNameChangeCooldown
+  userObject.preventTribeAlliances
+  userObject.allowHideDamageSourceFromLogs
+  userObject.maxPersonalTamedDinos
+
+Cluster
+  userObject.noTributeDownloads
+  userObject.preventDownloadDinos
+  userObject.preventDownloadItems
+  userObject.preventDownloadSurvivors
+  userObject.crossARKAllowForeignDinoDownloads
+  userObject.minimumDinoReuploadInterval
+  userObject.preventUploadDinos
+  userObject.preventUploadItems
+  userObject.preventUploadSurvivors
+
+Environment
+  userObject.dayCycleSpeedScale
+  userObject.dayTimeSpeedScale
+  userObject.nightTimeSpeedScale
+  userObject.activeEvent
+  userObject.difficultyOffset
+  userObject.disableWeatherFog
+  userObject.overrideOfficialDifficulty
+  userObject.preventDiseases
+  userObject.nonPermanentDiseases
+
+Equipment
+  userObject.enableCryopodNerf
+  userObject.cryopodNerfDamageMult
+  userObject.cryopodNerfDuration
+  userObject.enableCryoSicknessPVE
+  userObject.allowTekSuitPowersInGenesis
+
+Config
+  userObject.activeMods
+  userObject.adminLogging
+  userObject.allowHitMarkers
+  userObject.allowThirdPersonPlayer
+  userObject.alwaysNotifyPlayerJoined
+  userObject.alwaysNotifyPlayerLeft
+  userObject.autoSavePeriodMinutes
+  userObject.culture
+  userObject.enableIdlePlayerKick
+  userObject.enablePvPGamma
+  userObject.exclusivejoin
+  userObject.gameplaylogging
+  userObject.globalVoiceChat
+  userObject.noantispeedhack
+  userObject.noundermeshchecking
+  userObject.noundermeshkilling
+  userObject.preventSpawnAnimations
+  userObject.proximityChat
+  userObject.serverAdminPassword
+  userObject.serverPassword
+  userObject.spectatorPassword
+  userObject.serverCrosshair
+  userObject.serverForceNoHud
+  userObject.serverHardcore
+  userObject.serverPVE
+  userObject.showFloatingDamageText
+  userObject.showMapPlayerLocation
+  userObject.sessionName
+
+PVE & PVP
+  gameObject.preventOfflinePvPConnectionInvincibleInterval
+  gameObject.autoPvEStartTimeSeconds
+  gameObject.autoPvEStopTimeSeconds
+  gameObject.dinoTurretDamageMultiplier
+  gameObject.limitTurretsNum
+  gameObject.limitTurretsRange
+  userObject.allowCaveBuildingPvE
+  userObject.allowFlyerCarryPvE
+  userObject.allowMultipleAttachedC4
+  userObject.allowRaidDinoFeeding
+  userObject.disablePvEGamma
+  userObject.forceFlyerExplosives
+  userObject.preventOfflinePvP
+  userObject.preventOfflinePvPInterval
+  userObject.pvEAllowStructuresAtSupplyDrops
+
+Misc
+  gameObject.customRecipeEffectivenessMultiplier
+  gameObject.customRecipeSkillMultiplier
+  gameObject.hairGrowthSpeedMultiplier
+  userObject.banListURL
+  userObject.clampItemSpoilingTimes
+  userObject.clampItemStats
+  userObject.clampResourceHarvestDamage
+  gameObject.bDisableGenesisMissions
+  gameObject.bGenesisUseStructuresPreventionVolumes
+  userObject.tributeCharacterExpirationSeconds
+  userObject.tributeDinoExpirationSeconds
+  userObject.tributeItemExpirationSeconds

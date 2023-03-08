@@ -1,0 +1,145 @@
+[
+    {
+        "parent": "gameObject",
+        "originalKey": "babyCuddleGracePeriodMultiplier",
+        "definedKey": "cuddleGrace",
+        "type": "Number",
+        "category": "breeding",
+        "required": false,
+        "default": 1,
+        "label": "Cuddle Grace Multiplier",
+        "description": "How long after a baby needs care before imprinting quality decreases."
+    },
+    {
+        "parent": "gameObject",
+        "originalKey": "babyCuddleIntervalMultiplier",
+        "definedKey": "cuddleInterval",
+        "type": "Number",
+        "category": "breeding",
+        "required": false,
+        "default": 1,
+        "label": "Cuddle Interval Multiplier",
+        "description": "How frequent babies will need care."
+    },
+    {
+        "parent": "gameObject",
+        "originalKey": "babyCuddleLoseImprintQualitySpeedMultiplier",
+        "definedKey": "cuddleDegradation",
+        "type": "Number",
+        "category": "breeding",
+        "required": false,
+        "default": 1,
+        "label": "Cuddle Degradation Multiplier",
+        "description": "The speed which imprinting quality decreases after the grace period."
+    },
+    {
+        "parent": "gameObject",
+        "originalKey": "babyFoodConsumptionSpeedMultiplier",
+        "definedKey": "babyConsumption",
+        "type": "Number",
+        "category": "breeding",
+        "required": false,
+        "default": 1,
+        "label": "Food Consumption Multiplier",
+        "description": "The frequency that babies will consume their food."
+    },
+    {
+        "parent": "gameObject",
+        "originalKey": "babyImprintAmountMultiplier",
+        "definedKey": "imprintAmount",
+        "type": "Number",
+        "category": "breeding",
+        "required": false,
+        "default": 1,
+        "label": "Imprint Amount Multiplier",
+        "description": "The amount of imprinting progress earned when giving babies care."
+    },
+    {
+        "parent": "gameObject",
+        "originalKey": "babyImprintingStatScaleMultiplier",
+        "definedKey": "imprintScale",
+        "type": "Number",
+        "category": "breeding",
+        "required": false,
+        "default": 1,
+        "label": "Imprint Stats Multiplier",
+        "description": "Adjusts the impact imprinting has on a dino's stats."
+    },
+    {
+        "parent": "gameObject",
+        "originalKey": "babyMatureSpeedMultiplier",
+        "definedKey": "babyMature",
+        "type": "Number",
+        "category": "breeding",
+        "required": false,
+        "default": 1,
+        "label": "Mature Speed Multiplier",
+        "description": "The amount of time it takes for a baby to fully mature."
+    },
+    {
+        "parent": "gameObject",
+        "originalKey": "eggHatchSpeedMultiplier",
+        "definedKey": "babyHatch",
+        "type": "Number",
+        "category": "breeding",
+        "required": false,
+        "default": 1,
+        "label": "Hatch Speed Multiplier",
+        "description": "The amount of time it takes for an egg to hatch."
+    },
+    {
+        "parent": "gameObject",
+        "originalKey": "layEggIntervalMultiplier",
+        "definedKey": "eggInterval",
+        "type": "Number",
+        "category": "breeding",
+        "required": false,
+        "default": 1,
+        "label": "Egg Interval Multiplier",
+        "description": "The frequency that dinosaurs will lay eggs."
+    },
+    {
+        "parent": "gameObject",
+        "originalKey": "matingIntervalMultiplier",
+        "definedKey": "matingInterval",
+        "type": "Number",
+        "category": "breeding",
+        "required": false,
+        "default": 1,
+        "label": "Mating Interval Multiplier",
+        "description": "The amount of time a dinosaur will wait to mate again."
+    },
+    {
+        "parent": "gameObject",
+        "originalKey": "matingSpeedMultiplier",
+        "definedKey": "matingSpeed",
+        "type": "Number",
+        "category": "breeding",
+        "required": false,
+        "default": 1,
+        "label": "Mating Speed Multiplier",
+        "description": "The amount of time dinosaurs will take to complete mating."
+    },
+    {
+        "parent": "userObject",
+        "originalKey": "allowAnyoneBabyImprintCuddle",
+        "definedKey": "anyoneImprint",
+        "type": "Boolean",
+        "category": "breeding",
+        "required": false,
+        "default": false,
+        "label": "Enable Anyone Imprint",
+        "description": "Allows anyone to give care to a baby."
+    },
+    {
+        "parent": "userObject",
+        "originalKey": "disableImprintDinoBuff",
+        "definedKey": "disableImprint",
+        "type": "Boolean",
+        "category": "breeding",
+        "required": false,
+        "default": false,
+        "label": "Disable Imprint Buffs",
+        "description": "Disables the stat buff which dino's receive from imprinting."
+    }
+]

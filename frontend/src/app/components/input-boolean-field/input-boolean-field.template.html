@@ -1,0 +1,26 @@
+
+<div class="toggle-wrapper" [ngClass]="{'input-success': status == 1, 'input-failure': status == -1}">
+    <div class="option" *ngIf="!value" >    
+        <bootstrap-icon
+            class="iconLeft"
+            [preset]="iconFalse || icon" 
+            width="1.5rem" 
+            height="2rem">
+        </bootstrap-icon>
+    </div>
+    <button id="toggle" 
+        (click)="toggle()" 
+        [ngStyle]=" {color: value ? 'var(--text-color-1)' : 'var(--text-color-3)'}">
+        <bootstrap-icon class="handle" preset="verticalDots" width="1rem" height="1rem"></bootstrap-icon>
+        {{value ? displayTrue : displayFalse}}
+        <bootstrap-icon class="handle" preset="verticalDots" width="1rem" height="1rem"></bootstrap-icon>
+    </button>
+    <div class="option" *ngIf="value" >
+        <bootstrap-icon 
+            class="iconRight"
+            [preset]="icon" 
+            width="1.5rem" 
+            height="2rem">
+        </bootstrap-icon>
+    </div>
+</div>

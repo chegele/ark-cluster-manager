@@ -1,0 +1,113 @@
+
+/* == == == == == == == WARNING == == == == == == == */
+/* The styling in this file is not encapsulated      */
+/* Prefix all styles in this document with .editor   */
+/* This will prevent unintentional external styling  */
+/* == == == == == == == WARNING == == == == == == == */
+
+.editor .content-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.editor button {
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    padding: 8px 16px;
+    gap: 10px;
+    background: var(--interactive-color-2);
+    border-radius: 16px;
+    border: none;
+}
+
+.editor button:hover {
+    opacity: 0.9;
+}
+
+.editor button:active {
+    scale: 0.99;
+    filter: drop-shadow(1px 1px 2px black);
+}
+
+.editor button.full {
+    width: fit-content;
+}
+
+.editor button.tool {
+    width: 50px;
+    color: var(--text-color-3);
+}
+
+.editor button.action {
+    width: fit-content;
+    color: var(--text-color-3);
+}
+
+.editor .btn-toolbar {
+    max-width: 100%;
+    overflow: auto;
+    margin-bottom: 0px;
+    padding-left: 1px;
+}
+
+.editor .btn-toolbar .btn {
+    background-color: var(--background-color-2);
+    border: 1px solid var(--interactive-color-3);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.editor .btn-actions {
+    max-width: 100%;
+    overflow: auto;
+    margin-top: 0px;
+    padding-right: 1px;
+    text-align: right;
+}
+
+.editor .btn-actions .btn {
+    background-color: var(--background-color-2);
+    border: 1px solid var(--interactive-color-3);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    float: none;
+}
+
+.editor .btn-actions span {
+    color: inherit;
+}
+
+.editor .btn:hover, .editor .btn:active{
+    background-color: var(--interactive-color-1);
+    color: var(--text-color-1);
+}
+
+.editor .CodeMirror {
+    background-color: var(--background-color-3);
+    border: 1px solid var(--interactive-color-3);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.editor .CodeMirror-gutters {
+    background-color: var(--background-color-2);
+    border-right: 1px solid var(--interactive-color-3);
+    padding-right: 5px;
+}
+
+.editor .errors {
+    margin-top: -3px;
+    background-color: var(--background-color-3);
+    border: 1px solid var(--interactive-color-3);
+    border-radius: 5px;
+    padding: 5px 10px;
+    max-height: 100px;
+    overflow: auto;
+}
+
+.editor .errors ul {
+    margin-bottom: 0px;
+    color: var(--error-text-color);
+}

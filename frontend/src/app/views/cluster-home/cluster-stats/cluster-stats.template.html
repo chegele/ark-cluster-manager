@@ -1,0 +1,38 @@
+<cluster-editor [cluster]="cluster" [(show)]="showEditor" (clusterUpdated)="populateStats()"></cluster-editor>
+<div class="page-section">
+    <button 
+        *ngIf="isOwner" 
+        style="float: right" 
+        class="full"
+        (click)="showEditor = true;">
+        Settings
+    </button>
+    <div class="joinToggle">
+        <input-boolean-field
+        *ngIf="!isOwner"
+            displayFalse="Leave"
+            displayTrue="Join"
+            icon="personAdd"
+            iconFalse="personRemove"
+            [(value)]="joinToggleValue"
+            (valueChange)="toggleMembership()"
+        ></input-boolean-field>
+    </div>
+    <h1>{{cluster.homepage.title}}</h1>
+    <p>{{cluster.generalInformation.shortDescription}}</p>
+    <hr />
+    <div class="stats-wrapper">
+        <div 
+            *ngFor="let stat of clusterStats" class="stat" 
+            [ngClass]="{ clickable: stat.onClick != undefined }"
+            title="{{stat.hoverText}}"
+            (click)="stat.onClick ? stat.onClick() : null">
+            <i class="bi bi-{{stat.icon}}"></i>
+            <span>{{stat.displayText}}</span>
+        </div>
+    </div>
+    <div class="copy-success" *ngIf="showCopySuccess == true">
+        <hr />
+        <p>Successfully copied the cluster link.</p>
+    </div>
+</div>

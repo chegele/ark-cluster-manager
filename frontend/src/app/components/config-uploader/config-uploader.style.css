@@ -1,0 +1,110 @@
+
+#backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(var(--background-color-3-rgb), 0.4);
+    backdrop-filter: blur(6px);
+}
+
+#loading-view p {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#results-view {
+    padding: 10px;
+}
+
+#results-view ul {
+    color: var(--text-color-3);
+    list-style-type: none;
+    -webkit-column-width: 150px;
+    -moz-column-width: 150px;
+    -o-column-width: 150px;
+    -ms-column-width: 150px;
+    column-width: 150px;
+}
+
+#results-view #list-wrapper {
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+#results-view #button-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#results-view button {
+    width: 150px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+    background: var(--interactive-color-2);
+    border-radius: 16px;
+    border: none;
+}
+
+.content-box {
+    width: 90%;
+    max-width: 500px;
+    height: fit-content;
+    overflow: auto;
+    padding: 15px;
+    margin-bottom: 60px;
+    border-radius: 25px;
+    background: rgba(14, 75, 98, 0.9);
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: var(--text-color-1);
+}
+
+.errors {
+    color: var(--error-text-color);
+}
+
+#closeIcon:hover, button:hover {
+    cursor: pointer;
+    opacity: 80%;
+}
+
+#closeIcon:active, button:active {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+    transform: scale(0.98);
+}
+
+button {
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+    background: var(--interactive-color-2);
+    border-radius: 16px;
+    border: none;
+    width: 80%;
+    max-width: 350px;
+    height: 50px;
+    margin: auto;
+}

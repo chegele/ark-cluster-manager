@@ -1,0 +1,18 @@
+
+<div 
+    class="input-group input-wrapper mb-3" 
+    [ngClass]="{'input-success': status == 1, 'input-failure': status == -1}"
+    (click)="fileBrowser.click()">
+    <span id="{{placeholder}}-label" class="input-group-text input-icon">
+        <bootstrap-icon [preset]="icon" width="25px" height="25px"></bootstrap-icon>
+    </span>
+    <input 
+        type="text"
+        class="form-control input-field" 
+        placeholder="{{placeholder}}" 
+        [attr.aria-label]="placeholder" 
+        [attr.aria-describedby]="placeholder + '-label'"
+        [ngModel]="displayValue"
+    />
+    <input #fileBrowser hidden type="file" (change)="fileSelected($event)" />
+</div>
