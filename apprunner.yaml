@@ -13,11 +13,8 @@ build:
       - npm run build
       - echo frontend cleanup skip
       - echo backend build
-      - cd .. && cd backend
-      - touch .env
-      - ls -lrth backend
-      - npm run build
-      - echo all done!
+      - npm run build --prefix backend
+      - echo All done!
 run:
   command: npm run prod --prefix backend
   network: 
