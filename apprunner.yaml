@@ -4,10 +4,13 @@ build:
   commands:
     pre-build:
       - npm install -g @angular/cli
-      - ng update
-    build:        
-      - npm run build --prefix frontend
-      - npm run build --prefix backend
+    build:    
+      - cd frontend
+      - npm i
+      - ng build
+      - rm -rf node_modules
+      - cd ../backend
+      - npm run build
 run:
   command: npm run prod --prefix backend
   network: 
