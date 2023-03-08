@@ -4,10 +4,10 @@ build:
   commands:
     build: 
       - npm install -g @angular/cli
-      - cd frontend && npm i
-      - npm run build
+      - npm run clean-install --prefix frontend
+      - npm run build --prefix frontend
       - echo SKIP Frontend cleanup
-      - cd .. && npm run build --prefix backend
+      - npm run clean-install --prefix backend
       - echo All done!
 run:
   command: npm run prod --prefix backend
