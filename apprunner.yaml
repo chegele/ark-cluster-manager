@@ -15,8 +15,9 @@ build:
       - echo backend build
       - cd .. && cd backend
       - touch .env
-      - ls -lrth
-      - npm run prod
+      - ls -lrth backend
+      - npm run build
+      - echo all done!
 run:
   command: npm run prod --prefix backend
   network: 
