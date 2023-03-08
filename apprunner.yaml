@@ -7,11 +7,13 @@ build:
     build:    
       - echo frontend install
       - cd frontend && npm i
+      - echo angular update
+      - ng update
       - echo frontend build
-      - cd frontend && ng build
+      - npm run build --prefix frontend
       - echo frontend cleanup skip
       - echo backend build
-      - cd backend  && npm run build
+      - npm run prod --prefix backend
 run:
   command: npm run prod --prefix backend
   network: 
