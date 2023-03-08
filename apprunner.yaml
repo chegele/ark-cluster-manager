@@ -3,12 +3,12 @@ runtime: nodejs16
 build:
   commands:
     build: 
-      - echo Install Angular && npm install -g @angular/cli
-      - echo Update Angular && angular update
-      - echo Install Frontend && frontend && npm i
-      - echo Build Frontend && npm run build
-      - echo SKIP Frontend cleanup && 
-      - echo Build Backend && cd .. && npm run build --prefix backend
+      - npm install -g @angular/cli
+      - angular update
+      - cd frontend && npm i
+      - npm run build
+      - echo SKIP Frontend cleanup
+      - cd .. && npm run build --prefix backend
       - echo All done!
 run:
   command: npm run prod --prefix backend
