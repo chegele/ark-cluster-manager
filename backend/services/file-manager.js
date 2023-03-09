@@ -32,10 +32,12 @@ export default class FileManager {
             const code = result.$metadata.httpStatusCode;
             console.log("e");
             if (code != 200) throw new Error("Failed to upload the file, received a response code of " + code);
-        } catch (err) {
+        } catch (error) {
+            const { requestId, cfId, extendedRequestId } = error.$$metadata;
+            console.log({ requestId, cfId, extendedRequestId });
             console.log("ERROR FOUND HERE");
-            err.message = `Failed to upload a file to s3 \n ${directory}/${name} \n ${err.message}`;
-            logger.error(err);
+            error.message = `Failed to upload a file to s3 \n ${directory}/${name} \n ${error.message}`;
+            logger.error(error);
             return false;
         }
         console.log("f");
