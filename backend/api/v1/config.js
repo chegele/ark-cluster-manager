@@ -88,6 +88,7 @@ export default class ConfigRoute {
     static async post(req, res) {
 
         // Ensure the user is logged in, not rate limited, and provided required props
+        console.log("1");
         const result = {errors: []};
         const requiredProperties = ["name", "description"];
         if (util.rateLimited(req, res, "POST", route, 5)) return;
@@ -95,6 +96,7 @@ export default class ConfigRoute {
         if (util.missingRequiredProperties(req, res, requiredProperties)) return;
 
         // Make sure the user has not exceeded that maximum number of configurations
+        console.log("2");
         const maxConfigs = 3;
         const session = await sessionManager.getSession(req);
         /** @type {types.Profile} */
@@ -104,11 +106,13 @@ export default class ConfigRoute {
         if (result.errors.length > 0) return res.status(410).json(result);
 
         // Validate files are uploaded
+        console.log("3");
         const requiredFiles = ["game", "gameUserSettings"];
         for (const file of requiredFiles) if (!req.files?.[file]) result.errors.push(`Missing the ${file} file.`);
         if (result.errors.length > 0) return res.status(400).json(result);
 
         // Validate the files are text based
+        console.log("4");
         const gameIniData = req.files.game.data;
         const gameUserData = req.files.gameUserSettings.data;
         if (fileType.isBinary(null, gameIniData)) result.errors.push("The game.ini file has invalid content.");
@@ -116,6 +120,7 @@ export default class ConfigRoute {
         if (result.errors.length > 0) return res.status(422).json(result);
 
         // Generate the tracking document and validate the user does not have the name already in use
+        console.log("5");
         const owner = await sessionManager.getSession(req);
         const inUse = await database.ConfigFile.findOne({owner, name: req.body.name});
         if (inUse) return res.status(409).json({errors: ["A configuration with this name already exists."]});
@@ -132,6 +137,7 @@ export default class ConfigRoute {
         });
 
         // Attempt to convert the configuration files
+        console.log("6");
         let rawGameIni, parsedGameIni, rawGameUser, parsedGameUser;
         let halfPoint = false;
         try {
@@ -148,6 +154,7 @@ export default class ConfigRoute {
         }
 
         // Save the sectioned configurations to the database
+        console.log("7");
         const parsed = configParser.parseObjects(parsedGameIni, parsedGameUser);
         const sections = [
             {name:"general", model: database.ConfigGeneral, config: parsed.config.general},
@@ -164,6 +171,7 @@ export default class ConfigRoute {
         }
 
         // Upload the configuration files to AWS S3
+        console.log("8");
         const files = [
             {directory: "ark-cluster-raw-configs", name: `game/${configDocument._id}.ini`, data: rawGameIni},
             {directory: "ark-cluster-raw-configs", name: `user/${configDocument._id}.ini`, data: rawGameUser},
@@ -177,6 +185,7 @@ export default class ConfigRoute {
         configDocument.parsedGameUser.fileName = `user/${configDocument._id}.json`;
 
         // Save the ConfigFile to the database
+        console.log("9");
         try {
             await configDocument.save();
         } catch (err) {
@@ -185,6 +194,7 @@ export default class ConfigRoute {
         }
 
         // Update the user profile with the new config
+        console.log("10");
         profile.configurations.push(configDocument._id);
         try {
             await profile.save();
@@ -194,6 +204,7 @@ export default class ConfigRoute {
         }
         
         // Return the parsing stats
+        console.log("11");
         res.json({id: configDocument._id, stats: parsed.stats});
     }
 
