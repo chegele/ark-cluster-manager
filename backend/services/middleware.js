@@ -14,7 +14,7 @@ export default class CustomMiddleware {
     static logRequest(req, res, next) {
         const method = req.method;
         const route = req.path;
-        const ip = req.hostname;
+        const ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress || req.hostname;
         logger.info(`${ip} : (${method}) ${route}`);
         next();
     }
