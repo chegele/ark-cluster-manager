@@ -22,7 +22,7 @@ export default class AuthenticateRoute {
 
         // Ensure the requester has not exceeded the rate limit
         const result = {user: null, errors: []};
-        const cooldown = rateLimiter.limitRequest(req.hostname, "GET" + route, 6);
+        const cooldown = rateLimiter.limitRequest(req.clientIp, "GET" + route, 6);
         if (cooldown) result.errors.push(`Rate limited: ${cooldown} minutes`);
         if (result.errors.length > 0) return res.status(429).json(result);
 
@@ -90,7 +90,7 @@ export default class AuthenticateRoute {
 
         // Ensure the requester has not exceeded the rate limit
         const result = {user: null, errors: []};
-        const cooldown = rateLimiter.limitRequest(req.hostname, "POST" + route, 6);
+        const cooldown = rateLimiter.limitRequest(req.clientIp, "POST" + route, 6);
         if (cooldown) result.errors.push(`Rate limited: ${cooldown} minutes`);
         if (result.errors.length > 0) return res.status(429).json(result);
 
@@ -153,7 +153,7 @@ export default class AuthenticateRoute {
 
         // Ensure the requester has not exceeded the rate limit
         const result = {errors: []};
-        const cooldown = rateLimiter.limitRequest(req.hostname, "PUT" + route, 6);
+        const cooldown = rateLimiter.limitRequest(req.clientIp, "PUT" + route, 6);
         if (cooldown) result.errors.push(`Rate limited: ${cooldown} minutes`);
         if (result.errors.length > 0) return res.status(429).json(result);
 
@@ -206,7 +206,7 @@ export default class AuthenticateRoute {
 
     //     // Ensure the requester has not exceeded the rate limit
     //     const result = {errors: []};
-    //     const cooldown = rateLimiter.limitRequest(req.hostname, "DELETE" + route, 5);
+    //     const cooldown = rateLimiter.limitRequest(req.clientIp, "DELETE" + route, 5);
     //     if (cooldown) result.errors.push(`Rate limited: ${cooldown} minutes`);
     //     if (result.errors.length > 0) return res.status(429).json(result);
 

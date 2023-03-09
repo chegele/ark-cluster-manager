@@ -55,7 +55,7 @@ export default class Utility {
      */
     static rateLimited(req, res, method, route, limit) {
         const result = {errors: []};
-        const cooldown = rateLimiter.limitRequest(req.hostname, method + route, limit);
+        const cooldown = rateLimiter.limitRequest(req.clientIp, method + route, limit);
         if (cooldown) result.errors.push(`Rate limited: ${cooldown} minutes`);
         if (result.errors.length == 0) return false;
         res.status(429).json(result);

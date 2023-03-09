@@ -21,7 +21,7 @@ export default class ResetPasswordRoute {
 
         // Ensure the requester has not exceeded the rate limit
         const result = {errors: []};
-        const cooldown = rateLimiter.limitRequest(req.hostname, "POST" + route, 6);
+        const cooldown = rateLimiter.limitRequest(req.clientIp, "POST" + route, 6);
         if (cooldown) result.errors.push(`Rate limited: ${cooldown} minutes`);
         if (result.errors.length > 0) return res.status(429).json(result);
 
