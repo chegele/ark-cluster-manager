@@ -1,4 +1,10 @@
-version: 2.1
+
+# This file is not tracked in production!
+# You must manually checkout the production branches to make changes
+# Allow Changes: git update-index --no-assume-unchanged apprunner.yaml
+# Disable Changes: git update-index --no-assume-unchanged apprunner.yaml
+
+version: 2.2
 runtime: nodejs16
 build:
   commands:
@@ -14,12 +20,10 @@ run:
   network: 
     port: 3000
   env:
-    - name: DB_STRING
-      value: "mongodb+srv://ark-admin:LbBzpYhd9bVSfdmw@ark-clusters-test-pe-0.nch8eum.mongodb.net/?retryWrites=true&w=majority"
-    - name: AWS_ACCESS_KEY_ID
-      value: "AKIA3CWG6LI2O7OQPOUW"
-    - name: AWS_SECRET_ACCESS_KEY
-      value: "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"
+    - name: NODE_ENV
+      value: production
+    - name: APP_ENV
+      value: testing
     - name: AWS_REGION
       value: "us-east-1"
     - name: LOG_LEVEL
@@ -27,6 +31,13 @@ run:
     - name: LOG_TO_CONSOLE
       value: "true"
     - name: LOG_TO_FILE
-      value: "true"
+      value: "false"
     - name: LOG_FILE_PATH
       value: "./logs/output.log"
+  secrets:
+    - name: DB_STRING
+      value-from: "ACM_TEST_DB_STRING"
+    - name: AWS_ACCESS_KEY_ID
+      value-from: "ACM_TEST_AWS_ACCESS_KEY"
+    - name: AWS_SECRET_ACCESS_KEY
+      value-from: "ACM_TEST_AWS_SECRET_KEY"
