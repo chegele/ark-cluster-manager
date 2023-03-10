@@ -26,6 +26,7 @@ await database.connect();
 //TODO: Remove this in prod
 app.use(cors({origin: ["http://localhost:4200", /http:\/\/192\.168\.2.*:4200/], credentials: true}));
 app.use(express.json());
+app.use(middleware.setClientIp);
 app.use(middleware.headerMethod);
 app.use(middleware.logRequest);
 app.use(middleware.sanitizeBody);

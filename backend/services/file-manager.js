@@ -2,6 +2,7 @@
 import logger from "./logger.js";
 import S3 from "@aws-sdk/client-s3";
 
+const bucket = process.env.APP_ENV == "production" ? "ark-cluster-manager-prod" : "ark-cluster-manager-test";
 const S3Client = S3.S3Client;
 const PutCommand = S3.PutObjectCommand;
 const GetCommand = S3.GetObjectCommand;
@@ -27,9 +28,9 @@ export default class FileManager {
             const result = await FileManager.#client.send(command);
             const code = result.$metadata.httpStatusCode;
             if (code != 200) throw new Error("Failed to upload the file, received a response code of " + code);
-        } catch (err) {
-            err.message = `Failed to upload a file to s3 \n ${directory}/${name} \n ${err.message}`;
-            logger.error(err);
+        } catch (error) {
+            error.message = `Failed to upload a file to s3 \n ${directory}/${name} \n ${error.message}`;
+            logger.error(error);
             return false;
         }
         return true;
@@ -83,8 +84,8 @@ export default class FileManager {
      */
     static #generateCommandOptions(directory, name, data) {
         return {
-            Bucket: directory,
-            Key: name,
+            Bucket: bucket,
+            Key: `${directory}/${name}`,
             Body: data
         }
     }

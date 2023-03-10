@@ -21,7 +21,7 @@ export default class SessionManager {
      * @returns {String | null} - The username for the current session or null 
      */
     static async getSession(req) {
-        const invalidKeys = SessionManager.#badSessions.get(req.hostname);
+        const invalidKeys = SessionManager.#badSessions.get(req.clientIp);
         if (invalidKeys > SessionManager.#maxInvalidKeyUses) return null;
         const username = req.session.user;
         const currentKey = req.session.key;
@@ -49,10 +49,10 @@ export default class SessionManager {
         const user = await database.AuthUser.findOne({username});
         if (!user) return "Session Error - Unable to retrieve user from the database.";
         user.sessions = SessionManager.#removeExcessSessions(user.sessions);
-        const session = SessionManager.#sessionObject(req.hostname);
+        const session = SessionManager.#sessionObject(req.clientIp);
         user.sessions.push(session);
         SessionManager.#sessionCache.set(username, user.sessions);
-        SessionManager.#appendAddress(user, req.hostname);
+        SessionManager.#appendAddress(user, req.clientIp);
         await user.save();
         req.session.user = username;
         req.session.key = session.key;
@@ -152,7 +152,7 @@ export default class SessionManager {
      * @param {express.Request} req - The express request object
      */
     static #invalidKeyUsed(req) {
-        const address = req.hostname;
+        const address = req.clientIp;
         const currentCount = SessionManager.#badSessions.get(address) || 0;
         if (currentCount > SessionManager.#maxInvalidKeyUses) 
         logger.warn(`Bad Session - IP ${address} has failed to authenticate with ${currentCount} session keys.`);

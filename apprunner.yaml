@@ -1,33 +1,29 @@
-version: 1.0
+
+# This file is not tracked in production!
+# You must manually checkout the production branches to make changes
+# Allow Changes: git update-index --no-assume-unchanged apprunner.yaml
+# Disable Changes: git update-index --no-assume-unchanged apprunner.yaml
+
+version: 2.2
 runtime: nodejs16
 build:
   commands:
-    pre-build:
-      - npm install -g @angular/cli
-    build:    
-      - echo cd frontend
-      - cd ./frontend/
-      - ls -lrth
-      - npm i
-      - ng build
-      - rm -rf node_modules
-      - ls -lrth
-      - echo cd backend
-      - cd ../backend/
-      - ls -lrth
-      - npm run build
-      - ls -lrth
+    build: 
+      - echo Install Angular && npm install -g @angular/cli
+      - echo Install Frontend && npm run clean-install --prefix frontend
+      - echo Build Frontend && npm run build --prefix frontend
+      - echo Clean Frontend && rm -rf ./frontend/node_modules/
+      - echo Install Backend && npm run clean-install --prefix backend
+      - echo Build Complete!
 run:
   command: npm run prod --prefix backend
   network: 
     port: 3000
   env:
-    - name: DB_STRING
-      value: "mongodb+srv://ark-admin:LbBzpYhd9bVSfdmw@ark-clusters-test-pe-0.nch8eum.mongodb.net/?retryWrites=true&w=majority"
-    - name: AWS_ACCESS_KEY_ID
-      value: "AKIA3CWG6LI2O7OQPOUW"
-    - name: AWS_SECRET_ACCESS_KEY
-      value: "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"
+    - name: NODE_ENV
+      value: production
+    - name: APP_ENV
+      value: testing
     - name: AWS_REGION
       value: "us-east-1"
     - name: LOG_LEVEL
@@ -35,6 +31,13 @@ run:
     - name: LOG_TO_CONSOLE
       value: "true"
     - name: LOG_TO_FILE
-      value: "true"
+      value: "false"
     - name: LOG_FILE_PATH
       value: "./logs/output.log"
+  secrets:
+    - name: DB_STRING
+      value-from: "ACM_TEST_DB_STRING"
+    - name: AWS_ACCESS_KEY_ID
+      value-from: "ACM_TEST_AWS_ACCESS_KEY"
+    - name: AWS_SECRET_ACCESS_KEY
+      value-from: "ACM_TEST_AWS_SECRET_KEY"

@@ -11,10 +11,21 @@ export default class CustomMiddleware {
      * @param {express.Response} res 
      * @param {express.NextFunction} next
      */
+    static setClientIp(req, res, next) {
+        const ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress || req.hostname;
+        req.clientIp = ip;
+        next();
+    }
+
+    /** 
+     * @param {express.Request} req 
+     * @param {express.Response} res 
+     * @param {express.NextFunction} next
+     */
     static logRequest(req, res, next) {
         const method = req.method;
         const route = req.path;
-        const ip = req.hostname;
+        const ip = req.clientIp;
         logger.info(`${ip} : (${method}) ${route}`);
         next();
     }

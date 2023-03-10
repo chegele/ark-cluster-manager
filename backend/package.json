@@ -4,7 +4,7 @@
   "description": "The backend API for the ark-cluster website",
   "main": "server.js",
   "scripts": {
-    "build": "npm ci --only=production",
+    "clean-install": "npm ci --only=production",
     "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prod": "node server.js"
