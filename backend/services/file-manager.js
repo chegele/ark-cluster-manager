@@ -18,29 +18,20 @@ export default class FileManager {
      * @returns {Boolean} - True if the file is successfully uploaded
      */
     static async create(directory, name, data) {
-        console.log("a");
         if (!directory || !name || !data) throw new Error("You must provide a directory, name, and data.");
         if (typeof(data) == "object") data = JSON.stringify(data, undefined, 2);
         if (typeof(data) != "string") throw new Error("Data is expected to be a string or parsable object.");
         if (data == "") throw new Error("Data can not be an empty string.");
         try {
-            console.log("b");
             const command = new PutCommand(FileManager.#generateCommandOptions(directory, name, data)); 
-            console.log("c");
             const result = await FileManager.#client.send(command);
-            console.log("d");
             const code = result.$metadata.httpStatusCode;
-            console.log("e");
             if (code != 200) throw new Error("Failed to upload the file, received a response code of " + code);
         } catch (error) {
-            const { requestId, cfId, extendedRequestId } = error.$$metadata;
-            console.log({ requestId, cfId, extendedRequestId });
-            console.log("ERROR FOUND HERE");
             error.message = `Failed to upload a file to s3 \n ${directory}/${name} \n ${error.message}`;
             logger.error(error);
             return false;
         }
-        console.log("f");
         return true;
     }
 
