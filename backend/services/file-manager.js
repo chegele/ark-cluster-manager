@@ -2,7 +2,7 @@
 import logger from "./logger.js";
 import S3 from "@aws-sdk/client-s3";
 
-const environnement = process.env.APP_ENV == "production" ? "ark-cluster-manager-prod" : "ark-cluster-manager-test";
+const bucket = process.env.APP_ENV == "production" ? "ark-cluster-manager-prod" : "ark-cluster-manager-test";
 const S3Client = S3.S3Client;
 const PutCommand = S3.PutObjectCommand;
 const GetCommand = S3.GetObjectCommand;
@@ -23,7 +23,6 @@ export default class FileManager {
         if (typeof(data) == "object") data = JSON.stringify(data, undefined, 2);
         if (typeof(data) != "string") throw new Error("Data is expected to be a string or parsable object.");
         if (data == "") throw new Error("Data can not be an empty string.");
-        directory = `${environnement}/${directory}`;
         try {
             const command = new PutCommand(FileManager.#generateCommandOptions(directory, name, data)); 
             const result = await FileManager.#client.send(command);
@@ -44,7 +43,6 @@ export default class FileManager {
      */
     static async read(directory, name) {
         if (!directory || !name) throw new Error("You must provide a directory and file name.");
-        directory = `${environnement}/${directory}`;
         try {
             const command = new GetCommand(FileManager.#generateCommandOptions(directory, name)); 
             const result = await FileManager.#client.send(command);
@@ -66,7 +64,6 @@ export default class FileManager {
      */
     static async delete(directory, name) {
         if (!directory || !name) throw new Error("You must provide a directory and file name.");
-        directory = `${environnement}/${directory}`;
         try {
             const command = new DeleteCommand(FileManager.#generateCommandOptions(directory, name)); 
             const result = await FileManager.#client.send(command);
@@ -87,8 +84,8 @@ export default class FileManager {
      */
     static #generateCommandOptions(directory, name, data) {
         return {
-            Bucket: directory,
-            Key: name,
+            Bucket: bucket,
+            Key: `${directory}/${name}`,
             Body: data
         }
     }
