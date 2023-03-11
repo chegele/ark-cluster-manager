@@ -4,14 +4,14 @@
 # Allow Changes: git update-index --no-assume-unchanged apprunner.yaml
 # Disable Changes: git update-index --no-assume-unchanged apprunner.yaml
 
-version: 2.2
+version: 2.3
 runtime: nodejs16
 build:
   commands:
     build: 
       - echo Install Angular && npm install -g @angular/cli
       - echo Install Frontend && npm run clean-install --prefix frontend
-      - echo Build Frontend && npm run build --prefix frontend
+      - echo Build Frontend && npm run build-prod --prefix frontend
       - echo Clean Frontend && rm -rf ./frontend/node_modules/
       - echo Install Backend && npm run clean-install --prefix backend
       - echo Build Complete!
