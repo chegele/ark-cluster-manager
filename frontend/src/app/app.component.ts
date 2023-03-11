@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { NavigationEnd, Router } from '@angular/router';
+import { AnalyticsService } from './services/analytics';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +9,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ark-cluster';
+
+  constructor(router: Router, track: AnalyticsService) {
+    router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) track.pageVisit();
+    });
+  }
 
   onActivate() {
     window.scroll({ 

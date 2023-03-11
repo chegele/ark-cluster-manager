@@ -60,6 +60,7 @@ import { SettingsFilterPipe } from './views/cluster-general/settings-filter.pipe
 import { ApiService } from './services/api/api.service';
 import { SessionService } from './services/session.service';
 import { UGCValidationService } from './services/ugcValidation';
+import { AnalyticsService } from './services/analytics';
 
 const routes: Routes = [
   { path: 'testing', component: TestingRouteComponent },
@@ -127,7 +128,12 @@ const routes: Routes = [
     BrowserAnimationsModule
   ],
   exports: [ RouterModule ],
-  providers: [ ApiService, SessionService, UGCValidationService ],
+  providers: [ 
+    ApiService, 
+    SessionService, 
+    UGCValidationService,
+    AnalyticsService
+  ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
