@@ -3,6 +3,7 @@ const component : string = "cluster-summary";
 import { Component, ElementRef, EventEmitter, Input, Output } from '@angular/core';
 import { Router } from '@angular/router';
 import { Cluster } from 'src/app/models/cluster';
+import { AnalyticsService } from 'src/app/services/analytics';
 import { ApiService } from 'src/app/services/api/api.service';
 import { SessionService } from 'src/app/services/session.service';
 import { UGCValidationService } from 'src/app/services/ugcValidation';
@@ -31,10 +32,10 @@ export class ClusterSummaryComponent {
 
   constructor(
     private api: ApiService, 
-    private session: SessionService,
     private element: ElementRef,
     private ugc: UGCValidationService,
-    private router: Router
+    private router: Router,
+    private track: AnalyticsService
   ) {}
 
   async ngOnInit() {
@@ -62,6 +63,7 @@ export class ClusterSummaryComponent {
     this.loading = true;
     const result = await this.api.cluster.deleteCluster(this.id);
     if (result) {
+      this.track.clusterDeleted(this.cluster.generalInformation.platform);
       const self = <HTMLElement>this.element.nativeElement;
       self.parentElement?.removeChild(self);
     } else {
@@ -75,6 +77,7 @@ export class ClusterSummaryComponent {
     this.loading = true;
     const result = await this.api.cluster.leaveCluster(this.id);
     if (result) {
+      this.track.clusterLeft(this.cluster.generalInformation.name);
       const self = <HTMLElement>this.element.nativeElement;
       self.parentElement?.removeChild(self);
     } else {

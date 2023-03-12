@@ -8,6 +8,7 @@ import { SessionService } from 'src/app/services/session.service';
 import { InputDate } from '../input-date-field/input-date-field.component';
 import { ConfigFile } from 'src/app/models/config-file';
 import { DropdownOption } from '../input-enum-field/input-enum-field.component';
+import { AnalyticsService } from 'src/app/services/analytics';
 
 @Component({
   selector: component,
@@ -18,7 +19,8 @@ export class ClusterEditorComponent implements OnInit {
 
   constructor(
     private api: ApiService, 
-    private session: SessionService
+    private session: SessionService,
+    private track: AnalyticsService
   ) {}
 
   @Input() cluster: Cluster;
@@ -257,6 +259,7 @@ export class ClusterEditorComponent implements OnInit {
     }
     this.resultingCluster = update;
     this.display = 'result';
+    this.track.clusterUpdated(update.generalInformation.platform);
   }
 
   continueClicked() {

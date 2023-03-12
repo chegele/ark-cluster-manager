@@ -1,6 +1,7 @@
 
 const component : string = "config-uploader";
 import { Component, Input, EventEmitter, Output } from '@angular/core';
+import { AnalyticsService } from 'src/app/services/analytics';
 import { ApiService } from 'src/app/services/api/api.service';
 
 interface convertResult { category: string, percent: number }
@@ -12,10 +13,7 @@ interface convertResult { category: string, percent: number }
 })
 export class ConfigUploaderComponent {
 
-  constructor(private api: ApiService) {}
-
-  //TODO: May need to also output name and description 
-  //TODO: (Do this instead of hitting api for config details)
+  constructor(private api: ApiService, private track: AnalyticsService) {}
 
   @Input() show: boolean = false;
   @Output() showChange = new EventEmitter<boolean>();
@@ -121,6 +119,7 @@ export class ConfigUploaderComponent {
     this.id = result.response.id;
     this.results = result.response.stats;
     this.display = "result";
+    this.track.configCreated();
   }
 
 }
