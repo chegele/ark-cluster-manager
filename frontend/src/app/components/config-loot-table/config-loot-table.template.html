@@ -38,7 +38,7 @@
                     <div style="flex: 2; text-align: center; padding: 8px;">BP</div>
                     <div style="flex: 2; text-align: center; padding: 8px;">^Quality</div>
                 </div>
-                <!--<div *ngFor="let set of collection.sets" class="item-set">
+                <div *ngFor="let set of collection.sets" class="item-set">
                     <div class="collection-row" style="padding: 5px;">
                         <div style="width: 25px;"></div>
                         <div style="flex: 4; text-align: left;">Item Set ({{set.items.length}})</div>
@@ -55,7 +55,7 @@
                         <div style="flex: 2; text-align: center;">{{item.blueprintPercent | number:'1.0-2' }}%</div>
                         <div style="flex: 2; text-align: center;">{{item.quality.max * 100 | number:'1.0-0'}}%</div>
                     </div>
-                </div> -->
+                </div>
                 <div *ngFor="let item of collection.items" class="loot-row row-style">
                     <img style="text-align: center; padding: 0px;" [src]="item.image" width="25px" height="25px"/>
                     <div style="flex: 4; text-align: left; padding-left: 5px;"><a [href]="item.link" target="_blank">{{item.name}}</a></div>
