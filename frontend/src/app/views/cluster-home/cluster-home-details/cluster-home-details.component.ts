@@ -2,6 +2,7 @@
 const component : string = "cluster-home-details";
 import { Component, Input, OnInit } from '@angular/core';
 import { Cluster } from 'src/app/models/cluster';
+import { AnalyticsService } from 'src/app/services/analytics';
 import { ApiService } from 'src/app/services/api/api.service';
 import { SessionService } from 'src/app/services/session.service';
 
@@ -21,7 +22,8 @@ export class ClusterHomeDetailsComponent implements OnInit {
 
   constructor(
     private session: SessionService,
-    private api: ApiService
+    private api: ApiService,
+    private track: AnalyticsService
   ) {}
 
   ngOnInit(): void {
@@ -49,7 +51,10 @@ export class ClusterHomeDetailsComponent implements OnInit {
     this.cluster.homepage.body = markdown;
     const errors = await this.api.cluster.updateCluster(this.cluster);
     if (errors) console.log(errors);
-    else this.body = markdown;
+    else {
+      this.body = markdown;
+      this.track.clusterHomepageUpdate(this.cluster.generalInformation.platform);
+    }
     this.loading = false;
   }
 

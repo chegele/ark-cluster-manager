@@ -2,6 +2,7 @@
 const component : string = "side-navigation";
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Cluster } from 'src/app/models/cluster';
+import { AnalyticsService } from 'src/app/services/analytics';
 import { ApiService } from 'src/app/services/api/api.service';
 import { SessionService } from 'src/app/services/session.service';
 import { UGCValidationService } from 'src/app/services/ugcValidation';
@@ -40,7 +41,8 @@ export class SideNavigationViewComponent implements OnInit {
   constructor(
     private ugc: UGCValidationService,
     private api: ApiService,
-    private session: SessionService
+    private session: SessionService,
+    private track: AnalyticsService
   ) {}
 
   ngOnInit() {
@@ -57,6 +59,7 @@ export class SideNavigationViewComponent implements OnInit {
   navClick(item: NavItem) {
     this.currentSelection = item;
     this.onNavigation.emit(item);
+    this.track.pageVisit(`clusters/${this.cluster._id}/${item}`);
   }
 
   private async setIcon() {

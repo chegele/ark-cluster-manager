@@ -2,6 +2,7 @@
 const component : string = "dropdown-nav-view";
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Cluster } from 'src/app/models/cluster';
+import { AnalyticsService } from 'src/app/services/analytics';
 import { ApiService } from 'src/app/services/api/api.service';
 import { SessionService } from 'src/app/services/session.service';
 import { UGCValidationService } from 'src/app/services/ugcValidation';
@@ -41,7 +42,8 @@ export class DropdownNaViewComponent implements OnInit {
   constructor(
     private ugc: UGCValidationService,
     private api: ApiService,
-    private session: SessionService
+    private session: SessionService,
+    private track: AnalyticsService
   ) {}
 
   ngOnInit() {
@@ -59,6 +61,7 @@ export class DropdownNaViewComponent implements OnInit {
     this.currentSelection = this.getDisplay(item);
     this.onNavigation.emit(item);
     this.showNavigation = false;
+    this.track.pageVisit(`clusters/${this.cluster._id}/${item}`);
   }
 
   getDisplay(nav: NavItem) {

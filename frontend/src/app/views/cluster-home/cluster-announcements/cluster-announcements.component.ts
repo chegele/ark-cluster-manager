@@ -3,6 +3,7 @@ const component : string = "cluster-announcements";
 import { Component, ElementRef, Input, OnInit } from '@angular/core';
 import { PageMessageComponent } from 'src/app/components/page-message/page-message.component';
 import { Cluster } from 'src/app/models/cluster';
+import { AnalyticsService } from 'src/app/services/analytics';
 import { ApiService } from 'src/app/services/api/api.service';
 import { SessionService } from 'src/app/services/session.service';
 import { v4 as uuid } from 'uuid';
@@ -40,7 +41,8 @@ export class ClusterAnnouncementsViewComponent implements OnInit {
 
   constructor(
     private api: ApiService,
-    private session: SessionService
+    private session: SessionService,
+    private track: AnalyticsService
   ) {}
 
   ngOnInit() {
@@ -133,6 +135,7 @@ export class ClusterAnnouncementsViewComponent implements OnInit {
     }
     this.notify.success("Successfully saved the announcement.");
     this.updatePagingValues();
+    this.track.announcementCreated(this.cluster.generalInformation.platform);
   }
 
   private async updateAnnouncement(announcement: Announcement) {
@@ -148,6 +151,7 @@ export class ClusterAnnouncementsViewComponent implements OnInit {
     }
     this.notify.success("Successfully updated the announcement.");
     this.updatePagingValues();
+    this.track.announcementUpdated(this.cluster.generalInformation.platform);
   }
 
   protected async deleteAnnouncement(announcement: Announcement) {
@@ -164,6 +168,7 @@ export class ClusterAnnouncementsViewComponent implements OnInit {
     }
     this.notify.success("Successfully deleted the announcement.");
     this.updatePagingValues();
+    this.track.announcementDeleted(this.cluster.generalInformation.platform);
   }
 
 }

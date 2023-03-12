@@ -9,6 +9,7 @@ import { SessionService } from 'src/app/services/session.service';
 import { InputDate } from '../input-date-field/input-date-field.component';
 import { ConfigFile } from 'src/app/models/config-file';
 import { DropdownOption } from '../input-enum-field/input-enum-field.component';
+import { AnalyticsService } from 'src/app/services/analytics';
 
 @Component({
   selector: component,
@@ -20,7 +21,8 @@ export class ClusterBuilderComponent implements OnInit{
   constructor(
     private api: ApiService, 
     private session: SessionService,
-    private router: Router
+    private router: Router,
+    private track: AnalyticsService
   ) {}
 
   @Input() show: boolean = false;
@@ -236,6 +238,7 @@ export class ClusterBuilderComponent implements OnInit{
     }
     this.resultingCluster = <Cluster> response.response.cluster;
     this.display = 'result';
+    this.track.clusterCreated(this.resultingCluster.generalInformation.platform);
   }
 
   continueClicked() {

@@ -11,15 +11,15 @@ interface Data {
 @Injectable({ providedIn: 'root' })
 export class AnalyticsService {
 
+    private trackLocalhost = false;
     private disableAnalytics = environment.environment == "development";
     private username = "n/a";
     private prodDomain = "ark-cluster-manager.com"; 
     private testDomain = "testing.ark-cluster-manager.com"; 
     private domain = environment.environment == "production" ? this.prodDomain : this.testDomain;
-    private plausible = Plausible({domain: this.domain});
+    private plausible = Plausible({domain: this.domain, trackLocalhost: this.trackLocalhost});
 
     constructor(private session: SessionService) {
-        console.log(environment);
         if (this.disableAnalytics) return;
         this.plausible.enableAutoOutboundTracking();
     }
@@ -39,16 +39,14 @@ export class AnalyticsService {
     }
 
     public pageVisit(url?: string) {
-        console.log("visit");
         if (this.disableAnalytics) return;
-        console.log("tracking")
         const viewOptions = url ? {url} : undefined;
         const eventOptions = {props: {username: this.getUser()}};
         this.plausible.trackPageview(viewOptions, eventOptions);
     }
 
     public login() { 
-        this.trackEvent("login") 
+        this.trackEvent("login");
     
     }
     public logout() { 
@@ -67,5 +65,8 @@ export class AnalyticsService {
     public clusterLeft(clusterName: string) { this.trackEvent("cluster-left", {clusterName}) }
     public configCreated() { this.trackEvent("config-created") }
     public configDeleted() { this.trackEvent("config-deleted") }
+    public userRegistered() { this.trackEvent("user-registered") }
+    public userVerified() { this.trackEvent("user-verified") }
+    public passwordReset() { this.trackEvent("password-reset") }
 
 }

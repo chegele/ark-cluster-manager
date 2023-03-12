@@ -7,6 +7,7 @@ import { Cluster } from 'src/app/models/cluster';
 import { Profile } from 'src/app/models/database/profile';
 import { ApiService } from 'src/app/services/api/api.service';
 import { SessionService } from 'src/app/services/session.service';
+import { AnalyticsService } from 'src/app/services/analytics';
 
 interface ClusterStat {
   icon: string;
@@ -37,7 +38,8 @@ export class ClusterStatsViewComponent implements OnInit {
   constructor(
     private api: ApiService,
     private session: SessionService,
-    private router: Router
+    private router: Router,
+    private track: AnalyticsService
   ) { } 
 
   ngOnInit(): void {
@@ -148,6 +150,7 @@ export class ClusterStatsViewComponent implements OnInit {
     if (joined) {
       this.isMember = true;
       this.cluster.memberCount++;
+      this.track.clusterJoined(this.cluster.generalInformation.name);
     }
     return joined;
   }
@@ -157,6 +160,7 @@ export class ClusterStatsViewComponent implements OnInit {
     if (left) {
       this.isMember = false;
       this.cluster.memberCount--;
+      this.track.clusterLeft(this.cluster.generalInformation.name);
     }
     return left;
   }

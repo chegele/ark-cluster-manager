@@ -2,6 +2,7 @@
 const component : string = "config-summary";
 import { Component, Input, Output, OnInit, EventEmitter, ElementRef } from '@angular/core';
 import { ConfigFile } from 'src/app/models/config-file';
+import { AnalyticsService } from 'src/app/services/analytics';
 import { ApiService } from 'src/app/services/api/api.service';
 import { SessionService } from 'src/app/services/session.service';
 
@@ -23,7 +24,8 @@ export class ConfigSummaryComponent implements OnInit {
   constructor(
     private api: ApiService, 
     private session: SessionService,
-    private element: ElementRef) {}
+    private element: ElementRef,
+    private track: AnalyticsService) {}
 
   async ngOnInit() {
     if (!this.id) return;
@@ -42,6 +44,7 @@ export class ConfigSummaryComponent implements OnInit {
     this.loading = true;
     const result = await this.api.config.delete(this.id);
     if (result.status == 200) {
+      this.track.configDeleted();
       const self = <HTMLElement>this.element.nativeElement;
       self.parentElement?.removeChild(self);
     } else if (result.status == 409){
