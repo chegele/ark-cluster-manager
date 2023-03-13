@@ -40,7 +40,7 @@ export default class ConfigRoute {
         // Ensure the user is not rate limited and provided the required props
         const result = {errors: []};
         const requiredProperties = ["id", "category"];
-        if (util.rateLimited(req, res, "GET", route, 25)) return;
+        if (util.rateLimited(req, res, "GET", route, 100)) return;
         if (util.missingRequiredProperties(req, res, requiredProperties)) return;
 
         // Validate the user provided a valid category name
