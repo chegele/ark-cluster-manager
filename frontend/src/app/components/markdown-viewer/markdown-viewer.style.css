@@ -33,3 +33,13 @@
 .markdown :first-child {
     margin-top: 0px !important;
 }
+
+.markdown a:link {
+    color: var(--text-color-3);
+    text-decoration: underline;
+    text-decoration-color: rgba(var(--interactive-color-1-rgb), 0.7);
+}
+  
+.markdown a:visited {
+    color: var(--text-color-4);
+}
