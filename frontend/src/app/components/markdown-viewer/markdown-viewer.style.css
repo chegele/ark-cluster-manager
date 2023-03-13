@@ -25,3 +25,11 @@
 .markdown hr {
     color: var(--text-color-1);
 }
+
+.markdown h1, .markdown h2, .markdown h3, .markdown h4 {
+    margin-top: 30px;
+}
+
+.markdown :first-child {
+    margin-top: 0px !important;
+}
